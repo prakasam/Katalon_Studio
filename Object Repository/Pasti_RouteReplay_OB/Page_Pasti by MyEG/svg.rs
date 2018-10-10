@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg</name>
+   <tag></tag>
+   <elementGuidId>7b2d7723-aefe-48e9-98bd-4a4ec593dc77</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;route-replay&quot;)/div[@class=&quot;columns&quot;]/div[@class=&quot;column is-4-widescreen is-3-fullhd&quot;]/div[@class=&quot;box&quot;]/div[@class=&quot;date-filter&quot;]/div[@class=&quot;flatpickr-calendar animate inline showTimeInput&quot;]/div[@class=&quot;flatpickr-months&quot;]/span[@class=&quot;flatpickr-prev-month&quot;]/svg[1]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>version</name>
+      <type>Main</type>
+      <value>1.1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns:xlink</name>
+      <type>Main</type>
+      <value>http://www.w3.org/1999/xlink</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 17 17</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;route-replay&quot;)/div[@class=&quot;columns&quot;]/div[@class=&quot;column is-4-widescreen is-3-fullhd&quot;]/div[@class=&quot;box&quot;]/div[@class=&quot;date-filter&quot;]/div[@class=&quot;flatpickr-calendar animate inline showTimeInput&quot;]/div[@class=&quot;flatpickr-months&quot;]/span[@class=&quot;flatpickr-prev-month&quot;]/svg[1]</value>
+   </webElementProperties>
+</WebElementEntity>
