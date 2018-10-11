@@ -6,12 +6,11 @@
    <elementGuidId>7b2d7723-aefe-48e9-98bd-4a4ec593dc77</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;route-replay&quot;)/div[@class=&quot;columns&quot;]/div[@class=&quot;column is-4-widescreen is-3-fullhd&quot;]/div[@class=&quot;box&quot;]/div[@class=&quot;date-filter&quot;]/div[@class=&quot;flatpickr-calendar animate inline showTimeInput&quot;]/div[@class=&quot;flatpickr-months&quot;]/span[@class=&quot;flatpickr-prev-month&quot;]/svg[1]</value>
+         <key>XPATH</key>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>id(&quot;route-replay&quot;)/div[@class=&quot;columns&quot;]/div[@class=&quot;column is-4-widescreen is-3-fullhd&quot;]/div[@class=&quot;box&quot;]/div[@class=&quot;date-filter&quot;]/div[@class=&quot;flatpickr-calendar animate inline showTimeInput&quot;]/div[@class=&quot;flatpickr-months&quot;]/span[@class=&quot;flatpickr-prev-month&quot;]/svg[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

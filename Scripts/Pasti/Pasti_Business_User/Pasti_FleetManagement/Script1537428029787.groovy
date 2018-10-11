@@ -19,106 +19,106 @@ WebUI.navigateToUrl('http://192.168.121.37/auth/login')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/Pasti_FleetManagement_OR/Page_Pasti by MyEG/input_Login_username'), '505639-K')
+WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_FleetManagement_OR/Page_Pasti by MyEG/input_Login_username'), '505639-K')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Pasti_FleetManagement_OR/Page_Pasti by MyEG/input_Login_password'), 
+WebUI.setEncryptedText(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_FleetManagement_OR/Page_Pasti by MyEG/input_Login_password'), 
     'BR4+6ebIRw/89ruX5hJDag==')
 
-WebUI.click(findTestObject('Object Repository/Pasti_FleetManagement_OR/Page_Pasti by MyEG/button_Sign In'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_FleetManagement_OR/Page_Pasti by MyEG/button_Sign In'))
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Pasti_FleetManagement_OR/Page_Pasti by MyEG/span_Fleet Management'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_FleetManagement_OR/Page_Pasti by MyEG/span_Fleet Management'))
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Pasti_FleetManagement_OR/Page_Pasti by MyEG/input'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_FleetManagement_OR/Page_Pasti by MyEG/input'))
 
-WebUI.click(findTestObject('Object Repository/Pasti_FleetManagement_OR/Page_Pasti by MyEG/input'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_FleetManagement_OR/Page_Pasti by MyEG/input'))
 
-WebUI.click(findTestObject('Object Repository/Pasti_FleetManagement_OR/Page_Pasti by MyEG/input'))
-
-WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('Object Repository/Pasti_FleetManagement_OR/Page_Pasti by MyEG/input'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_FleetManagement_OR/Page_Pasti by MyEG/input'))
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Pasti_FleetManagement_OR/Page_Pasti by MyEG/button_Create'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_FleetManagement_OR/Page_Pasti by MyEG/input'))
 
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/Pasti_FleetManagement_OR/Page_Pasti by MyEG/input_Schedule Name_name'), 
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_FleetManagement_OR/Page_Pasti by MyEG/button_Create'))
+
+WebUI.takeScreenshot()
+
+WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_FleetManagement_OR/Page_Pasti by MyEG/input_Schedule Name_name'), 
     'New Route ', FailureHandling.OPTIONAL)
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Pasti_FleetManagement_OR/Page_Pasti by MyEG/button_Create'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_FleetManagement_OR/Page_Pasti by MyEG/button_Create'))
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Pasti_FleetManagement_OR/Page_Pasti by MyEG/i_Vehicle List_search fa fa-se'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_FleetManagement_OR/Page_Pasti by MyEG/i_Vehicle List_search fa fa-se'))
 
-WebUI.setText(findTestObject('Object Repository/Pasti_FleetManagement_OR/Page_Pasti by MyEG/input_Add_search-vehicle'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_FleetManagement_OR/Page_Pasti by MyEG/input_Add_search-vehicle'), 
     'qates')
 
-WebUI.click(findTestObject('Object Repository/Pasti_FleetManagement_OR/Page_Pasti by MyEG/div_QATEST'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_FleetManagement_OR/Page_Pasti by MyEG/div_QATEST'), FailureHandling.OPTIONAL)
 
 WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Object Repository/Pasti_FleetManagement_OR/Page_Pasti by MyEG/i_Add_close-search fa fa-windo_1'), 
+not_run: WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_FleetManagement_OR/Page_Pasti by MyEG/i_Add_close-search fa fa-windo_1'), 
     FailureHandling.OPTIONAL)
 
 WebUI.refresh()
 
-WebUI.click(findTestObject('Object Repository/Pasti_FleetManagement_OR/Page_Pasti by MyEG/i_Route List_search fa fa-sear'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_FleetManagement_OR/Page_Pasti by MyEG/i_Route List_search fa fa-sear'))
 
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/Pasti_FleetManagement_OR/Page_Pasti by MyEG/input_Add_search-route'), 'lan')
+WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_FleetManagement_OR/Page_Pasti by MyEG/input_Add_search-route'), 'lan')
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Pasti_FleetManagement_OR/Page_Pasti by MyEG/div_pwtc to Langkawi'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_FleetManagement_OR/Page_Pasti by MyEG/div_pwtc to Langkawi'), FailureHandling.OPTIONAL)
 
-not_run: WebUI.click(findTestObject('Object Repository/Pasti_FleetManagement_OR/Page_Pasti by MyEG/i_Add_close-search fa fa-windo_2'), 
+not_run: WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_FleetManagement_OR/Page_Pasti by MyEG/i_Add_close-search fa fa-windo_2'), 
     FailureHandling.OPTIONAL)
 
 WebUI.refresh()
 
-WebUI.click(findTestObject('Object Repository/Pasti_FleetManagement_OR/Page_Pasti by MyEG/i_Driver List_search fa fa-sea'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_FleetManagement_OR/Page_Pasti by MyEG/i_Driver List_search fa fa-sea'))
 
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Pasti_FleetManagement_OR/Page_Pasti by MyEG/input_Add_search-driver'), 'prakas')
+WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_FleetManagement_OR/Page_Pasti by MyEG/input_Add_search-driver'), 'prakas')
 
-WebUI.click(findTestObject('Object Repository/Pasti_FleetManagement_OR/Page_Pasti by MyEG/div_prakasam'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_FleetManagement_OR/Page_Pasti by MyEG/div_prakasam'), FailureHandling.OPTIONAL)
 
 WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Object Repository/Pasti_FleetManagement_OR/Page_Pasti by MyEG/i_Add_close-search fa fa-windo'), 
+not_run: WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_FleetManagement_OR/Page_Pasti by MyEG/i_Add_close-search fa fa-windo'), 
     FailureHandling.OPTIONAL)
 
 WebUI.refresh()
 
-WebUI.click(findTestObject('Object Repository/Pasti_FleetManagement_OR/Page_Pasti by MyEG/div_Add'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_FleetManagement_OR/Page_Pasti by MyEG/div_Add'), FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.click(findTestObject('Object Repository/Pasti_FleetManagement_OR/Page_Pasti by MyEG/div_Driver List'))
+not_run: WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_FleetManagement_OR/Page_Pasti by MyEG/div_Driver List'))
 
 WebUI.takeScreenshot()
 
 WebUI.refresh()
 
-not_run: WebUI.click(findTestObject('Object Repository/Pasti_FleetManagement_OR/Page_Pasti by MyEG/button_View list of schedule_d'), 
+not_run: WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_FleetManagement_OR/Page_Pasti by MyEG/button_View list of schedule_d'), 
     FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Object Repository/Pasti_RouteReplay_OB/Page_Pasti by MyEG/div_Hi MYEG Services'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_RouteReplay_OB/Page_Pasti by MyEG/div_Hi MYEG Services'))
 
-WebUI.click(findTestObject('Pasti_FleetManagement_OR/Page_Pasti by MyEG/a_Logout'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_FleetManagement_OR/Page_Pasti by MyEG/a_Logout'), FailureHandling.OPTIONAL)
 
 WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Pasti_RouteReplay_OB/Page_Pasti by MyEG/div_Hi'))
+not_run: WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_RouteReplay_OB/Page_Pasti by MyEG/div_Hi'))
 
 not_run: WebUI.navigateToUrl('https://pasti.myeg.com.my/auth/logout')
 

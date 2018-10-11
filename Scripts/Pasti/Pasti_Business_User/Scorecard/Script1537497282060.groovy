@@ -19,93 +19,93 @@ WebUI.navigateToUrl('https://pasti.myeg.com.my/auth/login')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/Scorecard/Page_Pasti by MyEG/input_Login_username'), '45586-T')
+WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OB/Scorecard/Page_Pasti by MyEG/input_Login_username'), '45586-T')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Scorecard/Page_Pasti by MyEG/input_Login_password'), 'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Pasti/Pasti_Business_User_OB/Scorecard/Page_Pasti by MyEG/input_Login_password'), 'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/Scorecard/Page_Pasti by MyEG/button_Sign In'))
-
-WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('Object Repository/Scorecard/Page_Pasti by MyEG/span_Scorecard'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Scorecard/Page_Pasti by MyEG/button_Sign In'))
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Scorecard/Page_Pasti by MyEG/button_Show Available Vehicle'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Scorecard/Page_Pasti by MyEG/span_Scorecard'))
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Scorecard/Page_Pasti by MyEG/i_Vehicle List_search fa fa-se'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Scorecard/Page_Pasti by MyEG/button_Show Available Vehicle'))
 
-WebUI.setText(findTestObject('Object Repository/Scorecard/Page_Pasti by MyEG/input_Vehicle List_search-vehi'), 'JLT7711', 
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Scorecard/Page_Pasti by MyEG/i_Vehicle List_search fa fa-se'))
+
+WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OB/Scorecard/Page_Pasti by MyEG/input_Vehicle List_search-vehi'), 'JLT7711', 
     FailureHandling.OPTIONAL)
 
 WebUI.takeScreenshot()
 
-not_run: WebUI.sendKeys(findTestObject('Object Repository/Scorecard/Page_Pasti by MyEG/input_Vehicle List_search-vehi'), 
+not_run: WebUI.sendKeys(findTestObject('Pasti/Pasti_Business_User_OB/Scorecard/Page_Pasti by MyEG/input_Vehicle List_search-vehi'), 
     Keys.chord(Keys.ENTER), FailureHandling.OPTIONAL)
 
-not_run: WebUI.click(findTestObject('Object Repository/Scorecard/Page_Pasti by MyEG/li_JLT7711'))
+not_run: WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Scorecard/Page_Pasti by MyEG/li_JLT7711'))
 
-not_run: WebUI.click(findTestObject('Object Repository/Scorecard/Page_Pasti by MyEG/i_Vehicle List_search fa fa-se'), FailureHandling.OPTIONAL)
+not_run: WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Scorecard/Page_Pasti by MyEG/i_Vehicle List_search fa fa-se'), FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Object Repository/Scorecard/Page_Pasti by MyEG/i_Vehicle List_close-search-ve'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Scorecard/Page_Pasti by MyEG/i_Vehicle List_close-search-ve'), FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Object Repository/Scorecard/Page_Pasti by MyEG/div_JLT2255'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Scorecard/Page_Pasti by MyEG/div_JLT2255'))
 
 WebUI.takeScreenshot()
 
 WebUI.refresh()
 
-WebUI.click(findTestObject('Scorecard/Page_Pasti by MyEG/button_Show Available Vehicle'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Scorecard/Page_Pasti by MyEG/button_Show Available Vehicle'))
 
-WebUI.click(findTestObject('Object Repository/Scorecard/Page_Pasti by MyEG/input'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Scorecard/Page_Pasti by MyEG/input'))
 
-WebUI.click(findTestObject('Object Repository/Scorecard/Page_Pasti by MyEG/div_JLT2255_status green-dot'))
-
-WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('Scorecard/Page_Pasti by MyEG/input_Date Range_score-date-ra'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Scorecard/Page_Pasti by MyEG/div_JLT2255_status green-dot'))
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Scorecard/Page_Pasti by MyEG/li_Last 7 Days'))
-
-WebUI.click(findTestObject('Scorecard/Page_Pasti by MyEG/input_Date Range_score-date-ra'))
-
-WebUI.click(findTestObject('Object Repository/Scorecard/Page_Pasti by MyEG/li_Last Month'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Scorecard/Page_Pasti by MyEG/input_Date Range_score-date-ra'))
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Scorecard/Page_Pasti by MyEG/input_Date Range_score-date-ra'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Scorecard/Page_Pasti by MyEG/li_Last 7 Days'))
 
-WebUI.click(findTestObject('Object Repository/Scorecard/Page_Pasti by MyEG/li_Custom Range'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Scorecard/Page_Pasti by MyEG/input_Date Range_score-date-ra'))
 
-WebUI.takeScreenshot()
-
-WebUI.setText(findTestObject('Object Repository/Scorecard/Page_Pasti by MyEG/input_Data Not Available._date'), '01/09/2018')
-
-WebUI.setText(findTestObject('Object Repository/Scorecard/Page_Pasti by MyEG/input_Sa_daterangepicker_end'), '30/09/2018')
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Scorecard/Page_Pasti by MyEG/li_Last Month'))
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Scorecard/Page_Pasti by MyEG/button_Select'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Scorecard/Page_Pasti by MyEG/input_Date Range_score-date-ra'))
 
-WebUI.click(findTestObject('Object Repository/Scorecard/Page_Pasti by MyEG/button_Export'))
-
-WebUI.takeScreenshot()
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Scorecard/Page_Pasti by MyEG/select_CSV PDF'), 'pdf', true)
-
-WebUI.click(findTestObject('Scorecard/Page_Pasti by MyEG/button_Export (1)'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Scorecard/Page_Pasti by MyEG/li_Custom Range'))
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Scorecard/Page_Pasti by MyEG/button_Cancel'))
+WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OB/Scorecard/Page_Pasti by MyEG/input_Data Not Available._date'), '01/09/2018')
 
-WebUI.click(findTestObject('Object Repository/Scorecard/Page_Pasti by MyEG/div_Hi'))
+WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OB/Scorecard/Page_Pasti by MyEG/input_Sa_daterangepicker_end'), '30/09/2018')
 
-WebUI.click(findTestObject('Object Repository/Scorecard/Page_Pasti by MyEG/a_Logout'))
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Scorecard/Page_Pasti by MyEG/button_Select'))
+
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Scorecard/Page_Pasti by MyEG/button_Export'))
+
+WebUI.takeScreenshot()
+
+WebUI.selectOptionByValue(findTestObject('Pasti/Pasti_Business_User_OB/Scorecard/Page_Pasti by MyEG/select_CSV PDF'), 'pdf', true)
+
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Scorecard/Page_Pasti by MyEG/button_Export (1)'), FailureHandling.OPTIONAL)
+
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Scorecard/Page_Pasti by MyEG/button_Cancel'))
+
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Scorecard/Page_Pasti by MyEG/div_Hi'))
+
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Scorecard/Page_Pasti by MyEG/a_Logout'))
 
 WebUI.takeScreenshot()
 

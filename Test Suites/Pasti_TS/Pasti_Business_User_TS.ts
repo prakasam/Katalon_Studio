@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Pasti_TestSuite</name>
+   <name>Pasti_Business_User_TS</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <lastRun>2018-09-24T12:17:37</lastRun>

@@ -21,9 +21,9 @@ WebUI.maximizeWindow()
 
 WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Object Repository/pasti_login/pasti_login_OB/Page_Pasti by MyEG/div_Login'))
+not_run: WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/pasti_login/pasti_login_OB/Page_Pasti by MyEG/div_Login'))
 
-WebUI.doubleClick(findTestObject('Object Repository/pasti_login/pasti_login_OB/Page_Pasti by MyEG/button_Sign In'))
+WebUI.doubleClick(findTestObject('Pasti/Pasti_Business_User_OB/pasti_login/pasti_login_OB/Page_Pasti by MyEG/button_Sign In'))
 
 WebUI.takeScreenshot()
 
@@ -31,16 +31,16 @@ WebUI.verifyTextPresent('The username field is required.', true, FailureHandling
 
 WebUI.verifyTextPresent('The password field is required.', true, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/pasti_login/pasti_login_OB/Page_Pasti by MyEG/input_Login_username'), 'wrong')
+WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OB/pasti_login/pasti_login_OB/Page_Pasti by MyEG/input_Login_username'), 'wrong')
 
-WebUI.click(findTestObject('Object Repository/pasti_login/pasti_login_OB/Page_Pasti by MyEG/button_Sign In'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/pasti_login/pasti_login_OB/Page_Pasti by MyEG/button_Sign In'))
 
 WebUI.takeScreenshot()
 
-WebUI.setEncryptedText(findTestObject('Object Repository/pasti_login/pasti_login_OB/Page_Pasti by MyEG/input_Login_password'), 
+WebUI.setEncryptedText(findTestObject('Pasti/Pasti_Business_User_OB/pasti_login/pasti_login_OB/Page_Pasti by MyEG/input_Login_password'), 
     'o6CDTymj93o=')
 
-WebUI.click(findTestObject('Object Repository/pasti_login/pasti_login_OB/Page_Pasti by MyEG/button_Sign In'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/pasti_login/pasti_login_OB/Page_Pasti by MyEG/button_Sign In'))
 
 not_run: WebUI.verifyTextPresent('These credentials do not match our records.', true, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -48,20 +48,20 @@ WebUI.takeScreenshot()
 
 WebUI.refresh()
 
-WebUI.setText(findTestObject('Object Repository/pasti_login/pasti_login_OB/Page_Pasti by MyEG/input_Login_username'), '45586-T')
+WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OB/pasti_login/pasti_login_OB/Page_Pasti by MyEG/input_Login_username'), '45586-T')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/pasti_login/pasti_login_OB/Page_Pasti by MyEG/input_Login_password'), 
+WebUI.setEncryptedText(findTestObject('Pasti/Pasti_Business_User_OB/pasti_login/pasti_login_OB/Page_Pasti by MyEG/input_Login_password'), 
     'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/pasti_login/pasti_login_OB/Page_Pasti by MyEG/button_Sign In'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/pasti_login/pasti_login_OB/Page_Pasti by MyEG/button_Sign In'))
 
 WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Object Repository/pasti_login/pasti_login_OB/Page_Pasti by MyEG/div_Hi MYEG Services'))
+not_run: WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/pasti_login/pasti_login_OB/Page_Pasti by MyEG/div_Hi MYEG Services'))
 
-WebUI.click(findTestObject('pasti_login/pasti_login_OB/Page_Pasti by MyEG/div_Hi'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/pasti_login/pasti_login_OB/Page_Pasti by MyEG/div_Hi'), FailureHandling.OPTIONAL)
 
-not_run: WebUI.click(findTestObject('Object Repository/pasti_login/pasti_login_OB/Page_Pasti by MyEG/a_Logout'))
+not_run: WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/pasti_login/pasti_login_OB/Page_Pasti by MyEG/a_Logout'))
 
 WebUI.navigateToUrl('https://pasti.myeg.com.my/auth/logout')
 
