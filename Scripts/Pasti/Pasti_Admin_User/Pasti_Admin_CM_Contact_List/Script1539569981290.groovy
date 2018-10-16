@@ -413,6 +413,14 @@ WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_C
 'Deleted Company Contact person '
 WebUI.takeScreenshot()
 
+WebUI.refresh()
+
+WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_CM_Contact_List_OB/Page_PASTI by MyEG/a_Company Management'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_CM_Contact_List_OB/Page_PASTI by MyEG/a_Company Contacts List'))
+
 WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_CM_Contact_List_OB/Page_PASTI by MYEG/input_All Company_form-control'), 
     'subara minutera ')
 
