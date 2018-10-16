@@ -22,84 +22,84 @@ WebUI.maximizeWindow()
 'Pasti Admin Login page '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Pasti/Pasti_Admin_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/button_Sign In'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_Login_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/button_Sign In'))
 
 'Click Submit with out given Username and password '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Pasti/Pasti_Admin_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/input_Error_username'), 'xcbfgnvgfnfhn')
+WebUI.setText(findTestObject('Pasti/Pasti_Admin_Login_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/input_Error_username'), 'xcbfgnvgfnfhn')
 
 'given Username '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Pasti/Pasti_Admin_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/button_Sign In'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_Login_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/button_Sign In'))
 
 'Click Submit with out given Username and with out password '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Pasti/Pasti_Admin_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/input_Error_username'), 'fdsvfhvjhgj')
+WebUI.setText(findTestObject('Pasti/Pasti_Admin_Login_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/input_Error_username'), 'fdsvfhvjhgj')
 
-WebUI.setEncryptedText(findTestObject('Pasti/Pasti_Admin_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/input_Error_password'), 
+WebUI.setEncryptedText(findTestObject('Pasti/Pasti_Admin_Login_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/input_Error_password'), 
     'o15fEe6vjwvpbXQUpPfQFw==')
 
 'given wrong  Username and  password '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Pasti/Pasti_Admin_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/button_Sign In'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_Login_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/button_Sign In'))
 
 'Click Submit with out given wrong Username and password '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Pasti/Pasti_Admin_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/input_Error_username'), 'admin')
+WebUI.setText(findTestObject('Pasti/Pasti_Admin_Login_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/input_Error_username'), 'admin')
 
-WebUI.setEncryptedText(findTestObject('Pasti/Pasti_Admin_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/input_Error_password'), 
+WebUI.setEncryptedText(findTestObject('Pasti/Pasti_Admin_Login_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/input_Error_password'), 
     'Omr+k6VmOLnhHCAVXDZBzQeDIuS6Aunn')
 
 ' given valid Username and wrong password '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Pasti/Pasti_Admin_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/button_Sign In'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_Login_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/button_Sign In'))
 
 'Click Submit with out given valid Username and wrong password '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Pasti/Pasti_Admin_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/input_Error_username'), 'admin')
+WebUI.setText(findTestObject('Pasti/Pasti_Admin_Login_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/input_Error_username'), 'admin')
 
-WebUI.setEncryptedText(findTestObject('Pasti/Pasti_Admin_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/input_Error_password'), 
+WebUI.setEncryptedText(findTestObject('Pasti/Pasti_Admin_Login_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/input_Error_password'), 
     'RigbBhfdqOBGNlJIWM1ClA==')
 
 'given valid Username and password '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Pasti/Pasti_Admin_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/button_Sign In'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_Login_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/button_Sign In'))
 
 'Pasti Admin Dash Board'
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Pasti/Pasti_Admin_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/a_Status Update'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_Login_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/a_Status Update'))
 
 'Selected Status Update menu (it was default page ) '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Pasti/Pasti_Admin_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/a_'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_Login_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/a_'))
 
-WebUI.click(findTestObject('Pasti/Pasti_Admin_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/a_5'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_Login_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/a_5'))
 
 'selected fith list from pagination vehicle list '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Pasti/Pasti_Admin_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/input_Status Update_form-contr'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Admin_Login_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/input_Status Update_form-contr'), 
     'qatest')
 
 'Search required vehicle no '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Pasti/Pasti_Admin_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/a_03)QATEST (Anonymous  )'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_Login_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/a_03)QATEST (Anonymous  )'))
 
 'Selected searched vehicle no info on map '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Pasti/Pasti_Admin_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/a_Logout'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_Login_OB/Pasti_Admin_Login_OB/Page_PASTI by MyEG/a_Logout'))
 
 'logout from user '
 WebUI.takeScreenshot()

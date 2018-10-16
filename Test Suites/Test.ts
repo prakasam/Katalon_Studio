@@ -4,7 +4,7 @@
    <name>Test</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-10-11T10:58:58</lastRun>
+   <lastRun>2018-10-16T09:50:06</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>e4adfc1d-7491-44d3-abaa-e95c871433ae</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Pasti/Pasti_Admin_User/Pasti_Admin_Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -22,5 +22,23 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Pasti/Pasti_Admin_User/Pasti_Admin_Alerts</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>595726d4-97e1-4441-afa9-b2051af57956</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Pasti/Pasti_Admin_User/Pasti_Admin_CM_Add</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ee26b3fa-c362-44ae-aa8c-7c0d8487de58</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Pasti/Pasti_Admin_User/Pasti_Admin_Company_Management</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5096096d-9c57-4014-a6d9-ed9824ab3ee7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Pasti/Pasti_Admin_User/Pasti_Admin_CM_Contact_List</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
