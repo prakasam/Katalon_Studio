@@ -4,7 +4,7 @@
    <name>Test</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-10-16T15:27:13</lastRun>
+   <lastRun>2018-10-19T16:27:19</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -46,5 +46,23 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/Pasti/Pasti_Admin_User/Pasti_Admin_ScoreCard</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c6502066-20cc-4ebc-807f-5f205bcde738</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Pasti/Pasti_Admin_User/Pasti_Admin_Vehicle_Management_List</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4fdc9b80-7e7f-4bda-95a3-a8d168ada391</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Pasti/Pasti_Admin_User/Pasti_Admin_VM_Add</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>70c9ac44-8ffe-462b-8bae-5f83978359fa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Pasti/Pasti_Admin_User/Pasti_Admin_VM_Vehicle_Supervisor</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

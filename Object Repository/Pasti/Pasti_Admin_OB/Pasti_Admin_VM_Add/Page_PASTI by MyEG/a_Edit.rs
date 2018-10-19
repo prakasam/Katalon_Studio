@@ -4,6 +4,16 @@
    <name>a_Edit</name>
    <tag></tag>
    <elementGuidId>813ef0fb-2651-4f1b-986c-9b4085580909</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='dataTables-example']/tbody/tr/td[12]/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[contains(text(),'Edit')][count(. | //a[(text() = 'Edit' or . = 'Edit')]) = count(//a[(text() = 'Edit' or . = 'Edit')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,11 +24,11 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>vehicle_edit.php?id=1059&amp;mode=veh</value>
+      <value>vehicle_edit.php?id=1066&amp;mode=veh</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,11 +38,11 @@
       <value>Edit</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;dataTables-example&quot;)/tbody[1]/tr[@class=&quot;gradeX odd&quot;]/td[@class=&quot;center&quot;]/a[1]</value>
+      <value>//a[contains(text(),'Edit')]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,12 +84,18 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
-      <value>//a[contains(@href, 'vehicle_edit.php?id=1059&amp;mode=veh')]</value>
+      <value>//a[contains(@href, 'vehicle_edit.php?id=1066&amp;mode=veh')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <value>//td[12]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <value>//a[contains(@href, 'vehicle_edit.php?id=1059&amp;mode=veh')]</value>
    </webElementXpaths>
 </WebElementEntity>

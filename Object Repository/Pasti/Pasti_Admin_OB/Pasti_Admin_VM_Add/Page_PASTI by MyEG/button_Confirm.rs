@@ -4,6 +4,12 @@
    <name>button_Confirm</name>
    <tag></tag>
    <elementGuidId>02303c8b-4ff5-4fb0-98af-3f9c09f1dfb4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'submit' and @name = 'submit' and (text() = 'Confirm' or . = 'Confirm')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
