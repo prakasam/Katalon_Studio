@@ -26,36 +26,17 @@ WebUI.setEncryptedText(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Report
 
 WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/button_Sign In'))
 
+WebUI.delay(3)
+
 'Pasti business user Dash board page '
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/span_Report'))
 
+WebUI.delay(3)
+
 'Reports page ( click reports menu ) '
 WebUI.takeScreenshot()
-
-not_run: WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/input_overspeeding update offe'), 
-    FailureHandling.OPTIONAL)
-
-not_run: WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/label_Harsh Braking_checkbox'), 
-    FailureHandling.OPTIONAL)
-
-not_run: WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/input'), FailureHandling.OPTIONAL)
-
-not_run: WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/input'), FailureHandling.OPTIONAL)
-
-not_run: WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/input'), FailureHandling.OPTIONAL)
-
-not_run: WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/input'), FailureHandling.OPTIONAL)
-
-not_run: WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/div_Logout_spinner-bg'), 
-    FailureHandling.OPTIONAL)
-
-not_run: WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/input'), FailureHandling.OPTIONAL)
-
-not_run: WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/input'), FailureHandling.OPTIONAL)
-
-not_run: WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/input'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/input_Date Time Range_date-ran'), 
     FailureHandling.OPTIONAL)
@@ -64,6 +45,8 @@ WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_P
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/li_Last 7 Days'), FailureHandling.OPTIONAL)
+
+WebUI.delay(3)
 
 'Selected 7 days from the list '
 WebUI.takeScreenshot()
@@ -88,6 +71,8 @@ WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/button_Select'), FailureHandling.OPTIONAL)
+
+WebUI.delay(3)
 
 'search result will display '
 WebUI.takeScreenshot()
@@ -128,13 +113,6 @@ WebUI.takeScreenshot()
 WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/button_A_delete'), FailureHandling.OPTIONAL)
 
 not_run: WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/div_Hi MYEG Services'))
-
-WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/span_Report'))
-
-WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/a_4'))
-
-'selected 4 th list from vehicle pagination '
-WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/div_Hi'))
 

@@ -51,6 +51,8 @@ WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Dasboard_OB/Pag
 WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Dasboard_OB/Page_Pasti by MyEG/i_SP_search fa fa-search'), 
     FailureHandling.OPTIONAL)
 
+WebUI.delay(2)
+
 'search for required vehicle '
 WebUI.takeScreenshot()
 
@@ -64,6 +66,13 @@ WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Dasboard_OB/Page_
 WebUI.takeScreenshot()
 
 not_run: WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Dasboard_OB/Page_Pasti by MyEG/div_Hi MYEG Services'))
+
+WebUI.refresh()
+
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/a_4'))
+
+'selected 4 th list from vehicle pagination '
+WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Dasboard_OB/Page_Pasti by MyEG/div_Hi'))
 
