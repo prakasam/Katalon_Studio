@@ -412,8 +412,8 @@ WebUI.takeScreenshot()
 WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_CM_Add_OB/Page_PASTI by MYEG/input_Remarks_remarks'), 
     'sivndnv5862628 #*%&(#')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_CM_Add_OB/Page_PASTI by MYEG/select_Choose Company Contact'), 
-    '243', true)
+WebUI.selectOptionByValue(findTestObject('Pasti/Pasti_Admin_OB/Pasti_Admin_CM_Add_OB/Page_PASTI by MyEG/select_Choose Company Contact'), 
+    '244', true)
 
 'given remarck & contact person'
 WebUI.takeScreenshot()

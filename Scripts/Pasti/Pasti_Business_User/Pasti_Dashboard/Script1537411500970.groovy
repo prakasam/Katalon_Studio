@@ -19,37 +19,48 @@ WebUI.navigateToUrl('https://pasti.myeg.com.my/auth/login')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Dasboard_OB/Page_Pasti by MyEG/input_Login_username'), '45586-T')
+WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Dasboard_OB/Page_Pasti by MyEG/input_Login_username'), 
+    '45586-T')
 
-WebUI.setEncryptedText(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Dasboard_OB/Page_Pasti by MyEG/input_Login_password'), 'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Dasboard_OB/Page_Pasti by MyEG/input_Login_password'), 
+    'aeHFOx8jV/A=')
 
 WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Dasboard_OB/Page_Pasti by MyEG/button_Sign In'))
 
 WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Dasboard_OB/Page_Pasti by MyEG/span_Dashboard'))
 
+'Pasti Admin Business User Dash Board page '
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Dasboard_OB/Page_Pasti by MyEG/Page_Pasti by MyEG/div_JLT1155'))
 
+'Selected required vehicle '
 WebUI.takeScreenshot()
 
 WebUI.refresh()
 
-WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Dasboard_OB/Page_Pasti by MyEG/Page_Pasti by MyEG/i_Vehicles List_search fa fa-s'), FailureHandling.OPTIONAL)
-
-WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Dasboard_OB/Page_Pasti by MyEG/Page_Pasti by MyEG/input_SP_search-vehicle'), FailureHandling.OPTIONAL)
-
-WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Dasboard_OB/Page_Pasti by MyEG/Page_Pasti by MyEG/input_SP_search-vehicle'), 'JQA5533', 
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Dasboard_OB/Page_Pasti by MyEG/Page_Pasti by MyEG/i_Vehicles List_search fa fa-s'), 
     FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Dasboard_OB/Page_Pasti by MyEG/i_SP_search fa fa-search'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Dasboard_OB/Page_Pasti by MyEG/Page_Pasti by MyEG/input_SP_search-vehicle'), 
+    FailureHandling.OPTIONAL)
 
+WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Dasboard_OB/Page_Pasti by MyEG/Page_Pasti by MyEG/input_SP_search-vehicle'), 
+    'JQA5533', FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Dasboard_OB/Page_Pasti by MyEG/i_SP_search fa fa-search'), 
+    FailureHandling.OPTIONAL)
+
+'search for required vehicle '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Dasboard_OB/Page_Pasti by MyEG/Page_Pasti by MyEG/li_JQA5533'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Dasboard_OB/Page_Pasti by MyEG/Page_Pasti by MyEG/li_JQA5533'), 
+    FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Dasboard_OB/Page_Pasti by MyEG/Page_Pasti by MyEG/i_SP_close-search-vehicle fa f'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Dasboard_OB/Page_Pasti by MyEG/Page_Pasti by MyEG/i_SP_close-search-vehicle fa f'), 
+    FailureHandling.OPTIONAL)
 
+'click on required vehicle '
 WebUI.takeScreenshot()
 
 not_run: WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Dasboard_OB/Page_Pasti by MyEG/div_Hi MYEG Services'))
@@ -59,6 +70,9 @@ WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Dasboard_OB/Page_
 not_run: WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Dasboard_OB/Page_Pasti by MyEG/a_Logout'))
 
 WebUI.navigateToUrl('https://pasti.myeg.com.my/auth/logout')
+
+'log out from Business User '
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
 

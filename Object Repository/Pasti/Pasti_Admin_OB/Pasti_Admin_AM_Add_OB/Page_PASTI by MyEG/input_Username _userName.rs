@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Choose Company Contact</name>
+   <name>input_Username _userName</name>
    <tag></tag>
-   <elementGuidId>c0d06838-9f48-4204-9160-411b88bc8d8e</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;contact_id&quot;)[count(. | //select[@name = 'contact_id' and @id = 'contact_id']) = count(//select[@name = 'contact_id' and @id = 'contact_id'])]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>73d810ba-6efc-464d-ad26-a1beab22fe6d</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,7 +11,14 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>select</value>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,71 +32,76 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>contact_id</value>
+      <value>userName</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>contact_id</value>
+      <value>userName</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>autocomplete</name>
       <type>Main</type>
-      <value>
-							     Choose Company Contact
-								    abAbdul Aziz Bin Hj Ismail GaniAbdul HalimAbd WahidAli KhanAmir AnonymousAzany Bin YunusAzharBaizuraChandranChongDzulkufliedit test auto Company personEza GhaniHafifiHaji Mohamad Bin OsmanHalimahHarishHermanHj Rosli Bin Buang IskandarIsmailIzanyKhairulLim Eng Feng (Mr)LisaMahyudin Hj SamihunMohd Naim Bin Mohd YusofMohd Nordin HusniMohd ShahrisMs.ChanMs. GohMs. SoonPak AbuPn. SitiprakasamRajuRasyidRohah RoslanSaharilSharudinTAN TUAN SHUENtest auto Company personTuan Hj Tajudin vara prasadZaidiZambri Bin MatZulZulfahmi						    </value>
+      <value>off</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>50</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;contact_id&quot;)</value>
+      <value>id(&quot;userName&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//select[@id='contact_id']</value>
+      <value>//input[@id='userName']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='page-wrapper']/div[2]/div/div/div[2]/form/div/div[5]/div/select</value>
+      <value>//div[@id='page-wrapper']/div[2]/div/div/div[2]/div/div/form/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact Person *'])[1]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username *:'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email *'])[1]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add MyEG Admin/OPS Account Login'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Company Status *'])[1]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password *:'])[1]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='* Mandatory Fields'])[1]/preceding::select[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Role *:'])[1]/preceding::input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[5]/div/select</value>
+      <value>//input</value>
    </webElementXpaths>
 </WebElementEntity>
