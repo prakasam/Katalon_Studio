@@ -29,22 +29,27 @@ WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_ScoreCard_OB/Page
 
 WebUI.delay(4)
 
+'pasti business user Dash Board page. '
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_ScoreCard_OB/Page_Pasti by MyEG/span_Scorecard'))
 
+'Score card page  (Click Score card Menu)'
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_ScoreCard_OB/Page_Pasti by MyEG/button_Show Available Vehicle'))
 
+'click show available vehicle list '
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_ScoreCard_OB/Page_Pasti by MyEG/div_JLT2255'))
 
+'selected required vehicle '
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_ScoreCard_OB/Page_Pasti by MyEG/li_Last 30 Days'))
 
+'selected last 30 days from list  \t'
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_ScoreCard_OB/Page_Pasti by MyEG/input_Data Not Available._date'))
@@ -53,6 +58,7 @@ WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_ScoreCard_OB/Page_Pasti by MyEG/button_Show Available Vehicle'))
 
+'selected show available vehicle after reftred the pahgr'
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_ScoreCard_OB/Page_Pasti by MyEG/input'))
@@ -66,44 +72,53 @@ WebUI.takeScreenshot()
 WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_ScoreCard_OB/Page_Pasti by MyEG/input_Data Not Available._date'), 
     '02/02/2018')
 
+'given from date \r\n'
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_ScoreCard_OB/Page_Pasti by MyEG/input_Sa_daterangepicker_end'), 
     '28/02/2018')
 
+'given to date '
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_ScoreCard_OB/Page_Pasti by MyEG/button_Select'))
 
+'Select required button '
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_ScoreCard_OB/Page_Pasti by MyEG/button_Export'))
 
+'click export button \r\n'
 WebUI.takeScreenshot()
 
 WebUI.selectOptionByValue(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_ScoreCard_OB/Page_Pasti by MyEG/select_CSV PDF'), 
     'pdf', true)
 
+'select pdf documtnrn opction from drop down '
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_ScoreCard_OB/Page_Pasti by MyEG/button_Export'))
 
+'click export button'
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_ScoreCard_OB/Page_Pasti by MyEG/button_Cancel'))
 
+'button cancel'
 WebUI.takeScreenshot()
 
 not_run: WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_ScoreCard_OB/Page_Pasti by MyEG/div_Hi MYEG Services'))
 
-not_run: WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_ScoreCard_OB/Page_Pasti by MyEG/a_Logout'))
-
 WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_ScoreCard_OB/Page_Pasti by MyEG/div_Hi'))
 
+not_run: WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_ScoreCard_OB/Page_Pasti by MyEG/a_Logout'))
+
+'click logout logouiuo'
 WebUI.takeScreenshot()
 
 WebUI.navigateToUrl('https://pasti.myeg.com.my/auth/logout')
 
+'Business User log in screen '
 WebUI.takeScreenshot()
 
 WebUI.closeBrowser()

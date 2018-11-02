@@ -19,21 +19,25 @@ WebUI.navigateToUrl('https://pasti.myeg.com.my/auth/login')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_RouteReplay_OB/Page_Pasti by MyEG/input_Login_username'), '45586-T')
+WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_RouteReplay_OB/Page_Pasti by MyEG/input_Login_username'), 
+    '45586-T')
 
 WebUI.setEncryptedText(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_RouteReplay_OB/Page_Pasti by MyEG/input_Login_password'), 
     'aeHFOx8jV/A=')
 
 WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_RouteReplay_OB/Page_Pasti by MyEG/button_Sign In'))
 
+'pasti Business user dash board \r\n'
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_RouteReplay_OB/Page_Pasti by MyEG/span_Route Replay'))
 
+'click route replay menu\r\n'
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_RouteReplay_OB/Page_Pasti by MyEG/div_JLT2255'))
 
+'Selected required vehicle using search '
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_RouteReplay_OB/Page_Pasti by MyEG/span_September'), FailureHandling.OPTIONAL)
@@ -48,16 +52,21 @@ WebUI.scrollToPosition(50, 60)
 
 WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_RouteReplay_OB/Page_Pasti by MyEG/span_Play'))
 
+'selected play button '
 WebUI.takeScreenshot()
 
 //WebUI.switchToFrame(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_RouteReplay_OB/Page_Pasti by MyEG/p_Error'), 0)
 WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_RouteReplay_OB/Page_Pasti by MyEG/p_Error'), FailureHandling.OPTIONAL)
 
+'error info '
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_RouteReplay_OB/Page_Pasti by MyEG/button_Close'), FailureHandling.OPTIONAL)
 
 WebUI.refresh()
+
+'closed error info '
+WebUI.takeScreenshot()
 
 not_run: WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_RouteReplay_OB/Page_Pasti by MyEG/div_Hi MYEG Services'))
 
@@ -65,8 +74,12 @@ not_run: WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_RouteRep
 
 WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_RouteReplay_OB/Page_Pasti by MyEG/div_Hi'))
 
+'click logout from top menu '
+WebUI.takeScreenshot()
+
 WebUI.navigateToUrl('https://pasti.myeg.com.my/auth/logout')
 
+'login screen page \r\n'
 WebUI.takeScreenshot()
 
 WebUI.closeBrowser()

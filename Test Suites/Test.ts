@@ -4,7 +4,7 @@
    <name>Test</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-10-25T14:39:51</lastRun>
+   <lastRun>2018-10-31T11:00:39</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -20,8 +20,8 @@
    <testCaseLink>
       <guid>5139c858-39ea-439d-9ec6-c96b2283143d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Pasti/Pasti_Business_User/Pasti_FleetManagement</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Pasti/Pasti_Business_User/Pasti_BU_FM_Vehicle_Supervisor_Add</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c1059afe-38af-4312-85f3-504144df60f9</guid>
@@ -50,7 +50,7 @@
    <testCaseLink>
       <guid>55b99ce0-3747-497c-bfda-d8347ceea925</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Pasti/Pasti_Business_User/Scorecard</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

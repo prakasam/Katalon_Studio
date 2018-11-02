@@ -4,7 +4,7 @@
    <name>Pasti_Admin_User_TS</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-10-22T18:28:40</lastRun>
+   <lastRun>2018-10-29T10:34:39</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

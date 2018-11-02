@@ -4,6 +4,16 @@
    <name>input_Login_password</name>
    <tag></tag>
    <elementGuidId>256ea7c7-1e1f-4459-83e2-53a8580d0e4d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='password']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@name='password'][count(. | //input[@type = 'password' and @name = 'password' and @placeholder = 'Password']) = count(//input[@type = 'password' and @name = 'password' and @placeholder = 'Password'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -63,11 +73,11 @@
       <value>false</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login-form&quot;)/div[@class=&quot;columns&quot;]/div[@class=&quot;column is-10 is-offset-1-tablet&quot;]/div[@class=&quot;field&quot;]/p[@class=&quot;control has-icons-right&quot;]/input[@class=&quot;input&quot;]</value>
+      <value>//input[@name='password']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
