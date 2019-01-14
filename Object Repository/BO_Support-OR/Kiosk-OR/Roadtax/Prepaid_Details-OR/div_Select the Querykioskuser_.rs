@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Select the Querykioskuser_</name>
+   <tag></tag>
+   <elementGuidId>a7c46a6b-d699-4a27-b67f-fcff953a70de</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>cOIQi5-cave</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>z-window-overlapped-cnt</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Select the Query: kioskuser_trans By AccNo kioskuser_trans By TransID Update kioskuser_trans AccountNo Update transaction balance roadtax_inquiryinfoPlease enter the Account_NO :From :Oct 2016SunMonTueWedThuFriSat2526272829301234567891011121314151617181920212223242526272829303112345To :Oct 2016SunMonTueWedThuFriSat2526272829301234567891011121314151617181920212223242526272829303112345Please enter the TransID : Balance:Account NO :Please enter the ICNO :TransDate :Dec 2018SunMonTueWedThuFriSat2526272829301234567891011121314151617181920212223242526272829303112345Go request_idtrans_dateacct_idacctnotrans_idreceipt_notopupamttransamtbalanceprevbaltrans_typefactiontopupbybank_in_datereferenceflagvehicle_nois_read2S2016101412130121462016-10-14 12:13:01.261976AGTBOTANICSR8069238921600311106339MYEG/14102016/JPJRTX2452PAYMENTRTXNANN  / 1  [ 1 - 1 / 1 ]vehicle_noic_noid_typerenewal_periodcurrent_expiry_dateins_policy_noins_comp_codeins_policy_no2ins_comp_code2request_idstatus_codestatus_msgtrans_user_idtrans_datecontactnocommentscheckbyreqnameemailchkflagpainsuranceloginuseripaddress  / 1   Set AccNo  Set trans_dateSet balanceSet prevbal </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cOIQi5-cave&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>//div[@id='cOIQi5-cave']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='cOIQi5']/div[3]/div/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PrepaidDetails'])[2]/following::div[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LogOut'])[1]/following::div[13]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//div[3]/div/div/div</value>
+   </webElementXpaths>
+</WebElementEntity>

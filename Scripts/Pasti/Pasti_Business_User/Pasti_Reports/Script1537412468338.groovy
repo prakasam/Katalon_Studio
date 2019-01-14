@@ -19,32 +19,32 @@ WebUI.navigateToUrl('https://pasti.myeg.com.my/auth/login')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/input_Login_username'), '45586-T')
+WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_Reports_OB/Page_Pasti by MyEG/input_Login_username'), '45586-T')
 
-WebUI.setEncryptedText(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/input_Login_password'), 
+WebUI.setEncryptedText(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_Reports_OB/Page_Pasti by MyEG/input_Login_password'), 
     'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/button_Sign In'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_Reports_OB/Page_Pasti by MyEG/button_Sign In'))
 
 WebUI.delay(3)
 
 'Pasti business user Dash board page '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/span_Report'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_Reports_OB/Page_Pasti by MyEG/span_Report'))
 
 WebUI.delay(3)
 
 'Reports page ( click reports menu ) '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/input_Date Time Range_date-ran'), 
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_Reports_OB/Page_Pasti by MyEG/input_Date Time Range_date-ran'), 
     FailureHandling.OPTIONAL)
 
 'Selected input date range '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/li_Last 7 Days'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_Reports_OB/Page_Pasti by MyEG/li_Last 7 Days'), FailureHandling.OPTIONAL)
 
 WebUI.delay(3)
 
@@ -53,68 +53,68 @@ WebUI.takeScreenshot()
 
 WebUI.refresh(FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/input_Date Time Range_date-ran'), 
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_Reports_OB/Page_Pasti by MyEG/input_Date Time Range_date-ran'), 
     FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/li_Custom Range'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_Reports_OB/Page_Pasti by MyEG/li_Custom Range'), FailureHandling.OPTIONAL)
 
 'selected custom range from list '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/input_Export_daterangepicker_s'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_Reports_OB/Page_Pasti by MyEG/input_Export_daterangepicker_s'), 
     '01/02/2018 12:00 AM', FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/input_Sa_daterangepicker_end'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_Reports_OB/Page_Pasti by MyEG/input_Sa_daterangepicker_end'), 
     '28/02/2018 12:00 AM', FailureHandling.OPTIONAL)
 
 'given date and time from and two '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/button_Select'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_Reports_OB/Page_Pasti by MyEG/button_Select'), FailureHandling.OPTIONAL)
 
 WebUI.delay(3)
 
 'search result will display '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/button_Export'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_Reports_OB/Page_Pasti by MyEG/button_Export'), FailureHandling.OPTIONAL)
 
 'click export button '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/input_Cancel_daterangepicker_s'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_Reports_OB/Page_Pasti by MyEG/input_Cancel_daterangepicker_s'), 
     '04/02/2018', FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/input_Sa_daterangepicker_end'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_Reports_OB/Page_Pasti by MyEG/input_Sa_daterangepicker_end'), 
     '11/02/2018', FailureHandling.OPTIONAL)
 
 'given required date rage '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/button_Select'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_Reports_OB/Page_Pasti by MyEG/button_Select'), FailureHandling.OPTIONAL)
 
-WebUI.selectOptionByValue(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/select_CSV PDF'), 
+WebUI.selectOptionByValue(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_Reports_OB/Page_Pasti by MyEG/select_CSV PDF'), 
     'pdf', true, FailureHandling.OPTIONAL)
 
 'selected document type as pdf '
 WebUI.takeScreenshot()
 
-WebUI.selectOptionByValue(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/select_JLT1155JLT2255JLT7711JL'), 
+WebUI.selectOptionByValue(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_Reports_OB/Page_Pasti by MyEG/select_JLT1155JLT2255JLT7711JL'), 
     'JMD2299', true, FailureHandling.OPTIONAL)
 
 'selected vehicle from drop down '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/button_Export'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_Reports_OB/Page_Pasti by MyEG/button_Export'), FailureHandling.OPTIONAL)
 
 'click export button '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/button_A_delete'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_Reports_OB/Page_Pasti by MyEG/button_A_delete'), FailureHandling.OPTIONAL)
 
-not_run: WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/div_Hi MYEG Services'))
+not_run: WebUI.click(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_Reports_OB/Page_Pasti by MyEG/div_Hi MYEG Services'))
 
-WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_Reports_OB/Page_Pasti by MyEG/div_Hi'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_Reports_OB/Page_Pasti by MyEG/div_Hi'))
 
 'Selected name of the company to log out '
 WebUI.takeScreenshot()

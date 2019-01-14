@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_HomeMYEG MYEG Users Reset</name>
+   <tag></tag>
+   <elementGuidId>7eb90d8a-5954-4baa-a557-798c4baeb828</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'HomeMYEG  MYEG Users Reset Status  Reset Password  License Account User - Read FlagJPJ  CDL cdl_pymt_history  tb_cdl_licenseinfo  tb_cdl_delivaryinfo  tb_cdl_asinfo  tb_cdl_userretrival_req  tb_cdl_userretrival_res  CDLSupportAPP  AES Summon Details  Inquiry Response  Payment History  Kejara Information  Auto Insurance Renewal  Road Tax  Daily Report Total Inquiries  Unique Inquiries  Success  Errors  Count By Status  Success Credit Card  RoadTax-Report  LDL Application Kiosk  Road Tax tb_roadtax_reportlogin Create User  Update AG Code,Username &amp; Password  tb_roadtax_kioskusers Update Fee,Balance,UseFlag &amp; Password tb_roadtax_kioskusers_trans Update accountId,No,balance,previousBalance  tb_roadtax_kioskinfo Create Kiosk Update Kiosk tb_roadtax_renewalinfo update_renewalinfo Open tb_roadtax_delivaryinfo update_delivaryinfo  PrepaidDetailsImmigration  Maid SuccessRecords-inqresxml  Forward Data  Backward Data  Refund List  Update Merchant Id  im_rescustomerinfo  Daily Leads Maid Foreign Worker  Reports Maid By Date Status By Date Status Message by Date Credit Card Transactions Non-Credit Card Transactions Foreign Worker Transactions Print Success ImmReport Foreign Worker im_inqresxml im_transaction im_stk_rangeDBKL Support  Payment Request Payment ResponseeVoucher  Update eVoucherCCS  Update prepaiduser,prepaidusertrans,CC_account and PrepaidAccountNumPGW  pgw historyLogOut' or . = 'HomeMYEG  MYEG Users Reset Status  Reset Password  License Account User - Read FlagJPJ  CDL cdl_pymt_history  tb_cdl_licenseinfo  tb_cdl_delivaryinfo  tb_cdl_asinfo  tb_cdl_userretrival_req  tb_cdl_userretrival_res  CDLSupportAPP  AES Summon Details  Inquiry Response  Payment History  Kejara Information  Auto Insurance Renewal  Road Tax  Daily Report Total Inquiries  Unique Inquiries  Success  Errors  Count By Status  Success Credit Card  RoadTax-Report  LDL Application Kiosk  Road Tax tb_roadtax_reportlogin Create User  Update AG Code,Username &amp; Password  tb_roadtax_kioskusers Update Fee,Balance,UseFlag &amp; Password tb_roadtax_kioskusers_trans Update accountId,No,balance,previousBalance  tb_roadtax_kioskinfo Create Kiosk Update Kiosk tb_roadtax_renewalinfo update_renewalinfo Open tb_roadtax_delivaryinfo update_delivaryinfo  PrepaidDetailsImmigration  Maid SuccessRecords-inqresxml  Forward Data  Backward Data  Refund List  Update Merchant Id  im_rescustomerinfo  Daily Leads Maid Foreign Worker  Reports Maid By Date Status By Date Status Message by Date Credit Card Transactions Non-Credit Card Transactions Foreign Worker Transactions Print Success ImmReport Foreign Worker im_inqresxml im_transaction im_stk_rangeDBKL Support  Payment Request Payment ResponseeVoucher  Update eVoucherCCS  Update prepaiduser,prepaidusertrans,CC_account and PrepaidAccountNumPGW  pgw historyLogOut')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>bTxP2</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>z-menubar-hor</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>HomeMYEG  MYEG Users Reset Status  Reset Password  License Account User - Read FlagJPJ  CDL cdl_pymt_history  tb_cdl_licenseinfo  tb_cdl_delivaryinfo  tb_cdl_asinfo  tb_cdl_userretrival_req  tb_cdl_userretrival_res  CDLSupportAPP  AES Summon Details  Inquiry Response  Payment History  Kejara Information  Auto Insurance Renewal  Road Tax  Daily Report Total Inquiries  Unique Inquiries  Success  Errors  Count By Status  Success Credit Card  RoadTax-Report  LDL Application Kiosk  Road Tax tb_roadtax_reportlogin Create User  Update AG Code,Username &amp; Password  tb_roadtax_kioskusers Update Fee,Balance,UseFlag &amp; Password tb_roadtax_kioskusers_trans Update accountId,No,balance,previousBalance  tb_roadtax_kioskinfo Create Kiosk Update Kiosk tb_roadtax_renewalinfo update_renewalinfo Open tb_roadtax_delivaryinfo update_delivaryinfo  PrepaidDetailsImmigration  Maid SuccessRecords-inqresxml  Forward Data  Backward Data  Refund List  Update Merchant Id  im_rescustomerinfo  Daily Leads Maid Foreign Worker  Reports Maid By Date Status By Date Status Message by Date Credit Card Transactions Non-Credit Card Transactions Foreign Worker Transactions Print Success ImmReport Foreign Worker im_inqresxml im_transaction im_stk_rangeDBKL Support  Payment Request Payment ResponseeVoucher  Update eVoucherCCS  Update prepaiduser,prepaidusertrans,CC_account and PrepaidAccountNumPGW  pgw historyLogOut</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;bTxP2&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>//div[@id='bTxP2']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//tr[@id='bTxP2-chdex']/td/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//td/div</value>
+   </webElementXpaths>
+</WebElementEntity>

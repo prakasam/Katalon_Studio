@@ -19,247 +19,247 @@ WebUI.navigateToUrl('http://uat5.myeg.com.my/pasti/')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MyEG/input_Sign In_username'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MyEG/input_Sign In_username'), 
     'admin')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MyEG/input_Sign In_password'), 
+WebUI.setEncryptedText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MyEG/input_Sign In_password'), 
     'RigbBhfdqOBGNlJIWM1ClA==')
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MyEG/button_Sign In'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MyEG/button_Sign In'))
 
 'pasti admin dashboard '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MyEG/a_Account Management'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MyEG/a_Account Management'))
 
 'click account management menu '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MyEG/a_User Account List'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MyEG/a_User Account List'))
 
 'user account list page ( click user account list sub menu) '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_New Company User Accoun'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_New Company User Accoun'))
 
 'click new Company user Account login creation button '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Register Login'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Register Login'))
 
 'click register login button with out given data '
 WebUI.takeScreenshot()
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/select_Choose Company'), 
+WebUI.selectOptionByValue(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/select_Choose Company'), 
     '505639-K', true)
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Register Login'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Register Login'))
 
 'click register login button with selected company from dropdown only '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Username _userName'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Username _userName'), 
     'a')
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Register Login'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Register Login'))
 
 'click register login button with selected company from dropdown and given username as single character '
 WebUI.takeScreenshot()
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Password _password'), 
+WebUI.setEncryptedText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Password _password'), 
     'IoSAFDrw05c=')
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Register Login'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Register Login'))
 
 'click register login button with selected company from dropdown ,given username and password as single character '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Email(Password Reset) _e'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Email(Password Reset) _e'), 
     'c')
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Register Login'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Register Login'))
 
 'click register login button with selected company from dropdown ,given username ,password and email as single character '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Email(Password Reset) _e'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Email(Password Reset) _e'), 
     'ware')
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Register Login'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Register Login'))
 
 'given email with out @ symbol '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Email(Password Reset) _e'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Email(Password Reset) _e'), 
     'ware@gma')
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Register Login'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Register Login'))
 
 'given email with out domain '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Username _userName'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Username _userName'), 
     '#$%&^)(*')
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Register Login'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Register Login'))
 
 'given email as special characters '
 WebUI.takeScreenshot()
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Password _password'), 
+WebUI.setEncryptedText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Password _password'), 
     'IoSAFDrw05c=')
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Register Login'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Register Login'))
 
 'given password as lessthan 8 characters '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Email(Password Reset) _e'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Email(Password Reset) _e'), 
     'ware@test.com')
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Register Login'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Register Login'))
 
 'given email as valid '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Username _userName'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Username _userName'), 
     'prakasam')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Password _password'), 
+WebUI.setEncryptedText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Password _password'), 
     'RigbBhfdqOBGNlJIWM1ClA==')
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Email(Password Reset) _e'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Email(Password Reset) _e'), 
     'ware@test.com')
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Register Login'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Register Login'))
 
 'given existing username '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Username _userName'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Username _userName'), 
     'signora')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Password _password'), 
+WebUI.setEncryptedText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Password _password'), 
     'IoSAFDrw05c=')
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Email(Password Reset) _e'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Email(Password Reset) _e'), 
     'ware@test.com')
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Register Login'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Register Login'))
 
 'given password as lessthan 8 characters '
 WebUI.takeScreenshot()
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Password _password'), 
+WebUI.setEncryptedText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Password _password'), 
     'RigbBhfdqOBGNlJIWM1ClA==')
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Email(Password Reset) _e'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Email(Password Reset) _e'), 
     'ware@test.com')
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Register Login'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Register Login'))
 
 'Account created successfully '
 WebUI.takeScreenshot()
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_All Users given access t'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_All Users given access t'), 
     'signora')
 
 'searched for required account to edit '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/a_Edit'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/a_Edit'))
 
 'edit account page '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Update'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Update'))
 
 'select update with out given password '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Email(Password Reset) _e'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Email(Password Reset) _e'), 
     '')
 
-WebUI.setEncryptedText(findTestObject('Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MyEG/input_Password _password'), 
+WebUI.setEncryptedText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MyEG/input_Password _password'), 
     'J7R4ejOak4Y=')
 
 'click update given email as empty '
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Update'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Update'))
 
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Email(Password Reset) _e'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Email(Password Reset) _e'), 
     '&^@#&#(%')
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Update'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Update'))
 
 'click update given email as special characters '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Email(Password Reset) _e'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Email(Password Reset) _e'), 
     'wareedit@test.com')
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Update'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Update'))
 
 'click update given email valid email '
 WebUI.takeScreenshot()
 
-WebUI.setEncryptedText(findTestObject('Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MyEG/input_Password _password'), 
+WebUI.setEncryptedText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MyEG/input_Password _password'), 
     'RigbBhfdqODKcAsiUrg+1Q==')
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Email(Password Reset) _e'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Email(Password Reset) _e'), 
     'wareedit@test.com')
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Update'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Update'))
 
 'click update given valid email and password '
 WebUI.takeScreenshot()
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_All Users given access t'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_All Users given access t'), 
     'signora')
 
 'search for required user '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/a_Delete'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/a_Delete'))
 
 'click delete link '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Confirm_btn btn-default'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_Confirm_btn btn-default'))
 
 'click cancel from delete confirmation screen '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_All Users given access t'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_All Users given access t'), 
     'signora')
 
 'searched required user '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/a_Delete'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/a_Delete'))
 
 'click delete link '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Confirm'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/button_Confirm'))
 
 'click confirm deletion confirmation '
 WebUI.takeScreenshot()
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_All Users given access t'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/input_All Users given access t'), 
     'signora')
 
 're checking for same user '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/a_Logout'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_AM_BU_Add_OB/Page_PASTI by MYEG/a_Logout'))
 
 'logout from account '
 WebUI.takeScreenshot()

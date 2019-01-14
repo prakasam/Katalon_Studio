@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Select the QuerySelectSucc</name>
+   <tag></tag>
+   <elementGuidId>60104341-5db3-4b28-b6a9-2630e2f63d0c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = '  Select the Query: Select SuccessRecordsList Select im_inqresxml Update update_count Upadate All StartDate:Dec 2018SunMonTueWedThuFriSat2526272829301234567891011121314151617181920212223242526272829303112345EndDate:Dec 2018SunMonTueWedThuFriSat2526272829301234567891011121314151617181920212223242526272829303112345Passport No: Id:Go Trans_dateEmp_icnoEmployernamePassportnoMaidnameappdobPassport_expdtVisa_expdtNornwNationalityMerchantIdTransamountReceiptNoEmailAddressAddress2Address3PostcodeTownPhnoMobilenoOfficenoHouseno2018-12-20 12:16:47.009794+08870908344353santhoshM5433222kumar04/05/19892018-12-13 00:00:002018-12-31 00:00:001INDFIM18122082763180079228Mlky106@gmail.comSADFJSALKFDJFdss81750fsdafsadfsadf3453453453434534534532018-12-20 14:12:18.877191+08870908344353santhoshM54332225kumar06/06/19932018-12-13 00:00:002018-12-31 00:00:001INDFIM18122082764180079229Msanthosh.paravada@gmail.com96763303832018-12-20 14:33:17.120306+08870908344353santhoshM543322266kumar03/06/19942018-12-13 00:00:002018-12-31 00:00:001INDFIM18122082766180079230Msanthosh.paravada@gmail.comSDAFASDFASDFdss81750sfsgds967633038323454534532018-12-21 10:48:23.165802+08870908344353santhoshM64322222kumar03/04/20002018-12-13 00:00:002018-12-31 00:00:001IDNFIM18122182768180079231Mlky106@gmail.comSFSGSDGFDSFGFdss81750sdfsadfsafd23423423423234234234232018-12-21 10:50:45.486938+08870908344353santhoshM87987656kumar04/06/19982018-12-13 00:00:002018-12-31 00:00:001LAOFIM18122182769180079232Mlky106@gmail.comBLOCK C, PELANGI UTAMA, JALAN MASJID,PJU 6A, BANDAR UTAMAPETALING JAYA81750petaling jaya2342342342301234556778  / 3  [ 1 - 5 / 11 ]  Excel Reportidemp_icnoemp_nameemp_addr1emp_addr2emp_addr3emp_addr4postcddistcdstateemailpassportnoapplicantnamesexnationalitysector passport_expdtvisa_expdtnewvisa_expdtvisachrglevichrgpasschrgprocchrgprint_statussignaturecreated_dtprinted_dtprinted_byreceipt_noapplicantdobapplicant_photores_dtfr_plksnofr_reqno nornwfr_idsticker_noconnois_migratevp_noappln_noupdated_date update_countsub_sectorjob_cd3MIMM201812201213551576870908344353santhosh103 JLN 14/46PETALING JAYA46100010M5433222kumarPINDPR2018-12-13 00:00:00.02018-12-31 00:00:00.02019-12-31 00:00:00.0PENDINGAS2018-12-20 12:17:31.685567180079228M1989-05-04 00:00:00.0[B@5b61bf8720161028151809nullV14101060120161018491221P1410106012016101849122123APHCKL1790011572BPR/90011/HCAWL175720PR  / 1  [ 1 - 1 / 1 ] Set update_count UpdateCancelClear stateprint_statusupdate_countnornw' or . = '  Select the Query: Select SuccessRecordsList Select im_inqresxml Update update_count Upadate All StartDate:Dec 2018SunMonTueWedThuFriSat2526272829301234567891011121314151617181920212223242526272829303112345EndDate:Dec 2018SunMonTueWedThuFriSat2526272829301234567891011121314151617181920212223242526272829303112345Passport No: Id:Go Trans_dateEmp_icnoEmployernamePassportnoMaidnameappdobPassport_expdtVisa_expdtNornwNationalityMerchantIdTransamountReceiptNoEmailAddressAddress2Address3PostcodeTownPhnoMobilenoOfficenoHouseno2018-12-20 12:16:47.009794+08870908344353santhoshM5433222kumar04/05/19892018-12-13 00:00:002018-12-31 00:00:001INDFIM18122082763180079228Mlky106@gmail.comSADFJSALKFDJFdss81750fsdafsadfsadf3453453453434534534532018-12-20 14:12:18.877191+08870908344353santhoshM54332225kumar06/06/19932018-12-13 00:00:002018-12-31 00:00:001INDFIM18122082764180079229Msanthosh.paravada@gmail.com96763303832018-12-20 14:33:17.120306+08870908344353santhoshM543322266kumar03/06/19942018-12-13 00:00:002018-12-31 00:00:001INDFIM18122082766180079230Msanthosh.paravada@gmail.comSDAFASDFASDFdss81750sfsgds967633038323454534532018-12-21 10:48:23.165802+08870908344353santhoshM64322222kumar03/04/20002018-12-13 00:00:002018-12-31 00:00:001IDNFIM18122182768180079231Mlky106@gmail.comSFSGSDGFDSFGFdss81750sdfsadfsafd23423423423234234234232018-12-21 10:50:45.486938+08870908344353santhoshM87987656kumar04/06/19982018-12-13 00:00:002018-12-31 00:00:001LAOFIM18122182769180079232Mlky106@gmail.comBLOCK C, PELANGI UTAMA, JALAN MASJID,PJU 6A, BANDAR UTAMAPETALING JAYA81750petaling jaya2342342342301234556778  / 3  [ 1 - 5 / 11 ]  Excel Reportidemp_icnoemp_nameemp_addr1emp_addr2emp_addr3emp_addr4postcddistcdstateemailpassportnoapplicantnamesexnationalitysector passport_expdtvisa_expdtnewvisa_expdtvisachrglevichrgpasschrgprocchrgprint_statussignaturecreated_dtprinted_dtprinted_byreceipt_noapplicantdobapplicant_photores_dtfr_plksnofr_reqno nornwfr_idsticker_noconnois_migratevp_noappln_noupdated_date update_countsub_sectorjob_cd3MIMM201812201213551576870908344353santhosh103 JLN 14/46PETALING JAYA46100010M5433222kumarPINDPR2018-12-13 00:00:00.02018-12-31 00:00:00.02019-12-31 00:00:00.0PENDINGAS2018-12-20 12:17:31.685567180079228M1989-05-04 00:00:00.0[B@5b61bf8720161028151809nullV14101060120161018491221P1410106012016101849122123APHCKL1790011572BPR/90011/HCAWL175720PR  / 1  [ 1 - 1 / 1 ] Set update_count UpdateCancelClear stateprint_statusupdate_countnornw')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>pY9Qi5-cave</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>z-window-overlapped-cnt</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>  Select the Query: Select SuccessRecordsList Select im_inqresxml Update update_count Upadate All StartDate:Dec 2018SunMonTueWedThuFriSat2526272829301234567891011121314151617181920212223242526272829303112345EndDate:Dec 2018SunMonTueWedThuFriSat2526272829301234567891011121314151617181920212223242526272829303112345Passport No: Id:Go Trans_dateEmp_icnoEmployernamePassportnoMaidnameappdobPassport_expdtVisa_expdtNornwNationalityMerchantIdTransamountReceiptNoEmailAddressAddress2Address3PostcodeTownPhnoMobilenoOfficenoHouseno2018-12-20 12:16:47.009794+08870908344353santhoshM5433222kumar04/05/19892018-12-13 00:00:002018-12-31 00:00:001INDFIM18122082763180079228Mlky106@gmail.comSADFJSALKFDJFdss81750fsdafsadfsadf3453453453434534534532018-12-20 14:12:18.877191+08870908344353santhoshM54332225kumar06/06/19932018-12-13 00:00:002018-12-31 00:00:001INDFIM18122082764180079229Msanthosh.paravada@gmail.com96763303832018-12-20 14:33:17.120306+08870908344353santhoshM543322266kumar03/06/19942018-12-13 00:00:002018-12-31 00:00:001INDFIM18122082766180079230Msanthosh.paravada@gmail.comSDAFASDFASDFdss81750sfsgds967633038323454534532018-12-21 10:48:23.165802+08870908344353santhoshM64322222kumar03/04/20002018-12-13 00:00:002018-12-31 00:00:001IDNFIM18122182768180079231Mlky106@gmail.comSFSGSDGFDSFGFdss81750sdfsadfsafd23423423423234234234232018-12-21 10:50:45.486938+08870908344353santhoshM87987656kumar04/06/19982018-12-13 00:00:002018-12-31 00:00:001LAOFIM18122182769180079232Mlky106@gmail.comBLOCK C, PELANGI UTAMA, JALAN MASJID,PJU 6A, BANDAR UTAMAPETALING JAYA81750petaling jaya2342342342301234556778  / 3  [ 1 - 5 / 11 ]  Excel Reportidemp_icnoemp_nameemp_addr1emp_addr2emp_addr3emp_addr4postcddistcdstateemailpassportnoapplicantnamesexnationalitysector passport_expdtvisa_expdtnewvisa_expdtvisachrglevichrgpasschrgprocchrgprint_statussignaturecreated_dtprinted_dtprinted_byreceipt_noapplicantdobapplicant_photores_dtfr_plksnofr_reqno nornwfr_idsticker_noconnois_migratevp_noappln_noupdated_date update_countsub_sectorjob_cd3MIMM201812201213551576870908344353santhosh103 JLN 14/46PETALING JAYA46100010M5433222kumarPINDPR2018-12-13 00:00:00.02018-12-31 00:00:00.02019-12-31 00:00:00.0PENDINGAS2018-12-20 12:17:31.685567180079228M1989-05-04 00:00:00.0[B@5b61bf8720161028151809nullV14101060120161018491221P1410106012016101849122123APHCKL1790011572BPR/90011/HCAWL175720PR  / 1  [ 1 - 1 / 1 ] Set update_count UpdateCancelClear stateprint_statusupdate_countnornw</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pY9Qi5-cave&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>//div[@id='pY9Qi5-cave']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='pY9Qi5']/div[3]/div/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SuccessRecords'])[1]/following::div[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LogOut'])[1]/following::div[13]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//div[3]/div/div/div</value>
+   </webElementXpaths>
+</WebElementEntity>

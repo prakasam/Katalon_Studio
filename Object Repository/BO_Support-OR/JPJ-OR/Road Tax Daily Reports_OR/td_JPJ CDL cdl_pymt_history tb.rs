@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_JPJ CDL cdl_pymt_history tb</name>
+   <tag></tag>
+   <elementGuidId>00e7ea50-a6ad-4a1b-a3a5-76e981c94d5c</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>z-menu-inner-m</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>JPJ  CDL cdl_pymt_history  tb_cdl_licenseinfo  tb_cdl_delivaryinfo  tb_cdl_asinfo  tb_cdl_userretrival_req  tb_cdl_userretrival_res  CDLSupportAPP  AES Summon Details  Inquiry Response  Payment History  Kejara Information  Auto Insurance Renewal AIG payment  ins_update_policy  covernote_range  driver_info   policy_info  vehical_info  owner_info   jpj_req_info  cover_note_info  previous_insurance_info BERJAYA payment  ins_update_policy  covernote_range  driver_info   policy_info  vehical_info  owner_info   jpj_req_info  cover_note_info  previous_insurance_info MYEGRTX tb_ins_policyinfo  tb_ins_vehicleinfo  tb_ins_premiuminfo  tb_ins_makemodel  tb_ins_cninfo  tb_ins_hirecompinfo  tb_roadtax_renewalinfo  tb_ins_pymtreqinfo  tb_roadtax_fpxinfo  tb_ins_ownerinfo COVERNOTES AIGCOVERNOTE  BERJAYACOVERNOTE  ZURICHCOVERNOTE  RHBCOVERNOTE NEW COVERNOTE  OLD COVERNOTE  UNIASIACOVERNOTE VEHICLE  POLICY   Road Tax  Daily Report Total Inquiries  Unique Inquiries  Success  Errors  Count By Status  Success Credit Card  RoadTax-Report  LDL Application </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;aKjWd-a&quot;)/tbody[1]/tr[1]/td[@class=&quot;z-menu-inner-m&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//table[@id='aKjWd-a']/tbody/tr/td[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='License Account User - Read Flag'])[1]/following::td[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset Password'])[1]/following::td[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//td[3]/table/tbody/tr/td[2]</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Select the Querymerchant_t</name>
+   <tag></tag>
+   <elementGuidId>1589b08e-e858-42b1-b15e-d75f58e80671</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = '  Select the Query: merchant_tx_id id_no UpdateAll By id_no and req_date Update By req_id Reset printflag LicenseInfo Report   Please enter the Id_No:Please enter the Id_No:req_datePlease enter the merchant_tx_id:Please enter the req_id:From:Dec 2018SunMonTueWedThuFriSat2526272829301234567891011121314151617181920212223242526272829303112345To:Dec 2018SunMonTueWedThuFriSat2526272829301234567891011121314151617181920212223242526272829303112345  Go  req_dateuser_idid_noid_typestatus_codestatus_msgmerchant_transidname_1name_2name_3durationlicense_classlicense_issue_datelicense_expiry_datereq_idjpj_revenue_codeip_addressmachine_noamountdel_amtreceipt_nopaymodeprintflagprintdatemachine_no_printjms_flagjpj_adj_revenue_codenew_expiry_datenamecdl_effective_datecdl_expiry_date serial_noserial_seqcheck_digitlicense_adj_amountlicense_adj_periodlicense_adj_indicator2018-05-27 19:32:18.469976myegsa852963787412101SuccessCRCL1805274254Kajesh Kamma  1    E12013-10-182014-02-103MYCDL201805271932183706111111111211.24.241.178003IPCMYEG/270518/CDL00008NNAN2222222222016-06-13kajesh kamma2013-07-082015-07-07  / 1  [ 1 - 1 / 1 ]   UpdateCancelClearstatus_codestatus_msgnamecdl_effective_datecdl_expiry_datejpj_revenue_codejpj_adj_revenue_code  printflag   Excel Report' or . = '  Select the Query: merchant_tx_id id_no UpdateAll By id_no and req_date Update By req_id Reset printflag LicenseInfo Report   Please enter the Id_No:Please enter the Id_No:req_datePlease enter the merchant_tx_id:Please enter the req_id:From:Dec 2018SunMonTueWedThuFriSat2526272829301234567891011121314151617181920212223242526272829303112345To:Dec 2018SunMonTueWedThuFriSat2526272829301234567891011121314151617181920212223242526272829303112345  Go  req_dateuser_idid_noid_typestatus_codestatus_msgmerchant_transidname_1name_2name_3durationlicense_classlicense_issue_datelicense_expiry_datereq_idjpj_revenue_codeip_addressmachine_noamountdel_amtreceipt_nopaymodeprintflagprintdatemachine_no_printjms_flagjpj_adj_revenue_codenew_expiry_datenamecdl_effective_datecdl_expiry_date serial_noserial_seqcheck_digitlicense_adj_amountlicense_adj_periodlicense_adj_indicator2018-05-27 19:32:18.469976myegsa852963787412101SuccessCRCL1805274254Kajesh Kamma  1    E12013-10-182014-02-103MYCDL201805271932183706111111111211.24.241.178003IPCMYEG/270518/CDL00008NNAN2222222222016-06-13kajesh kamma2013-07-082015-07-07  / 1  [ 1 - 1 / 1 ]   UpdateCancelClearstatus_codestatus_msgnamecdl_effective_datecdl_expiry_datejpj_revenue_codejpj_adj_revenue_code  printflag   Excel Report')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>hVxPi5-cave</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>z-window-overlapped-cnt</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>  Select the Query: merchant_tx_id id_no UpdateAll By id_no and req_date Update By req_id Reset printflag LicenseInfo Report   Please enter the Id_No:Please enter the Id_No:req_datePlease enter the merchant_tx_id:Please enter the req_id:From:Dec 2018SunMonTueWedThuFriSat2526272829301234567891011121314151617181920212223242526272829303112345To:Dec 2018SunMonTueWedThuFriSat2526272829301234567891011121314151617181920212223242526272829303112345  Go  req_dateuser_idid_noid_typestatus_codestatus_msgmerchant_transidname_1name_2name_3durationlicense_classlicense_issue_datelicense_expiry_datereq_idjpj_revenue_codeip_addressmachine_noamountdel_amtreceipt_nopaymodeprintflagprintdatemachine_no_printjms_flagjpj_adj_revenue_codenew_expiry_datenamecdl_effective_datecdl_expiry_date serial_noserial_seqcheck_digitlicense_adj_amountlicense_adj_periodlicense_adj_indicator2018-05-27 19:32:18.469976myegsa852963787412101SuccessCRCL1805274254Kajesh Kamma  1    E12013-10-182014-02-103MYCDL201805271932183706111111111211.24.241.178003IPCMYEG/270518/CDL00008NNAN2222222222016-06-13kajesh kamma2013-07-082015-07-07  / 1  [ 1 - 1 / 1 ]   UpdateCancelClearstatus_codestatus_msgnamecdl_effective_datecdl_expiry_datejpj_revenue_codejpj_adj_revenue_code  printflag   Excel Report</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;hVxPi5-cave&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>//div[@id='hVxPi5-cave']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='hVxPi5']/div[3]/div/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='tb_cdl_licenseinfo'])[2]/following::div[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LogOut'])[1]/following::div[13]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//div[3]/div/div/div</value>
+   </webElementXpaths>
+</WebElementEntity>

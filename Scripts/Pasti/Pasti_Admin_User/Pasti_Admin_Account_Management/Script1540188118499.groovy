@@ -19,58 +19,58 @@ WebUI.navigateToUrl('http://uat5.myeg.com.my/pasti/')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_Account_Management_OB/Page_PASTI by MyEG/input_Sign In_username'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_Account_Management_OB/Page_PASTI by MyEG/input_Sign In_username'), 
     'admin')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_Account_Management_OB/Page_PASTI by MyEG/input_Sign In_password'), 
+WebUI.setEncryptedText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_Account_Management_OB/Page_PASTI by MyEG/input_Sign In_password'), 
     'RigbBhfdqOBGNlJIWM1ClA==')
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_Account_Management_OB/Page_PASTI by MyEG/button_Sign In'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_Account_Management_OB/Page_PASTI by MyEG/button_Sign In'))
 
 'pasti admin Dash Board '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_Account_Management_OB/Page_PASTI by MyEG/a_Account Management'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_Account_Management_OB/Page_PASTI by MyEG/a_Account Management'))
 
 'click account management menu'
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_Account_Management_OB/Page_PASTI by MyEG/a_User Account List'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_Account_Management_OB/Page_PASTI by MyEG/a_User Account List'))
 
 'Account list page ( click User Account List sub menu) '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_Account_Management_OB/Page_PASTI by MYEG/a_5'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_Account_Management_OB/Page_PASTI by MYEG/a_5'))
 
 'selected fifth page using pagination '
 WebUI.takeScreenshot()
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_Account_Management_OB/Page_PASTI by MYEG/select_102550100'), 
+WebUI.selectOptionByValue(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_Account_Management_OB/Page_PASTI by MYEG/select_102550100'), 
     '25', true)
 
 'selected list of accounts from 10 to 25 from drop down \r\n'
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_Account_Management_OB/Page_PASTI by MYEG/input_All Users given access t'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_Account_Management_OB/Page_PASTI by MYEG/input_All Users given access t'), 
     '505639-K')
 
 'search required user '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_Account_Management_OB/Page_PASTI by MYEG/a_Edit'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_Account_Management_OB/Page_PASTI by MYEG/a_Edit'))
 
 'select edit the user '
 WebUI.takeScreenshot()
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_Account_Management_OB/Page_PASTI by MYEG/input_Password _password'), 
+WebUI.setEncryptedText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_Account_Management_OB/Page_PASTI by MYEG/input_Password _password'), 
     'RigbBhfdqOBGNlJIWM1ClA==')
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_Account_Management_OB/Page_PASTI by MYEG/button_Update'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_Account_Management_OB/Page_PASTI by MYEG/button_Update'))
 
 'updated user successfully with given password '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_Account_Management_OB/Page_PASTI by MYEG/a_Logout'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_Account_Management_OB/Page_PASTI by MYEG/a_Logout'))
 
 'logout from account '
 WebUI.takeScreenshot()

@@ -20,33 +20,33 @@ WebUI.navigateToUrl('http://192.168.121.37/auth/login')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Business_User_OB/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/input_Login_username'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/input_Login_username'), 
     '45586-T')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Pasti/Pasti_Business_User_OB/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/input_Login_password'), 
+WebUI.setEncryptedText(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/input_Login_password'), 
     'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Business_User_OB/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/button_Sign In'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/button_Sign In'))
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Business_User_OB/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/a_Fleet Management'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/a_Fleet Management'))
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Business_User_OB/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/button_Add'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/button_Add'))
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Business_User_OB/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/input_Export_input'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/input_Export_input'), 
     'genting')
 
 WebUI.refresh()
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Business_User_OB/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/button_Add New Route'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/button_Add New Route'))
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Business_User_OB/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/input_Choose Destination_input'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/input_Choose Destination_input'), 
     'PWTC Bus Stop')
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/Page_Pasti by MyEG/span_Bus Stop Star Pwtc'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/Page_Pasti by MyEG/span_Bus Stop Star Pwtc'))
 
-WebUI.sendKeys(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/input_Choose Destination_input'), 
+WebUI.sendKeys(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/input_Choose Destination_input'), 
     Keys.chord(Keys.TAB))
 
 not_run: webElement.sendKeys(Keys.TAB)
@@ -55,65 +55,65 @@ WebUI.delay(2)
 
 WebUI.setText(findTestObject(null), 'Cameron')
 
-not_run: WebUI.focus(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/Page_Pasti by MyEG/input_Choose Destination_input'))
+not_run: WebUI.focus(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/Page_Pasti by MyEG/input_Choose Destination_input'))
 
-not_run: WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Business_User_OB/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/input_Choose Destination_input'), 
+not_run: WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/input_Choose Destination_input'), 
     'cameron')
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/Page_Pasti by MyEG/span_Cameron Highlands'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/Page_Pasti by MyEG/span_Cameron Highlands'))
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Business_User_OB/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/input_Route Name_name'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/input_Route Name_name'), 
     'PWTC to Cameron ')
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Business_User_OB/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/textarea_Route Description_des'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/textarea_Route Description_des'), 
     'PWTC bus terminal to Cameron highlands ')
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Business_User_OB/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/input'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/input'))
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Business_User_OB/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/button_Create'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/button_Create'))
 
-WebUI.focus(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/Page_Pasti by MyEG/input_Choose Destination_input'))
+WebUI.focus(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/Page_Pasti by MyEG/input_Choose Destination_input'))
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Business_User_OB/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/input_Choose Destination_input'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/input_Choose Destination_input'), 
     'cameron')
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Pasti/Pasti_Business_User_OB/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/Page_Pasti by MyEG/span_Cameron Highlands'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/Page_Pasti by MyEG/span_Cameron Highlands'))
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Business_User_OB/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/button_Create'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/button_Create'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Business_User_OB/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/button_Edit'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/button_Edit'))
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Business_User_OB/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/div_Choose Destination_icon'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/div_Choose Destination_icon'))
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Business_User_OB/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/input_Choose Destination_input'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/input_Choose Destination_input'), 
     'penang is')
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Business_User_OB/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/textarea_Route Description_des'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/textarea_Route Description_des'), 
     'PWTC bus terminal to Cameron highlands to penang island ')
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Business_User_OB/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/input_Route Name_name'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/input_Route Name_name'), 
     'PWTC to Cameron to penang')
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Business_User_OB/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/button_Update'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/button_Update'))
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Business_User_OB/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/input_Export_input'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/input_Export_input'), 
     'cameron')
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Business_User_OB/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/button_Delete'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/button_Delete'))
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Business_User_OB/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/button_Delete'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/button_Delete'))
 
-WebUI.sendKeys(findTestObject('Object Repository/Pasti/Pasti_Business_User_OB/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/input_Export_input'), 
+WebUI.sendKeys(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/input_Export_input'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Business_User_OB/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/input_Export_input'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/input_Export_input'), 
     'cameron')
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Business_User_OB/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/a_Logout'))
+WebUI.click(findTestObject('Pasti/Pasti_Business_User_OR/Pasti_BU_FM_Route_add_OB/Page_Pasti by MyEG/a_Logout'))
 

@@ -17,50 +17,50 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://uat5.myeg.com.my/pasti/')
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MyEG/input_Sign In_username'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MyEG/input_Sign In_username'), 
     'admin')
 
 WebUI.maximizeWindow()
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MyEG/input_Sign In_password'), 
+WebUI.setEncryptedText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MyEG/input_Sign In_password'), 
     'RigbBhfdqOBGNlJIWM1ClA==')
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MyEG/button_Sign In'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MyEG/button_Sign In'))
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MyEG/a_Vehicle Management'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MyEG/a_Vehicle Management'))
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MyEG/a_Vehicle List'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MyEG/a_Vehicle List'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MYEG/select_102550100'), 
+WebUI.selectOptionByValue(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MYEG/select_102550100'), 
     '25', true)
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MYEG/a_5'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MYEG/a_5'))
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MYEG/input_All vehicles_form-contro'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MYEG/input_All vehicles_form-contro'), 
     'QAtest')
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MYEG/a_Vara prasad'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MYEG/a_Vara prasad'))
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MyEG/a_Edit'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MyEG/a_Edit'))
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MYEG/button_Update'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MYEG/button_Update'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MYEG/a_Vehicle Management (1)'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MYEG/a_Vehicle Management (1)'))
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MYEG/a_Vehicle List (1)'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MYEG/a_Vehicle List (1)'))
 
-WebUI.setText(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MYEG/input_All vehicles_form-contro'), 
+WebUI.setText(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MYEG/input_All vehicles_form-contro'), 
     'QAtest')
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MYEG/a_Edit (1)'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MYEG/a_Edit (1)'))
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MYEG/button_Update'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MYEG/button_Update'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Pasti/Pasti_Admin_OB/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MYEG/a_Logout'))
+WebUI.click(findTestObject('Pasti/Pasti_Admin_OR/Pasti_Admin_Vehicle_Management_List_OB/Page_PASTI by MYEG/a_Logout'))
 
 WebUI.closeBrowser()
 
