@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_-- Select State -- Joho</name>
+   <tag></tag>
+   <elementGuidId>4996e5c2-6f91-4906-bc83-f80ce816203c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@name = 'selectedState' and (text() = '-- Select State -- Johor Kedah Kelantan Melaka Negeri Sembilan Pahang Perak Perlis Pulau Pinang Sabah Sarawak Selangor Terengganu Wilayah Persekutuan KL Wilayah Persekutuan Labuan Wilayah Persekutuan Putrajaya' or . = '-- Select State -- Johor Kedah Kelantan Melaka Negeri Sembilan Pahang Perak Perlis Pulau Pinang Sabah Sarawak Selangor Terengganu Wilayah Persekutuan KL Wilayah Persekutuan Labuan Wilayah Persekutuan Putrajaya')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>selectedState</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>changeRegion(this.value)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>aui_3_2_0_1564</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>-- Select State -- Johor Kedah Kelantan Melaka Negeri Sembilan Pahang Perak Perlis Pulau Pinang Sabah Sarawak Selangor Terengganu Wilayah Persekutuan KL Wilayah Persekutuan Labuan Wilayah Persekutuan Putrajaya</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;aui_3_2_0_1564&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>//select[@id='aui_3_2_0_1564']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//td[@id='aui_3_2_0_1565']/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[8]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[9]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//tr[15]/td[2]/select</value>
+   </webElementXpaths>
+</WebElementEntity>

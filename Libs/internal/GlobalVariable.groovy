@@ -24,9 +24,16 @@ public class GlobalVariable {
         allVariables.put('default', ['authorization' : 'Basic dHJvbmdidWlAa21zLXRlY2hub2xvZ3kuY29tOkJBR1J5QWZ1UmV2dTB4clhkclpMNkVDRA=='])
         
         String profileName = RunConfiguration.getExecutionProfile()
-        
         def selectedVariables = allVariables[profileName]
-        authorization = selectedVariables['authorization']
+		
+		for(object in selectedVariables){
+			String overridingGlobalVariable = RunConfiguration.getOverridingGlobalVariable(object.key)
+			if(overridingGlobalVariable != null){
+				selectedVariables.put(object.key, overridingGlobalVariable)
+			}
+		}
+
+        authorization = selectedVariables["authorization"]
         
     }
 }
