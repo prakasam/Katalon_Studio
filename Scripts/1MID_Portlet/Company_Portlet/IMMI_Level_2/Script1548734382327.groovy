@@ -24,10 +24,10 @@ WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/a_Sign In'))
 
-WebUI.setText(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/input_Email Address__58_login'), 'read@liferay.com')
+WebUI.setText(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/input_Email Address__58_login'), 'read2@liferay.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/input_Password__58_password'), 
-    'bdcyxfk0gjc=')
+    '9DvudInqbqE=')
 
 'Click Sign In with Given Username and Password '
 WebUI.takeScreenshot()
@@ -40,8 +40,6 @@ WebUI.delay(10)
 
 'Portlet Dash Board '
 WebUI.takeScreenshot()
-
-not_run: WebUI.navigateToUrl('https://uat5.myeg.com.my/portlet/web/guest/company-portlet')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/select_-- Select -- Registrati'), 
     '1', true)
@@ -75,20 +73,6 @@ WebUI.refresh()
 'Clicked ok in alert message '
 WebUI.takeScreenshot()
 
-not_run: WebUI.navigateToUrl('https://uat5.myeg.com.my/portlet/web/guest/company-portlet')
-
-not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/select_-- Select -- Registrati'), 
-    '1', true)
-
-not_run: WebUI.setText(findTestObject('1MID_Portlet/Super_User_Company-OR/input__Search Value'), 'Apex Global')
-
-not_run: WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Search'))
-
-not_run: WebUI.delay(5)
-
-'Company Page Click Delete '
-not_run: WebUI.takeScreenshot()
-
 WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Delete'))
 
 ' it will display the message " Warnign: You do not have the credentials, Please contact your Administrator. "'
@@ -100,6 +84,135 @@ WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/span_OK'))
 WebUI.takeScreenshot()
 
 WebUI.refresh()
+
+WebUI.navigateToUrl('https://uat5.myeg.com.my/portlet/web/guest/company-portlet')
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/select_-- Select -- Registrati'), 
+    '1', true)
+
+WebUI.setText(findTestObject('1MID_Portlet/Super_User_Company-OR/input__Search Value'), 'Apex Global')
+
+WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Search'))
+
+WebUI.delay(5)
+
+'Click View in Company search page '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input View'))
+
+WebUI.delay(5)
+
+'it will display the company detailed information'
+WebUI.takeScreenshot()
+
+WebUI.scrollToPosition(300, 250)
+
+'it will display the company detailed information'
+WebUI.takeScreenshot()
+
+WebUI.refresh(FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('1MID_Portlet/IMMI_Level_2/a_Form 9 - Certificate of inco'))
+
+WebUI.delay(1)
+
+WebUI.switchToWindowIndex(1)
+
+'Form 9 Document downloaded to view '
+WebUI.takeScreenshot()
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.click(findTestObject('1MID_Portlet/IMMI_Level_2/a_Form 13 - Certificate of inc'))
+
+WebUI.delay(1)
+
+WebUI.switchToWindowIndex(2)
+
+'Form 13 Document downloaded to view '
+WebUI.takeScreenshot()
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.click(findTestObject('1MID_Portlet/IMMI_Level_2/a_Form 24 - Return of allotmen'))
+
+WebUI.delay(1)
+
+WebUI.switchToWindowIndex(3)
+
+'Form 24 Document downloaded to view '
+WebUI.takeScreenshot()
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.click(findTestObject('1MID_Portlet/IMMI_Level_2/a_Form 49 - Return giving part'))
+
+WebUI.delay(1)
+
+WebUI.switchToWindowIndex(4)
+
+'Form 49 Document downloaded to view '
+WebUI.takeScreenshot()
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.click(findTestObject('1MID_Portlet/IMMI_Level_2/a_Copy of company director(s)'))
+
+WebUI.delay(1)
+
+WebUI.switchToWindowIndex(5)
+
+'Copy of Directors mykad Document downloaded to view '
+WebUI.takeScreenshot()
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.click(findTestObject('1MID_Portlet/IMMI_Level_2/a_Appointment Letter'))
+
+WebUI.delay(1)
+
+WebUI.switchToWindowIndex(6)
+
+'Appointment Document downloaded to view '
+WebUI.takeScreenshot()
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.click(findTestObject('1MID_Portlet/IMMI_Level_2/a_Authorization Letter'))
+
+WebUI.delay(1)
+
+WebUI.switchToWindowIndex(7)
+
+'Authorization Document downloaded to view '
+WebUI.takeScreenshot()
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.click(findTestObject('1MID_Portlet/IMMI_Level_2/a_Cancellation of Authorized P'))
+
+WebUI.delay(1)
+
+WebUI.switchToWindowIndex(8)
+
+'Cancelation of Authorization Document downloaded to view '
+WebUI.takeScreenshot()
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.click(findTestObject('1MID_Portlet/IMMI_Level_2/a_Section 58 - CertificateNoti'))
+
+WebUI.delay(1)
+
+WebUI.switchToWindowIndex(9)
+
+'Section 58 Document downloaded to view '
+WebUI.takeScreenshot()
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.delay(5)
 
 WebUI.navigateToUrl('https://uat5.myeg.com.my/portlet/web/guest/company-portlet')
 
@@ -157,19 +270,6 @@ WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/span_OK'))
 WebUI.takeScreenshot()
 
 WebUI.refresh()
-
-not_run: WebUI.navigateToUrl('https://uat5.myeg.com.my/portlet/web/guest/company-portlet')
-
-not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/select_-- Select -- Registrati'), 
-    '1', true)
-
-not_run: WebUI.setText(findTestObject('1MID_Portlet/Super_User_Company-OR/input__Search Value'), 'Sathya Branch 789 to check')
-
-not_run: WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Search'))
-
-not_run: WebUI.delay(5)
-
-not_run: WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input View'))
 
 WebUI.scrollToElement(findTestObject('1MID_Portlet/Super_User_Company-OR/input Branch Delete'), 0)
 
@@ -238,68 +338,6 @@ WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/span_OK'))
 
 'Company Details Page '
 WebUI.takeScreenshot()
-
-WebUI.refresh()
-
-not_run: WebUI.navigateToUrl('https://uat5.myeg.com.my/portlet/web/guest/company-portlet')
-
-not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/select_-- Select -- Registrati'), 
-    '1', true)
-
-not_run: WebUI.setText(findTestObject('1MID_Portlet/Super_User_Company-OR/input__Search Value'), 'Pending Personal Details 654 test')
-
-not_run: WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Search'))
-
-not_run: WebUI.delay(5)
-
-not_run: WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input View'))
-
-not_run: WebUI.delay(5)
-
-not_run: WebUI.scrollToElement(findTestObject('1MID_Portlet/Super_User_Company-OR/input View AP Details'), 0)
-
-'Scroll to view Pending personal details and then click it '
-not_run: WebUI.takeScreenshot()
-
-not_run: WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input View AP Details'))
-
-not_run: WebUI.delay(5)
-
-'it will display the pending personal details page '
-not_run: WebUI.takeScreenshot()
-
-not_run: WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Back to view Company Details'))
-
-not_run: WebUI.delay(5)
-
-'Company Details Page '
-not_run: WebUI.takeScreenshot()
-
-not_run: WebUI.refresh()
-
-not_run: WebUI.scrollToElement(findTestObject('1MID_Portlet/Super_User_Company-OR/input Person Edit'), 5)
-
-'Scroll to edit Pending personal details and then click it '
-not_run: WebUI.takeScreenshot()
-
-not_run: WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Person Edit'))
-
-' it will display the message " Warnign: You do not have the credentials, Please contact your Administrator. "'
-not_run: WebUI.takeScreenshot(FailureHandling.OPTIONAL)
-
-not_run: WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/span_OK'))
-
-'Clicked ok in Alert message '
-not_run: WebUI.takeScreenshot()
-
-not_run: WebUI.refresh()
-
-not_run: WebUI.scrollToPosition(600, 700)
-
-not_run: WebUI.click(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/a_Sign Out'))
-
-'Sign out from company page '
-not_run: WebUI.takeScreenshot()
 
 WebUI.refresh()
 

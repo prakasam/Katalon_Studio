@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input Update AP</name>
+   <name>input Sign in</name>
    <tag></tag>
-   <elementGuidId>b2fb508b-196e-4a9c-abed-a665e7595281</elementGuidId>
+   <elementGuidId>287dbf18-77b0-4932-9287-ad99992dcf32</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@type = 'submit' and @value = 'Update']</value>
+         <value>//input[@type = 'submit' and @value = 'Sign In']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Update</value>
+      <value>Sign In</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
