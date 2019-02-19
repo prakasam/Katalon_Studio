@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input Back</name>
+   <name>input View</name>
    <tag></tag>
-   <elementGuidId>c2f61985-375f-4334-94f7-00bee4fac34f</elementGuidId>
+   <elementGuidId>56b17357-3b5c-4f4e-b82a-c00034912dc1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@type = 'button' and @value = 'Back']</value>
+         <value>//input[@type = 'button' and @value = 'View']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,56 +31,56 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Back</value>
+      <value>View</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>moveBacktoViewBranch();</value>
+      <value>viewCompany('2931');</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;branchForm&quot;)/div[2]/table[1]/tbody[1]/tr[10]/td[1]/input[1]</value>
+      <value>id(&quot;aui_3_2_0_1702&quot;)/td[@class=&quot;align-right col-12 last valign-middle&quot;]/input[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//input[@value='Back']</value>
+      <value>//input[@value='View']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//form[@id='branchForm']/div[2]/table/tbody/tr[10]/td/input</value>
+      <value>//tr[@id='aui_3_2_0_1702']/td[12]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[1]/following::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/following::input[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copyright MyEG Services Berhad © 2012. All Rights Reserved'])[1]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Collected'])[1]/following::input[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'branchForm', '&quot;', ')/div[2]/table[1]/tbody[1]/tr[10]/td[1]/input[1]')])[1]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing 1 - 25 of 2,545 results.'])[1]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//td/input</value>
+      <value>//td[12]/input</value>
    </webElementXpaths>
 </WebElementEntity>

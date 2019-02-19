@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@type = 'button' and @value = 'Add Person']</value>
+         <value>//input[@type = 'submit' and @value = 'Add Person']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>button</value>
+      <value>submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

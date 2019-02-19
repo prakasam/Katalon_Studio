@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input Back</name>
+   <name>input Add Person</name>
    <tag></tag>
-   <elementGuidId>c2f61985-375f-4334-94f7-00bee4fac34f</elementGuidId>
+   <elementGuidId>4fff17d9-9707-4412-81ab-7e43752bd913</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@type = 'button' and @value = 'Back']</value>
+         <value>//input[@type = 'button' and @value = 'Add Person']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,56 +31,62 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Back</value>
+      <value>Add Person</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>moveBacktoViewBranch();</value>
+      <value>editCompany('2931','list');</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;branchForm&quot;)/div[2]/table[1]/tbody[1]/tr[10]/td[1]/input[1]</value>
+      <value>id(&quot;edit-company-form&quot;)/div[@class=&quot;opt-table&quot;]/div[@class=&quot;lfr-search-container&quot;]/div[@class=&quot;results-grid&quot;]/table[@class=&quot;taglib-search-iterator&quot;]/tbody[1]/tr[@class=&quot;portlet-section-body results-row last&quot;]/td[@class=&quot;align-right col-10 valign-middle&quot;]/input[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//input[@value='Back']</value>
+      <value>//input[@value='Edit']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//form[@id='branchForm']/div[2]/table/tbody/tr[10]/td/input</value>
+      <value>//form[@id='edit-company-form']/div/div[3]/div/table/tbody/tr[3]/td[10]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[1]/following::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copyright MyEG Services Berhad © 2012. All Rights Reserved'])[1]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Collected'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'branchForm', '&quot;', ')/div[2]/table[1]/tbody[1]/tr[10]/td[1]/input[1]')])[1]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing 1 result.'])[1]/preceding::input[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copyright MyEG Services Berhad © 2012. All Rights Reserved'])[1]/preceding::input[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//td/input</value>
+      <value>//td[10]/input</value>
    </webElementXpaths>
 </WebElementEntity>

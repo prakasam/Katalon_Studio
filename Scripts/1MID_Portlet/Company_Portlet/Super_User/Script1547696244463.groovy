@@ -436,11 +436,11 @@ WebUI.setText(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-
 
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/input__contact_no'), '0123456789')
+WebUI.setText(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/input__contact_no'), '0123456788')
 
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/input_Fax Number_fax_no'), '0123456789')
+WebUI.setText(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/input_Fax Number_fax_no'), '0123456788')
 
 WebUI.takeScreenshot()
 
@@ -476,10 +476,9 @@ WebUI.click(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR
 
 WebUI.takeScreenshot()
 
-WebUI.sendKeys(findTestObject('1MID_Portlet/Super_User_Company-OR/input__postcode'), Keys.chord(Keys.TAB, Keys.TAB, Keys.TAB, 
-        Keys.ENTER))
+WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Create'))
 
-WebUI.delay(10)
+WebUI.delay(2)
 
 WebUI.takeScreenshot()
 
@@ -491,34 +490,9 @@ WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input View Branch
 
 WebUI.takeScreenshot()
 
-WebUI.back(FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Back'))
 
-WebUI.delay(5)
-
-WebUI.takeScreenshot()
-
-WebUI.navigateToUrl('https://uat5.myeg.com.my/portlet/web/guest/company-portlet')
-
-WebUI.takeScreenshot()
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/select_-- Select -- Registrati'), 
-    '1', true)
-
-WebUI.takeScreenshot()
-
-WebUI.setText(findTestObject('1MID_Portlet/Super_User_Company-OR/input__Search Value'), 'Apex Global')
-
-WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Search'))
-
-WebUI.delay(10)
-
-WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input View'))
-
-WebUI.delay(5)
+WebUI.delay(2)
 
 WebUI.takeScreenshot()
 
@@ -546,7 +520,7 @@ WebUI.setText(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-
 
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/input_Email_branchEmail'), 'test9@gmail.com')
+WebUI.setText(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/input_Email_branchEmail'), 'testedit@gmail.com')
 
 WebUI.takeScreenshot()
 
@@ -560,7 +534,7 @@ WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/input_Address 3_address3'), 'Address 3 edit')
 
-WebUI.sendKeys(findTestObject('1MID_Portlet/Super_User_Company-OR/input_Address 3_address3'), Keys.chord(Keys.TAB, 'Petaling Jaya Edit '))
+WebUI.setText(findTestObject('1MID_Portlet/Super_User_Company-OR/input__city Branch'), 'Petaling Jaya Edit ', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.takeScreenshot()
 
@@ -572,38 +546,17 @@ WebUI.selectOptionByValue(findTestObject('1MID_Portlet/Super_User_Company-OR/sel
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/input_IsActive_is_activeChk'))
+not_run: WebUI.click(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/input_IsActive_is_activeChk'))
 
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Update Branch'))
 
-WebUI.delay(5)
+WebUI.delay(2)
 
 WebUI.takeScreenshot()
 
-WebUI.navigateToUrl('https://uat5.myeg.com.my/portlet/web/guest/company-portlet')
-
-WebUI.takeScreenshot()
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/select_-- Select -- Registrati'), 
-    '1', true)
-
-WebUI.takeScreenshot()
-
-WebUI.setText(findTestObject('1MID_Portlet/Super_User_Company-OR/input__Search Value'), 'Apex Global')
-
-WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Search'))
-
-WebUI.delay(10)
-
-WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input View'))
-
-WebUI.delay(5)
+WebUI.delay(1)
 
 WebUI.takeScreenshot()
 
@@ -613,11 +566,13 @@ WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Branch Delete'))
 
-WebUI.dismissAlert()
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/span_OK'))
 
 WebUI.takeScreenshot()
 
-WebUI.delay(5)
+WebUI.refresh()
 
 WebUI.navigateToUrl('https://uat5.myeg.com.my/portlet/web/guest/company-portlet')
 

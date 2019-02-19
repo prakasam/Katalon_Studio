@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>sample</name>
+   <name>Data_Proc_Immi_Add_Person_and_Update</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ae5739c8-07d9-47ce-8c97-9bc317393c04</testCaseGuid>
+   <testCaseGuid>94424a1f-a50e-45ff-8059-51d824922e9a</testCaseGuid>
 </TestCaseEntity>

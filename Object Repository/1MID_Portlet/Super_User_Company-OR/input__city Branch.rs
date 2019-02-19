@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@type = 'text' and @name = 'city']</value>
+         <value>//input[@type = 'text' and @name = 'city' and @maxlength = '40']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -34,11 +34,11 @@
       <value>city</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>maxlength</name>
       <type>Main</type>
-      <value>30</value>
+      <value>40</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
