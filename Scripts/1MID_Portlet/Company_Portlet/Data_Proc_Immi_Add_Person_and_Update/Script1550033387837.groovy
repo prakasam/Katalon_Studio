@@ -53,7 +53,7 @@ WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Search'))
 
-'it will display the search result '
+'it will display the search result and click view for required company \r\n'
 WebUI.takeScreenshot()
 
 WebUI.delay(3)
@@ -62,25 +62,17 @@ WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input View'))
 
 WebUI.delay(5)
 
+'it will display the company details page '
 WebUI.takeScreenshot()
 
 WebUI.scrollToPosition(400, 500)
 
+'scroll to view add person details and click it '
 WebUI.takeScreenshot()
-
-not_run: WebUI.refresh()
-
-not_run: WebUI.delay(2)
-
-not_run: WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, 
-        Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.ENTER))
-
-not_run: WebUI.delay(2)
-
-not_run: WebUI.refresh()
 
 WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Add Person'))
 
+'it will display the enter person details page \r\n'
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Add new A P'), FailureHandling.CONTINUE_ON_FAILURE)
@@ -304,9 +296,6 @@ WebUI.delay(3)
 
 'it will accept the given values and add the person, display the confirmation " Person successfully added but please remind that the ICNO not registered for 1MID account yet" '
 WebUI.takeScreenshot()
-
-not_run: WebUI.sendKeys(findTestObject('1MID_Portlet/Super_User_Company-OR/input_Designation_designation'), Keys.chord(Keys.TAB, 
-        Keys.ENTER))
 
 WebUI.scrollToElement(findTestObject('1MID_Portlet/Super_User_Company-OR/input View AP Details'), 0)
 
@@ -573,10 +562,6 @@ WebUI.delay(3)
 'it will accept the given values and add the person, display the confirmation " Person successfully added but please remind that the ICNO not registered for 1MID account yet" '
 WebUI.takeScreenshot()
 
-WebUI.delay(2)
-
-WebUI.takeScreenshot()
-
 WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Add Person'))
 
 'click add person '
@@ -592,6 +577,34 @@ WebUI.takeScreenshot()
 WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Add new A P'), FailureHandling.CONTINUE_ON_FAILURE)
 
 'it will display message " ICNO already exists in this company" '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Back'))
+
+'clicked back to company details page '
+WebUI.takeScreenshot()
+
+WebUI.scrollToElement(findTestObject('1MID_Portlet/Super_User_Company-OR/input Delete Person'), 0)
+
+'Scroll to delete person'
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Delete Person'))
+
+WebUI.delay(1)
+
+'it will display warning message in pop up '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/span_OK'))
+
+'clicked OK in pop up to close it '
+WebUI.takeScreenshot()
+
+WebUI.refresh(FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/a_Sign Out'))
+
 WebUI.takeScreenshot()
 
 WebUI.refresh(FailureHandling.CONTINUE_ON_FAILURE)

@@ -59,6 +59,16 @@ WebUI.takeScreenshot()
 
 WebUI.delay(3)
 
+WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Delete'))
+
+'clicked delete button, it will open pop up warning message '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/span_OK'))
+
+'clicked OK in pop up to close it '
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Edit'))
 
 'clicked edit button, it will redirect to edit page  '
@@ -121,8 +131,7 @@ WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/input__companyName'), 'abc')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/select_-- Select Company Type'), 
-    '-1', true)
+WebUI.setText(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/input__regNo'), '')
 
 'Click Update with given company name as lessthan 5 characters '
 WebUI.takeScreenshot()
@@ -134,8 +143,7 @@ WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/input__companyName'), '12345')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/select_-- Select Company Type'), 
-    '-1', true)
+WebUI.setText(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/input__regNo'), '')
 
 'Click Update with given company name as numbers only '
 WebUI.takeScreenshot()
@@ -147,8 +155,7 @@ WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/input__companyName'), 'company name maximum input characters count was 100 test company myeg services berhad ( 213452-  A )')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/select_-- Select Company Type'), 
-    '-1', true)
+WebUI.setText(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/input__regNo'), '')
 
 'Click Update with given company name as maximum 100 characters '
 WebUI.takeScreenshot()
@@ -160,8 +167,7 @@ WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/input__companyName'), 'Apex SDN BHD new company edit')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/select_-- Select Company Type'), 
-    '-1', true)
+WebUI.setText(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/input__regNo'), '')
 
 'Click Update with Given Company name as valid '
 WebUI.takeScreenshot()
@@ -169,12 +175,6 @@ WebUI.takeScreenshot()
 WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Update'))
 
 'it will display message "Please select the company type"'
-WebUI.takeScreenshot()
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/select_-- Select Company Type'), 
-    '1', true)
-
-'Selected Sdn Bhd or Berhad Company type from drop down '
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/input__regNo'), '&@%$&@(^*')
@@ -514,6 +514,38 @@ WebUI.takeScreenshot()
 WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Update'))
 
 'it will display the message  "Company Successfully Updated " '
+WebUI.takeScreenshot()
+
+WebUI.delay(3)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/select_-- Select -- Registrati'), 
+    '1', true)
+
+'Selected Company Name for search drop down opctions'
+WebUI.takeScreenshot()
+
+WebUI.setText(findTestObject('1MID_Portlet/Super_User_Company-OR/input__Search Value'), 'Apex SDN BHD new company ')
+
+'click seach with given company name '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Search'))
+
+'it will display the search result and click view for required company \r\n'
+WebUI.takeScreenshot()
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input View'))
+
+WebUI.delay(5)
+
+'it will display the company details page '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Back'))
+
+'clicked back to company management page '
 WebUI.takeScreenshot()
 
 WebUI.refresh(FailureHandling.CONTINUE_ON_FAILURE)
