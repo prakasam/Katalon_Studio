@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>IMMI_Level_2</name>
+   <name>DP_Manager_1MID_User_Portlet</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>2352ed9d-8137-4417-9610-560ba0c73731</testCaseGuid>
+   <testCaseGuid>b4239162-f32f-4991-bc05-2c73aa5102fd</testCaseGuid>
 </TestCaseEntity>

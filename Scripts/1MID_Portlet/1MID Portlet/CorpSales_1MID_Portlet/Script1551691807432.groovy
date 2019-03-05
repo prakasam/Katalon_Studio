@@ -24,9 +24,9 @@ WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/1MID_Portlet/General/a_Sign In'))
 
-WebUI.setText(findTestObject('Object Repository/1MID_Portlet/General/input_Email Address__58_login'), 'read@liferay.com')
+WebUI.setText(findTestObject('Object Repository/1MID_Portlet/General/input_Email Address__58_login'), 'corpsales@liferay.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/1MID_Portlet/General/input_Password__58_password'), 'bdcyxfk0gjc=')
+WebUI.setEncryptedText(findTestObject('Object Repository/1MID_Portlet/General/input_Password__58_password'), 'du3/JDvzDwol+yPMzk8RWQ==')
 
 'Click Sign in with Given Username and Password '
 WebUI.takeScreenshot()
@@ -150,5 +150,5 @@ WebUI.click(findTestObject('Object Repository/1MID_Portlet/General/a_Sign Out'))
 'Signed out from user '
 WebUI.takeScreenshot()
 
-not_run: WebUI.closeBrowser()
+WebUI.closeBrowser()
 

@@ -24,10 +24,10 @@ WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/a_Sign In'))
 
-WebUI.setText(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/input_Email Address__58_login'), 'dataproc@liferay.com')
+WebUI.setText(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/input_Email Address__58_login'), 'dpmanager@liferay.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/input_Password__58_password'), 
-    'POeQ1a4GSSTI2WSNm0oiZg==')
+    '963xRNC9FB6KQH2z41/hJA==')
 
 'Click sign in with given username password '
 WebUI.takeScreenshot()
@@ -55,18 +55,6 @@ WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Search'))
 'it will display the search result \r\n'
 WebUI.takeScreenshot()
 
-WebUI.delay(3)
-
-WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Delete'))
-
-'clicked delete button, it will open pop up warning message '
-WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/span_OK'))
-
-'clicked OK in pop up to close it '
-WebUI.takeScreenshot()
-
 WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input View'))
 
 WebUI.delay(5)
@@ -84,10 +72,10 @@ WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Person Edit
 'it will open the   Edit personnel details page '
 WebUI.takeScreenshot()
 
-WebUI.selectOptionByValue(findTestObject('1MID_Portlet/Super_User_Company-OR/select_-- Select Status -- NP_2_PD_DataProc'), 
+WebUI.selectOptionByValue(findTestObject('1MID_Portlet/Super_User_Company-OR/select_-- Select Status -- Ver_2_Pending_Delete'), 
     '4', true)
 
-'Changed AP Status Pending Delete using drop down opctions'
+'Changed AP Status Verified to Pending Delete using drop down opctions'
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Update AP'))
@@ -95,13 +83,7 @@ WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Update AP')
 'clicked update with out given remark value . it will display message " Please enter remarks " '
 WebUI.takeScreenshot()
 
-WebUI.selectOptionByValue(findTestObject('1MID_Portlet/Super_User_Company-OR/select_-- Select Status -- NP_2_PD_DataProc'), 
-    '3', true)
-
-WebUI.selectOptionByValue(findTestObject('1MID_Portlet/Super_User_Company-OR/select_-- Select Status -- NP_2_PD_DataProc'), 
-    '4', true)
-
-WebUI.setText(findTestObject('1MID_Portlet/Super_User_Company-OR/input__remarks_dataproc'), 'ID N')
+WebUI.setText(findTestObject('1MID_Portlet/Super_User_Company-OR/input__remarks_DPM'), 'ID N')
 
 'click Update with given remark value  '
 WebUI.takeScreenshot()
@@ -111,13 +93,7 @@ WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Update AP')
 'clicked update with given remark value as lessthan 5 characters . it will display message " Remarks can\'t be less than 5 characters " '
 WebUI.takeScreenshot()
 
-WebUI.selectOptionByValue(findTestObject('1MID_Portlet/Super_User_Company-OR/select_-- Select Status -- NP_2_PD_DataProc'), 
-    '3', true)
-
-WebUI.selectOptionByValue(findTestObject('1MID_Portlet/Super_User_Company-OR/select_-- Select Status -- NP_2_PD_DataProc'), 
-    '4', true)
-
-WebUI.setText(findTestObject('1MID_Portlet/Super_User_Company-OR/input__remarks_dataproc'), 'ID Number Wrong')
+WebUI.setText(findTestObject('1MID_Portlet/Super_User_Company-OR/input__remarks_DPM'), 'ID Number Wrong')
 
 'click Update with given valid remark value  '
 WebUI.takeScreenshot()

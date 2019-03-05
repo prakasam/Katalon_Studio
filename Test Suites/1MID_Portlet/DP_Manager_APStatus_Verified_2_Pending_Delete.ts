@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Data_Pro_Cover_Immi_User</name>
+   <name>DP_Manager_APStatus_Verified_2_Pending_Delete</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,11 +9,11 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>6216f181-b426-4bb2-af33-4a949c4ffb1f</testSuiteGuid>
+   <testSuiteGuid>9b55dcaa-5ee5-485b-bf8c-4eaed0aec081</testSuiteGuid>
    <testCaseLink>
-      <guid>eb3226cf-acc3-4128-a781-5c34a6603b33</guid>
+      <guid>552e744e-2f60-41bb-a4ad-0ae5d3a9e2e7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1MID_Portlet/Company_Portlet/Data_ProCover_Immi_APStatus_Pending_2_NotVerified</testCaseId>
+      <testCaseId>Test Cases/1MID_Portlet/Company_Portlet/DP_Manager_APStatus_Verified_2_Pending_Delete</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

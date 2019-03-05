@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Data_Pro_Cover_Immi_User</name>
+   <name>Super_User_IMID_Portel</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,11 +9,11 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>6216f181-b426-4bb2-af33-4a949c4ffb1f</testSuiteGuid>
+   <testSuiteGuid>70ecf0f7-1b00-4265-8780-fcfa14e89225</testSuiteGuid>
    <testCaseLink>
-      <guid>eb3226cf-acc3-4128-a781-5c34a6603b33</guid>
+      <guid>2139cbbc-2ac9-4be9-a8e5-956a71d40329</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1MID_Portlet/Company_Portlet/Data_ProCover_Immi_APStatus_Pending_2_NotVerified</testCaseId>
+      <testCaseId>Test Cases/1MID_Portlet/1MID Portlet/Super_User_1MID_Portlet</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

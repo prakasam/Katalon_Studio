@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Data_ProCover_Immi</name>
+   <name>DP_Snr_Executive_User_APStatus_PD_2_Ver</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>bd7d2bfd-f245-4ceb-95ef-e67c29c18152</testCaseGuid>
+   <testCaseGuid>888b92b2-6173-4a72-a31a-062df6d2abfd</testCaseGuid>
 </TestCaseEntity>

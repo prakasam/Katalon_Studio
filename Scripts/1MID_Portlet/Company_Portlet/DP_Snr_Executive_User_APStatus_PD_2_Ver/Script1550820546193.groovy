@@ -24,10 +24,10 @@ WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/a_Sign In'))
 
-WebUI.setText(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/input_Email Address__58_login'), 'dataproc@liferay.com')
+WebUI.setText(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/input_Email Address__58_login'), 'dpsnrexec@liferay.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/input_Password__58_password'), 
-    'POeQ1a4GSSTI2WSNm0oiZg==')
+    '43obQDDJ53JZs4JDIOLK6g==')
 
 'Click sign in with given username password '
 WebUI.takeScreenshot()
@@ -74,6 +74,36 @@ WebUI.delay(5)
 'Clicked view button, it will display the company details page '
 WebUI.takeScreenshot()
 
+WebUI.scrollToElement(findTestObject('1MID_Portlet/Super_User_Company-OR/input View AP Details'), 0)
+
+'Scroll down to view ap details and click view '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input View AP Details'))
+
+WebUI.delay(2)
+
+'it will display the View personnel details page '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Back to view Company Details'))
+
+WebUI.refresh(FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('1MID_Portlet/Super_User_Company-OR/input Delete Person'), 0)
+
+'Scroll down to view ap details and click Delete button'
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Delete Person'))
+
+WebUI.delay(2)
+
+'it will ask confirmation for person delete with two opction ok and cancel '
+WebUI.takeScreenshot(FailureHandling.OPTIONAL)
+
+WebUI.dismissAlert()
+
 WebUI.scrollToElement(findTestObject('1MID_Portlet/Super_User_Company-OR/input Person Edit'), 2)
 
 'scroll down to edit person and click edit '
@@ -84,47 +114,14 @@ WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Person Edit
 'it will open the   Edit personnel details page '
 WebUI.takeScreenshot()
 
-WebUI.selectOptionByValue(findTestObject('1MID_Portlet/Super_User_Company-OR/select_-- Select Status -- NP_2_PD_DataProc'), 
-    '4', true)
+WebUI.selectOptionByValue(findTestObject('1MID_Portlet/Super_User_Company-OR/select_-- Select Status -- PD2V'), '2', true)
 
-'Changed AP Status Pending Delete using drop down opctions'
+'Changed AP Status Verified using drop down opctions'
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Update AP'))
 
-'clicked update with out given remark value . it will display message " Please enter remarks " '
-WebUI.takeScreenshot()
-
-WebUI.selectOptionByValue(findTestObject('1MID_Portlet/Super_User_Company-OR/select_-- Select Status -- NP_2_PD_DataProc'), 
-    '3', true)
-
-WebUI.selectOptionByValue(findTestObject('1MID_Portlet/Super_User_Company-OR/select_-- Select Status -- NP_2_PD_DataProc'), 
-    '4', true)
-
-WebUI.setText(findTestObject('1MID_Portlet/Super_User_Company-OR/input__remarks_dataproc'), 'ID N')
-
-'click Update with given remark value  '
-WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Update AP'))
-
-'clicked update with given remark value as lessthan 5 characters . it will display message " Remarks can\'t be less than 5 characters " '
-WebUI.takeScreenshot()
-
-WebUI.selectOptionByValue(findTestObject('1MID_Portlet/Super_User_Company-OR/select_-- Select Status -- NP_2_PD_DataProc'), 
-    '3', true)
-
-WebUI.selectOptionByValue(findTestObject('1MID_Portlet/Super_User_Company-OR/select_-- Select Status -- NP_2_PD_DataProc'), 
-    '4', true)
-
-WebUI.setText(findTestObject('1MID_Portlet/Super_User_Company-OR/input__remarks_dataproc'), 'ID Number Wrong')
-
-'click Update with given valid remark value  '
-WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Update AP'))
-
-'clicked update with out changing person details. it will display comfirmation message " person successfully updated " '
+'clicked update. it will display comfirmation message " person successfully updated " '
 WebUI.takeScreenshot()
 
 WebUI.refresh()
@@ -146,6 +143,4 @@ WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Back to vie
 WebUI.refresh(FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/a_Sign Out'))
-
-WebUI.takeScreenshot()
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Data_Pro_Cover_Immi_User</name>
+   <name>DPSnrExec_User_APStatus_PD2V</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,11 +9,11 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>6216f181-b426-4bb2-af33-4a949c4ffb1f</testSuiteGuid>
+   <testSuiteGuid>614597e8-8695-46bb-9c7f-63257b44ec36</testSuiteGuid>
    <testCaseLink>
-      <guid>eb3226cf-acc3-4128-a781-5c34a6603b33</guid>
+      <guid>42326fa8-7f97-4a29-b695-4b8118bef0cf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1MID_Portlet/Company_Portlet/Data_ProCover_Immi_APStatus_Pending_2_NotVerified</testCaseId>
+      <testCaseId>Test Cases/1MID_Portlet/Company_Portlet/DP_Snr_Executive_User_APStatus_PD_2_Ver</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Data_Pro_Cover_Immi_User</name>
+   <name>DP_Snr_Exec_1MID_User_Portlet</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,11 +9,11 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>6216f181-b426-4bb2-af33-4a949c4ffb1f</testSuiteGuid>
+   <testSuiteGuid>7dbc24fb-decb-48a7-bc24-643d048d36cb</testSuiteGuid>
    <testCaseLink>
-      <guid>eb3226cf-acc3-4128-a781-5c34a6603b33</guid>
+      <guid>7ce52346-05cd-47e4-bb55-cd9e037ee7eb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1MID_Portlet/Company_Portlet/Data_ProCover_Immi_APStatus_Pending_2_NotVerified</testCaseId>
+      <testCaseId>Test Cases/1MID_Portlet/1MID Portlet/DP_Snr_Exec_1MID_User_Portlet</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

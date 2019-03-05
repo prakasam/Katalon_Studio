@@ -31,7 +31,7 @@
    <testCaseLink>
       <guid>f3b08bfd-9fa7-4f72-a395-e1bd7ced5bc0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/1MID_Portlet/Company_Portlet/Data_Proc_Immi_Add_Branch_and_Update</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

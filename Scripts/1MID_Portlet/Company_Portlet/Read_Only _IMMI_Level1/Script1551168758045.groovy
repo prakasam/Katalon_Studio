@@ -75,20 +75,6 @@ WebUI.refresh()
 'Clicked ok in alert message '
 WebUI.takeScreenshot()
 
-not_run: WebUI.navigateToUrl('https://uat5.myeg.com.my/portlet/web/guest/company-portlet')
-
-not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/select_-- Select -- Registrati'), 
-    '1', true)
-
-not_run: WebUI.setText(findTestObject('1MID_Portlet/Super_User_Company-OR/input__Search Value'), 'Apex Global')
-
-not_run: WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Search'))
-
-not_run: WebUI.delay(5)
-
-'Company Page Click Delete '
-not_run: WebUI.takeScreenshot()
-
 WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Delete'))
 
 ' it will display the message " Warnign: You do not have the credentials, Please contact your Administrator. "'
@@ -157,19 +143,6 @@ WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/span_OK'))
 WebUI.takeScreenshot()
 
 WebUI.refresh()
-
-not_run: WebUI.navigateToUrl('https://uat5.myeg.com.my/portlet/web/guest/company-portlet')
-
-not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/1MID_Portlet/Super_User_Company-OR/select_-- Select -- Registrati'), 
-    '1', true)
-
-not_run: WebUI.setText(findTestObject('1MID_Portlet/Super_User_Company-OR/input__Search Value'), 'Sathya Branch 789 to check')
-
-not_run: WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input Search'))
-
-not_run: WebUI.delay(5)
-
-not_run: WebUI.click(findTestObject('1MID_Portlet/Super_User_Company-OR/input View'))
 
 WebUI.scrollToElement(findTestObject('1MID_Portlet/Super_User_Company-OR/input Branch Delete'), 0)
 
