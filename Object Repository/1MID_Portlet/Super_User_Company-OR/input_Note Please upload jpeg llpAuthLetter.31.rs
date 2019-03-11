@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Note Please upload jpeg 1</name>
+   <name>input_Note Please upload jpeg llpAuthLetter.31</name>
    <tag></tag>
-   <elementGuidId>f5d32244-f68b-4b5e-af91-802176ef49ea</elementGuidId>
+   <elementGuidId>d8b902c4-2946-42ab-9363-1e844e119a1a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@type = 'checkbox' and @name = 'status' and @value = '1']</value>
+         <value>//input[@type = 'file' and @name = 'llpAuthLetter.31' and @value = 'Upload']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,69 +24,76 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>checkbox</value>
+      <value>file</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>status</value>
+      <value>llpAuthLetter.31</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>1</value>
+      <value>Upload</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>checkFile(this)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;hidden_bhd&quot;)/input[1]</value>
+      <value>id(&quot;hidden_bhd&quot;)/input[2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//input[@name='status']</value>
+      <value>//input[@name='bhdForm9.1']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='hidden_bhd']/input</value>
+      <value>//div[@id='hidden_bhd']/input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Note: Please upload jpeg, jpg or pdf file only and the max size is 2MB.'])[1]/following::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Note: Please upload jpeg, jpg or pdf file only and the max size is 2MB.'])[1]/following::input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='N/A'])[1]/following::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='N/A'])[1]/following::input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Note: Please upload jpeg, jpg or pdf file only and the max size is 2MB.'])[2]/preceding::input[18]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Note: Please upload jpeg, jpg or pdf file only and the max size is 2MB.'])[2]/preceding::input[17]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Note: Please upload jpeg, jpg or pdf file only and the max size is 2MB.'])[3]/preceding::input[34]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Note: Please upload jpeg, jpg or pdf file only and the max size is 2MB.'])[3]/preceding::input[33]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[2]/input</value>
+      <value>//input[2]</value>
    </webElementXpaths>
 </WebElementEntity>

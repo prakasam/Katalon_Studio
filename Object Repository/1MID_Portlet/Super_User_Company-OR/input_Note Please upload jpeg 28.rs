@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Note Please upload jpeg 1</name>
+   <name>input_Note Please upload jpeg 28</name>
    <tag></tag>
-   <elementGuidId>f5d32244-f68b-4b5e-af91-802176ef49ea</elementGuidId>
+   <elementGuidId>56f03bcd-c4bc-47b4-b3af-3581ef0b5cbe</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@type = 'checkbox' and @name = 'status' and @value = '1']</value>
+         <value>//input[@type = 'checkbox' and @name = 'status' and @value = '28']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -38,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>1</value>
+      <value>28</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
