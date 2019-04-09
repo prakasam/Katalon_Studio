@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Attendance under travel Management</description>
+   <name>TM_Attendance</name>
+   <tag>User</tag>
+   <comment></comment>
+   <testCaseGuid>b4c9b203-7b81-4538-bedb-ea823efd0b4e</testCaseGuid>
+</TestCaseEntity>

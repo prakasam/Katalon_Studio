@@ -11,27 +11,39 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>9f451e67-e981-4d3e-964d-b9f2ee6a66ed</testSuiteGuid>
    <testCaseLink>
-      <guid>d0a7f307-3936-4a2a-9e44-e43fc81a0258</guid>
+      <guid>c433c503-1fd8-4de0-9e5f-b369422dc1d7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/1MID_Portlet/Company_Portlet/Data_Proc_Immi_Create_Company</testCaseId>
+      <testCaseId>Test Cases/PayMe/PayMe_User/TM_Attendance</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0054a7bb-aa9b-4898-8703-8027034ad9c3</guid>
+      <guid>55409b38-d70d-4c85-84c2-e1ca5cfcf44d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/1MID_Portlet/Company_Portlet/Data_Proc_Immi_Update_Company</testCaseId>
+      <testCaseId>Test Cases/PayMe/PayMe_User/UR_Reports</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>17cf5a99-590d-4417-816f-7b2d4cb45e71</guid>
+      <guid>b38425fc-051e-4a2b-baa8-50680d12dccc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/1MID_Portlet/Company_Portlet/Data_Proc_Immi_Add_Person_and_Update</testCaseId>
+      <testCaseId>Test Cases/PayMe/PayMe_Admin/A_Company_Structure</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f3b08bfd-9fa7-4f72-a395-e1bd7ced5bc0</guid>
+      <guid>95927eeb-55e5-423d-9433-8ae7290d7e09</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/1MID_Portlet/Company_Portlet/Data_Proc_Immi_Add_Branch_and_Update</testCaseId>
+      <testCaseId>Test Cases/PayMe/PayMe_Admin/A_Job_Details_Setup</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dd363fda-2a6a-4ee7-af0e-6f9824c128c9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/PayMe/PayMe_Admin/A_Qualification_Setup</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c081e9bc-ce09-4dca-91bd-da468b202c4d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/PayMe/PayMe_Admin/A_Project_client_setup</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

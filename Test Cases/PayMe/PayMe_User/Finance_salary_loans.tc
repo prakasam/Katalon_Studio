@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Salary and loans Under Finance</description>
+   <name>Finance_salary_loans</name>
+   <tag>User</tag>
+   <comment></comment>
+   <testCaseGuid>2c50ea3a-69ff-4ea8-8ef8-600c659523f5</testCaseGuid>
+</TestCaseEntity>

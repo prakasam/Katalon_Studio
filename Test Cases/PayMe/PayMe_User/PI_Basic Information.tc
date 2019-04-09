@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Basic Information  under Personal Information</description>
+   <name>PI_Basic Information</name>
+   <tag>Personal Information</tag>
+   <comment></comment>
+   <testCaseGuid>5b147370-b0a4-4133-ab12-f8858d928ab4</testCaseGuid>
+</TestCaseEntity>
