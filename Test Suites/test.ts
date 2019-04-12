@@ -43,7 +43,31 @@
    <testCaseLink>
       <guid>c081e9bc-ce09-4dca-91bd-da468b202c4d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/PayMe/PayMe_Admin/A_Project_client_setup</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9f124d20-ab33-49cc-af70-5b79aee81947</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/PayMe/PayMe_Admin/A_Overtime_Administration</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>42c85ef7-8262-4670-bf1c-3d6e5f3d07e7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/PayMe/PayMe_Admin/A_Employee_Custom_Fields</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1a6beb7b-d532-46e8-8fa4-b8d6e59456ca</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/PayMe/PayMe_Admin/A_Company_Loans</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dfb868c6-ffe3-48f5-b612-460bff974ad9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/PayMe/PayMe_Admin/E_Employees</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

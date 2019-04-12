@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>E_Employees</name>
+   <tag>admin</tag>
+   <comment></comment>
+   <testCaseGuid>e19a2cf1-dca2-4e61-bc1b-e80038bf7b9d</testCaseGuid>
+</TestCaseEntity>

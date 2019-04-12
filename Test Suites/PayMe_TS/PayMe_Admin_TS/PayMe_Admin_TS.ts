@@ -37,7 +37,25 @@
    <testCaseLink>
       <guid>b2b28fea-ab31-4712-9e36-06bf68b6232d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/PayMe/PayMe_Admin/A_Project_client_setup</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e4d0a849-af8c-4a2c-a865-ba8907ec1b66</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/PayMe/PayMe_Admin/A_Overtime_Administration</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9f9f4474-a12e-449b-b8ed-511eb036827c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/PayMe/PayMe_Admin/A_Employee_Custom_Fields</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>14f79ce3-bdf7-47eb-a2fb-eba68c217075</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/PayMe/PayMe_Admin/A_Company_Loans</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
