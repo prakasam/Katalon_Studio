@@ -4,6 +4,12 @@
    <name>a_Qualifications</name>
    <tag></tag>
    <elementGuidId>eb44e21f-79cd-4f61-a8a7-51cc56c85e35</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;tabQualifications&quot;)[count(. | //a[@id = 'tabQualifications' and @href = '#tabPageQualifications' and (text() = 'Qualifications' or . = 'Qualifications')]) = count(//a[@id = 'tabQualifications' and @href = '#tabPageQualifications' and (text() = 'Qualifications' or . = 'Qualifications')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -35,7 +41,7 @@
       <value>Qualifications</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

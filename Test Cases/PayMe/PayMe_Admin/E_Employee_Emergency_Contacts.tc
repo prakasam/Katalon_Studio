@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>E_Employee_Emergency_Contacts</name>
+   <tag>admin</tag>
+   <comment></comment>
+   <testCaseGuid>a7b3a9b0-dc47-4a54-822a-5cb8d3b6dbc2</testCaseGuid>
+</TestCaseEntity>

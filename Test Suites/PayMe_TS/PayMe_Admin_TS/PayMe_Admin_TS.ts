@@ -58,4 +58,52 @@
       <isRun>false</isRun>
       <testCaseId>Test Cases/PayMe/PayMe_Admin/A_Company_Loans</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>7aad4525-f9ee-42f0-9970-69cf0e127533</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/PayMe/PayMe_Admin/E_Employees</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>762df3e3-af0e-4000-a402-d14c2b5d4d05</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/PayMe/PayMe_Admin/E_Employee_filter_Search_sort</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>316fa890-1d41-4d81-852b-f6d6cc768775</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/PayMe/PayMe_Admin/E_Employee_skills</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>141faf80-9913-4026-ae5d-3982fe26aabe</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/PayMe/PayMe_Admin/E_Employee_Education</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c2825f18-8d76-4408-803d-75b3430d149b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/PayMe/PayMe_Admin/E_Employee_Certifications</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d05c97c8-8b6e-4cb0-92b5-d5e7e8b5c3f5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/PayMe/PayMe_Admin/E_Employee_Language</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e6ebedfa-19f0-4359-b4c7-a987f525facb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/PayMe/PayMe_Admin/E_Employee_Dependents</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a845e48a-9b95-4a5c-8ae5-fcd87d5f0574</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/PayMe/PayMe_Admin/E_Employee_Emergency_Contacts</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

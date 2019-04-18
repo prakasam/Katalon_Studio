@@ -4,6 +4,12 @@
    <name>a_Family</name>
    <tag></tag>
    <elementGuidId>e1015ef6-3496-496b-a5fa-df0606ca2bf5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;tabFamily&quot;)[count(. | //a[@id = 'tabFamily' and @href = '#tabPageFamily' and (text() = 'Family' or . = 'Family')]) = count(//a[@id = 'tabFamily' and @href = '#tabPageFamily' and (text() = 'Family' or . = 'Family')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -35,7 +41,7 @@
       <value>Family</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
