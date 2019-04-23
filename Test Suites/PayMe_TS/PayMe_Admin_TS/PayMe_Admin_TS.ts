@@ -103,7 +103,37 @@
    <testCaseLink>
       <guid>a845e48a-9b95-4a5c-8ae5-fcd87d5f0574</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/PayMe/PayMe_Admin/E_Employee_Emergency_Contacts</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1e7d1661-2ec1-45ab-8e64-aa74e18ad674</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/PayMe/PayMe_Admin/E_Temporarily_Deactivated_Employees</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c747f7e1-8b82-4645-964e-b43d180c3503</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/PayMe/PayMe_Admin/E_Employee_Travel_Requests</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>49e6981e-49d4-40bc-9c9d-9caabc5d4f04</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/PayMe/PayMe_Admin/E_Employee_Travel_Requests_Custom</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9e036761-f410-41de-93a7-b898fcc9f5d3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/PayMe/PayMe_Admin/E_Employee_Monitor_Attendance</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5ff9141b-f216-4a03-bcb1-c91958230fda</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/PayMe/PayMe_Admin/Admin_Repots</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>E_Employee_Travel_Requests</name>
+   <tag>admin</tag>
+   <comment></comment>
+   <testCaseGuid>9e456c98-c165-4573-8d92-df3dca88d928</testCaseGuid>
+</TestCaseEntity>

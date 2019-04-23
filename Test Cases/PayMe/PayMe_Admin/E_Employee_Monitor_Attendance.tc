@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>E_Employee_Monitor_Attendance</name>
+   <tag>admin</tag>
+   <comment></comment>
+   <testCaseGuid>eec351b3-9af6-43a9-bd21-b90fb9b8bd00</testCaseGuid>
+</TestCaseEntity>

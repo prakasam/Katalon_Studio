@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>E_Temporarily_Deactivated_Employees</name>
+   <tag>admin</tag>
+   <comment></comment>
+   <testCaseGuid>a52ee989-1aba-4ce4-bd2e-543f4e645cf8</testCaseGuid>
+</TestCaseEntity>

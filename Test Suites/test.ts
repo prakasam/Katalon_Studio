@@ -11,15 +11,9 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>9f451e67-e981-4d3e-964d-b9f2ee6a66ed</testSuiteGuid>
    <testCaseLink>
-      <guid>55f85838-c8e3-4304-abf8-5ebbd655ce4b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/PayMe/PayMe_Admin/E_Employee_Certifications</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>84558c47-9ead-4d2e-afe4-937f415de7b9</guid>
+      <guid>87f1f22e-91cd-47ce-b823-4a5e8e6668e4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/PayMe/PayMe_Admin/E_Employee_Emergency_Contacts</testCaseId>
+      <testCaseId>Test Cases/PayMe/PayMe_Admin/E_Employee_Monitor_Attendance</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
