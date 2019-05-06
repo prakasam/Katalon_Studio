@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S_Manage_Metadata_Country</name>
+   <tag>admin</tag>
+   <comment></comment>
+   <testCaseGuid>ac9c9b43-573f-464c-8d99-d277ec0e4aa0</testCaseGuid>
+</TestCaseEntity>

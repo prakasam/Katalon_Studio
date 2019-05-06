@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S_Manage_Metadata_Immigration Status</name>
+   <tag>admin</tag>
+   <comment></comment>
+   <testCaseGuid>d41bc5ea-a539-440d-85c6-32fd308b67b9</testCaseGuid>
+</TestCaseEntity>

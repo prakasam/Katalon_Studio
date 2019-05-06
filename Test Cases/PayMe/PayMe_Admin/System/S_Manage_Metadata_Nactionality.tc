@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S_Manage_Metadata_Nactionality</name>
+   <tag>admin</tag>
+   <comment></comment>
+   <testCaseGuid>f1b053ab-e469-4d33-9dea-d10117e0996e</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S_Manage_Metadata_Currency_Types</name>
+   <tag>admin</tag>
+   <comment></comment>
+   <testCaseGuid>73ef6a39-3eaf-4e7b-83bc-c1f5d71d0f42</testCaseGuid>
+</TestCaseEntity>
