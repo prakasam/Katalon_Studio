@@ -4,6 +4,12 @@
    <name>input_records per page_form-control</name>
    <tag></tag>
    <elementGuidId>458a1189-ee03-41b4-b989-daa7fa4dee61</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @placeholder = 'Search']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

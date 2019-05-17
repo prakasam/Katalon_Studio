@@ -180,16 +180,10 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/PayMe_OR/PayMe_Admin
 WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Employee_Custom_Fields_OR/input__field_label'), 
     'work_location')
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Employee_Custom_Fields_OR/span_Required__employee'))
-
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Employee_Custom_Fields_OR/input_Validation_s2id_autogen2_search__employee'), 
-    'none')
-
-WebUI.delay(3)
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Employee_Custom_Fields_OR/input__field_label'), Keys.chord(Keys.TAB, 
+        Keys.ENTER, 'none', Keys.ENTER))
 
 WebUI.delay(3)
 

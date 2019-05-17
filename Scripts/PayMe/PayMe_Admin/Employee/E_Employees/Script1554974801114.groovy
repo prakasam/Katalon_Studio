@@ -66,14 +66,14 @@ WebUI.waitForPageLoad(5)
 'clicked add new button , it will open new page to add employee '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input__employee_id'), 'PDX002')
+WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input__employee_id'), 'PDX0017')
 
 WebUI.waitForPageLoad(5)
 
 'given few details for employee '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input__first_name'), 'paniendra1')
+WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input__first_name'), 'paniendra17')
 
 WebUI.waitForPageLoad(5)
 
@@ -170,6 +170,16 @@ WebUI.waitForPageLoad(5)
 
 'given few details for employee '
 WebUI.takeScreenshot()
+
+WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_Permit Expiry Date_permit_expiry_Employee'), '2019-04-30')
+
+WebUI.waitForPageLoad(5)
+
+'given few details for employee '
+WebUI.takeScreenshot()
+
+WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_Permit Expiry Date_permit_expiry_Employee'), Keys.chord(
+        Keys.TAB, 'pdx.com'))
 
 WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_SSNNRIC_ssn_num'), 'NA')
 
@@ -303,16 +313,10 @@ WebUI.waitForPageLoad(5)
 'given few details for employee '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/span_Select_province_Employee'))
-
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_Province_s2id_autogen9_search_province_Employee'), 
-    'melaka')
-
-WebUI.delay(5)
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_City_city'), Keys.chord(Keys.TAB, Keys.TAB, Keys.ENTER, 
+        'melaka', Keys.ENTER))
 
 WebUI.delay(3)
 
@@ -367,8 +371,6 @@ WebUI.takeScreenshot()
 
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_DOWN))
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input__joined_date_Employee'), '2011-06-20')
-
 WebUI.waitForPageLoad(5)
 
 'given few details for employee '
@@ -376,6 +378,13 @@ WebUI.takeScreenshot()
 
 WebUI.sendKeys(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_Private Email_private_email'), 
     Keys.chord(Keys.TAB, '2011-06-20'))
+
+WebUI.waitForPageLoad(5)
+
+'given few details for employee '
+WebUI.takeScreenshot()
+
+WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input__joined_date_Employee'), '2011-06-20')
 
 WebUI.waitForPageLoad(5)
 
@@ -398,25 +407,10 @@ WebUI.waitForPageLoad(5)
 'given few details for employee '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_Permit Expiry Date_permit_expiry_Employee'), '2019-04-30')
-
-WebUI.waitForPageLoad(5)
-
-'given few details for employee '
-WebUI.takeScreenshot()
-
 WebUI.delay(3)
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/span_Samsung SDI_department_Employee'))
-
-WebUI.delay(3)
-
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_Department_s2id_autogen10_search_department_Employee'), 
-    'pdx.com')
-
-WebUI.delay(3)
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_Termination Date_termination_date_Employee'), 
+    Keys.chord(Keys.TAB, Keys.ENTER, 'pdx.com', Keys.ENTER))
 
 WebUI.delay(3)
 
@@ -425,16 +419,8 @@ WebUI.waitForPageLoad(5)
 'given few details for employee '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/span_Select_supervisor_Employee'))
-
-WebUI.delay(3)
-
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_Supervisor_s2id_autogen11_search_supervisor_Employee'), 
-    'aplus')
-
-WebUI.delay(3)
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_Termination Date_termination_date_Employee'), 
+    Keys.chord(Keys.TAB, Keys.TAB, Keys.ENTER, 'aplus', Keys.ENTER))
 
 WebUI.delay(3)
 
@@ -443,23 +429,8 @@ WebUI.waitForPageLoad(5)
 'given few details for employee '
 WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/ul_Indirect Supervisors'), 
-    FailureHandling.CONTINUE_ON_FAILURE)
-
-not_run: WebUI.delay(3)
-
-not_run: WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_Indirect Supervisors_s2id_autogen15'), 
-    'madan')
-
-not_run: WebUI.delay(3)
-
-not_run: WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
-
-not_run: WebUI.delay(3)
-
-not_run: WebUI.waitForPageLoad(5)
-
-not_run: WebUI.takeScreenshot()
+WebUI.sendKeys(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_Termination Date_termination_date_Employee'), 
+    Keys.chord(Keys.TAB, Keys.TAB, Keys.TAB, Keys.ENTER, 'paniendra1', Keys.ENTER))
 
 WebUI.delay(3)
 
@@ -467,16 +438,8 @@ WebUI.waitForPageLoad(5)
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/span_None_First_level_Employee'), FailureHandling.OPTIONAL)
-
-WebUI.delay(3, FailureHandling.OPTIONAL)
-
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_First Level Approver_s2id_autogen12_search_First_level_Employee'), 
-    'madan', FailureHandling.OPTIONAL)
-
-WebUI.delay(3, FailureHandling.OPTIONAL)
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER), FailureHandling.OPTIONAL)
+WebUI.sendKeys(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_Termination Date_termination_date_Employee'), 
+    Keys.chord(Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.ENTER, 'madan', Keys.ENTER))
 
 WebUI.delay(3, FailureHandling.OPTIONAL)
 
@@ -485,16 +448,10 @@ WebUI.waitForPageLoad(5)
 'given few details for employee '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/span_None_Second_level_Employee'))
-
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_Second Level Approver_s2id_autogen13_search_Second_level_Employee'), 
-    'hari')
-
-WebUI.delay(3)
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_Termination Date_termination_date_Employee'), 
+    Keys.chord(Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.ENTER, 'hari', Keys.ENTER))
 
 WebUI.delay(3)
 
@@ -503,16 +460,10 @@ WebUI.waitForPageLoad(5)
 'given few details for employee '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/span_None_Third_level_Employee'))
-
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_Third Level Approver_s2id_autogen14_search_Third_level_Employee'), 
-    'kum')
-
-WebUI.delay(3)
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_Termination Date_termination_date_Employee'), 
+    Keys.chord(Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.ENTER, 'kumar', Keys.ENTER))
 
 WebUI.delay(3)
 
@@ -566,7 +517,9 @@ WebUI.waitForPageLoad(5)
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_records per page_form-control'), 
-    'paniendra')
+    'paniendra17')
+
+WebUI.delay(3)
 
 WebUI.waitForPageLoad(5)
 
@@ -580,7 +533,7 @@ WebUI.waitForPageLoad(5)
 'clicked edit image button , it will open in new page to edit '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input__first_name'), 'paniendra edit')
+WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input__first_name'), 'paniendra17 edit')
 
 WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_Middle Name_middle_name'), 'myeg edit')
 
@@ -653,7 +606,9 @@ WebUI.waitForPageLoad(5)
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_records per page_form-control'), 
-    'paniendra')
+    'paniendra17')
+
+WebUI.delay(3)
 
 WebUI.waitForPageLoad(5)
 
@@ -682,7 +637,9 @@ WebUI.waitForPageLoad(5)
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_records per page_form-control'), 
-    'paniendra')
+    'paniendra17')
+
+WebUI.delay(3)
 
 WebUI.waitForPageLoad(5)
 
@@ -702,6 +659,10 @@ WebUI.waitForPageLoad(5)
 
 'click  X mark to close employ login '
 WebUI.takeScreenshot()
+
+WebUI.refresh()
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/a_Admin'))
 
@@ -727,7 +688,9 @@ WebUI.waitForPageLoad(5)
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_records per page_form-control'), 
-    'paniendra')
+    'paniendra17')
+
+WebUI.delay(3)
 
 WebUI.waitForPageLoad(5)
 

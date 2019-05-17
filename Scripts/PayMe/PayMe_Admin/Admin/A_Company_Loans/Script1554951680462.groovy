@@ -229,26 +229,28 @@ WebUI.waitForPageLoad(5)
 'clicked add new page , it will open in new page '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/span_alert(1) alert(1)_employee'), FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/span_alert(1) alert(1)_employee'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'selected all employs combo box to choose required '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/input_Employee_s2id_autogen2_search_employee'), 
+not_run: WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/input_Employee_s2id_autogen2_search_employee'), 
     'aplus')
+
+not_run: WebUI.delay(2)
+
+not_run: WebUI.waitForPageLoad(5)
+
+'entered data to choose required employ '
+not_run: WebUI.takeScreenshot()
 
 WebUI.delay(2)
 
-WebUI.waitForPageLoad(5)
-
-'entered data to choose required employ '
-WebUI.takeScreenshot()
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER, 'aplus', Keys.ENTER))
 
 WebUI.delay(2)
 
@@ -274,26 +276,28 @@ WebUI.waitForPageLoad(5)
 'given few details '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/span_Utd. Arab Emir. Dirham__employee'), FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/span_Utd. Arab Emir. Dirham__employee'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'selected currency combo box to choose required '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/input_Currency_s2id_autogen3_search__employee'), 
+not_run: WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/input_Currency_s2id_autogen3_search__employee'), 
     'malaysian')
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'entered data to choose required currency '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
 WebUI.delay(2)
 
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/input__period_months'), Keys.chord(Keys.TAB, Keys.ENTER, 
+        'malaysian', Keys.ENTER))
 
 WebUI.waitForPageLoad(5)
 
@@ -326,7 +330,9 @@ WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/a_Employee Loans'))
 
-WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/a_Employee Loans'))
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/a_Employee Loans'), FailureHandling.OPTIONAL)
 
 WebUI.waitForPageLoad(5)
 

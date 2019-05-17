@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Reports under user reports</description>
+   <name>User_Reports</name>
+   <tag>user</tag>
+   <comment></comment>
+   <testCaseGuid>647960cc-3ac2-4e5e-aef1-aad74d68de05</testCaseGuid>
+</TestCaseEntity>

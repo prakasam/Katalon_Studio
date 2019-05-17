@@ -3,7 +3,8 @@
    <description></description>
    <name>Pasti_TestSuite_Collection</name>
    <tag></tag>
-   <executionMode>PARALLEL</executionMode>
+   <executionMode>SEQUENTIAL</executionMode>
+   <maxConcurrentInstances>8</maxConcurrentInstances>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
          <configuration>

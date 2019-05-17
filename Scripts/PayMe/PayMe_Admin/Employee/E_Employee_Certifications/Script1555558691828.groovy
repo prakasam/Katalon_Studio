@@ -103,7 +103,7 @@ not_run: WebUI.delay(3)
 'searched employee to select '
 WebUI.takeScreenshot()
 
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, 'aplus', Keys.ENTER))
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER, 'aplus', Keys.ENTER))
 
 not_run: WebUI.delay(3)
 

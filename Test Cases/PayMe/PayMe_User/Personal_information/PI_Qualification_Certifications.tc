@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Qualification  from personal information</description>
+   <name>PI_Qualification_Certifications</name>
+   <tag>Personal Information</tag>
+   <comment></comment>
+   <testCaseGuid>a9bb647a-d016-42a9-ac5f-cf45c84b0547</testCaseGuid>
+</TestCaseEntity>

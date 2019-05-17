@@ -80,24 +80,36 @@ WebUI.waitForPageLoad(5)
 'clicked save button with out given required info , it will display in red color for manadatory details '
 WebUI.takeScreenshot()
 
-WebUI.delay(3)
+not_run: WebUI.delay(3)
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/span_Kabir Hussin_add'))
+not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/span_Kabir Hussin_add'))
 
-WebUI.delay(3)
+not_run: WebUI.delay(3)
 
 'clicked employee combo box to view '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_skills/input_Employee_s2id_autogen2_search'), 
+not_run: WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_skills/input_Employee_s2id_autogen2_search'), 
     'april')
 
-WebUI.delay(3)
+not_run: WebUI.delay(3)
 
 'searched employee to select '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_skills/a_Skills'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_skills/a_Skills'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_skills/button_Add New'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER, 'aplus', Keys.ENTER))
 
 WebUI.delay(3)
 
@@ -123,7 +135,7 @@ not_run: WebUI.delay(5)
 'searched required skills to select '
 not_run: WebUI.takeScreenshot()
 
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, 'information security', Keys.ENTER))
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER, 'information security', Keys.ENTER))
 
 WebUI.delay(3)
 
@@ -365,5 +377,9 @@ WebUI.refresh()
 
 WebUI.waitForPageLoad(5)
 
-not_run: WebUI.navigateToUrl('https://payme-uat.myegdev.com/app/logout.php', FailureHandling.OPTIONAL)
+WebUI.navigateToUrl('https://payme-uat.myegdev.com/app/logout.php', FailureHandling.OPTIONAL)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.closeBrowser(FailureHandling.OPTIONAL)
 

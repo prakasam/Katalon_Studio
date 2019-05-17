@@ -619,10 +619,18 @@ WebUI.waitForPageLoad(5)
 'click search using invalid data , it will display message " No matcheing records found"  '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Job_Details_Setup_OR/input_records per page_form-control_employ_staatus'), 
-    '')
+WebUI.refresh()
+
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Job_Details_Setup_OR/a_Job Details Setup'))
 
 WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Job_Details_Setup_OR/a_Employment Status'))
+
+WebUI.waitForPageLoad(5)
+
+'clicked Employ status in job details page , it will open employ status page '
+WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Job_Details_Setup_OR/th_ID'))
 

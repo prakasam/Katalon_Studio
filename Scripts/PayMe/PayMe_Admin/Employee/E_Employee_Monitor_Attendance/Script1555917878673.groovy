@@ -147,7 +147,7 @@ WebUI.waitForPageLoad(5)
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_Monitor_Attendance/input_records per page_form-control'), 
-    'aplus')
+    '2019-04-22')
 
 WebUI.waitForPageLoad(5)
 

@@ -4,6 +4,16 @@
    <name>a_ProjectsClient Setup</name>
    <tag></tag>
    <elementGuidId>66719706-1999-4ecc-a8f5-4b81b6d0e173</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;admin_Admin&quot;)/li[5]/a[1][count(. | //a[@href = 'https://payme-uat.myegdev.com/app/?g=admin&amp;n=projects&amp;m=admin_Admin' and (text() = '
+                                             Projects/Client Setup                                        ' or . = '
+                                             Projects/Client Setup                                        ')]) = count(//a[@href = 'https://payme-uat.myegdev.com/app/?g=admin&amp;n=projects&amp;m=admin_Admin' and (text() = '
+                                             Projects/Client Setup                                        ' or . = '
+                                             Projects/Client Setup                                        ')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -36,7 +46,7 @@
                                              Projects/Client Setup                                        </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

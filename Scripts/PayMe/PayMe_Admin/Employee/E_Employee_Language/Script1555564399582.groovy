@@ -104,7 +104,7 @@ not_run: WebUI.takeScreenshot()
 
 not_run: WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
 
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, 'aplus', Keys.ENTER))
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER, 'aplus', Keys.ENTER))
 
 WebUI.delay(3)
 
@@ -115,22 +115,22 @@ WebUI.takeScreenshot()
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Language/span_en'))
+not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Language/span_en'))
 
-WebUI.delay(3)
+not_run: WebUI.delay(3)
 
 'clicked Language combo box to view '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Language/input_LanguageLanguage_s2id_autogen5_search'), 
+not_run: WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Language/input_LanguageLanguage_s2id_autogen5_search'), 
     'my')
 
-WebUI.delay(3)
+not_run: WebUI.delay(3)
 
 'searched required Language to select '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER, 'my', Keys.ENTER))
 
 not_run: WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER, 'my', Keys.ENTER))
 
@@ -298,11 +298,22 @@ WebUI.waitForPageLoad(5)
 'search using Writing info, it will display the matched records '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Language/input_records per page_form-control'), 'bilingual')
+WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Language/input_records per page_form-control'), 'professional')
 
 WebUI.waitForPageLoad(5)
 
 'search using Understanding info, it will display the matched records '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Language/a_Languages'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Language/a_Languages'))
+
+WebUI.waitForPageLoad(5)
+
+'clicked Language link it will open Language page '
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Language/th_Employee'))

@@ -4,6 +4,12 @@
    <name>input_records per page_form-control</name>
    <tag></tag>
    <elementGuidId>94c8207e-f22e-493e-91a7-1f97fe8dd796</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;grid_filter&quot;)/label[1]/input[@class=&quot;form-control&quot;][count(. | //input[@type = 'text' and @placeholder = 'Search']) = count(//input[@type = 'text' and @placeholder = 'Search'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -42,7 +48,7 @@
       <value>Search</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

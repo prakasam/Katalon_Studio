@@ -202,46 +202,50 @@ WebUI.waitForPageLoad(5)
 'clicked add new button , it will open new page '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Overtime_Administration_OR/span_Kabir Hussin_Requests'))
+not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Overtime_Administration_OR/span_Kabir Hussin_Requests'))
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'clicked employ combobox for list \r\n'
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Overtime_Administration_OR/input_Employee_s2id_autogen2_search'), 
+not_run: WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Overtime_Administration_OR/input_Employee_s2id_autogen2_search'), 
     'aplus')
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'given employee name to select  '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
+WebUI.delay(3)
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER, 'aplus', Keys.ENTER))
 
 WebUI.waitForPageLoad(5)
 
 'selected requred employ name from combo box '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Overtime_Administration_OR/span_Normal OT_Requests'))
+not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Overtime_Administration_OR/span_Normal OT_Requests'))
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'clicked category combobox for list \r\n'
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
+
+not_run: WebUI.delay(3)
+
+not_run: WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Overtime_Administration_OR/input_Category_s2id_autogen3_search_Requests'), 
+    'pay per hour ')
+
+not_run: WebUI.waitForPageLoad(5)
+
+'given category name  to select  reqquired '
+not_run: WebUI.takeScreenshot()
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Overtime_Administration_OR/input_Category_s2id_autogen3_search_Requests'), 
-    'pay per hour ')
-
-WebUI.waitForPageLoad(5)
-
-'given category name  to select  reqquired '
-WebUI.takeScreenshot()
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER, 'pay per hour ', Keys.ENTER))
 
 WebUI.waitForPageLoad(5)
 
@@ -257,22 +261,25 @@ WebUI.waitForPageLoad(5)
 'given start , end  date and time  for overtime request '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Overtime_Administration_OR/span_Select_Requests'), FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Overtime_Administration_OR/span_Select_Requests'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'clicked project combobox to view list \r\n'
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Overtime_Administration_OR/input_Project_s2id_autogen4_search'), 
+not_run: WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Overtime_Administration_OR/input_Project_s2id_autogen4_search'), 
     'pdx')
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'given project name  to select  reqquired '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
+WebUI.delay(3)
+
+WebUI.sendKeys(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Overtime_Administration_OR/input__end_time_Requests'), Keys.chord(
+        Keys.TAB, Keys.ENTER, 'PDX', Keys.ENTER))
 
 WebUI.waitForPageLoad(5)
 
