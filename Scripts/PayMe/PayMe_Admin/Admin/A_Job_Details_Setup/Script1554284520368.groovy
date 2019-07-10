@@ -190,12 +190,12 @@ WebUI.waitForPageLoad(5)
 'clicked delete button from pop up for confirmation , it will delete record and auto redirected to job details page '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Job_Details_Setup_OR/th_Code'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Job_Details_Setup_OR/th_Code'), FailureHandling.OPTIONAL)
 
 'Clicked code to arrange assending order '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Job_Details_Setup_OR/th_Code'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Job_Details_Setup_OR/th_Code'), FailureHandling.OPTIONAL)
 
 'Clicked code to arrange Dessending order '
 WebUI.takeScreenshot()
@@ -621,7 +621,11 @@ WebUI.takeScreenshot()
 
 WebUI.refresh()
 
-WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Job_Details_Setup_OR/a_Job Details Setup'))
+WebUI.waitForPageLoad(5)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Job_Details_Setup_OR/a_Job Details Setup'), FailureHandling.OPTIONAL)
 
 WebUI.waitForPageLoad(5)
 

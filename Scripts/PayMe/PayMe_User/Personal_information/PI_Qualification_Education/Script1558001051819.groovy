@@ -85,7 +85,7 @@ WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Eaducation/
 
 WebUI.waitForPageLoad(5)
 
-'it will save the record and auto redirected to skills page '
+'it will save the record and auto redirected to eaducation page '
 WebUI.takeScreenshot()
 
 WebUI.delay(3)

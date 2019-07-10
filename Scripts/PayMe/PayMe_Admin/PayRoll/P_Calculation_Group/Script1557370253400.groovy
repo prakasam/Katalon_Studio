@@ -195,7 +195,9 @@ WebUI.waitForPageLoad(5)
 'click delete , it will delete the record and auto redirect to Calculation group page '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/P_Sallary_OR/Calculation_group_OR/th_Name_a'))
+WebUI.delay(3)
+
+WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/P_Sallary_OR/Calculation_group_OR/th_Name_a'), FailureHandling.OPTIONAL)
 
 WebUI.waitForPageLoad(5)
 

@@ -66,14 +66,14 @@ WebUI.waitForPageLoad(5)
 'clicked add new button , it will open new page to add employee '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input__employee_id'), 'PDX0017')
+WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input__employee_id'), 'PDX0032')
 
 WebUI.waitForPageLoad(5)
 
 'given few details for employee '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input__first_name'), 'paniendra17')
+WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input__first_name'), 'paniendra32')
 
 WebUI.waitForPageLoad(5)
 
@@ -207,16 +207,8 @@ WebUI.takeScreenshot()
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/span_Full Time Contract_Employ_status_Employee'))
-
-WebUI.delay(3)
-
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_Employment Status_s2id_autogen5_search_Employ_status_Employee'), 
-    'full time contract')
-
-WebUI.delay(3)
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_Driving License No_driving_license'), Keys.chord(
+        Keys.TAB, Keys.ENTER, 'full time contract', Keys.ENTER))
 
 WebUI.delay(3)
 
@@ -225,16 +217,8 @@ WebUI.waitForPageLoad(5)
 'given few details for employee '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/span_Software Engineer_job_title_Employee'))
-
-WebUI.delay(3)
-
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_Job Title_s2id_autogen6_search_job_title_Employee'), 
-    'machine operator')
-
-WebUI.delay(3)
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_Driving License No_driving_license'), Keys.chord(
+        Keys.TAB, Keys.TAB, Keys.ENTER, 'machine operator', Keys.ENTER))
 
 WebUI.delay(3)
 
@@ -243,16 +227,8 @@ WebUI.waitForPageLoad(5)
 'given few details for employee '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/span_Select_pay_grade_Employee'))
-
-WebUI.delay(3)
-
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_Pay Grade_s2id_autogen7_search_pay_grade_Employee'), 
-    'manufacturing')
-
-WebUI.delay(3)
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_Driving License No_driving_license'), Keys.chord(
+        Keys.TAB, Keys.TAB, Keys.TAB, Keys.ENTER, 'manufacturing', Keys.ENTER))
 
 WebUI.delay(3)
 
@@ -517,7 +493,7 @@ WebUI.waitForPageLoad(5)
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_records per page_form-control'), 
-    'paniendra17')
+    'paniendra32')
 
 WebUI.delay(3)
 
@@ -533,7 +509,7 @@ WebUI.waitForPageLoad(5)
 'clicked edit image button , it will open in new page to edit '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input__first_name'), 'paniendra17 edit')
+WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input__first_name'), 'paniendra32 edit')
 
 WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_Middle Name_middle_name'), 'myeg edit')
 
@@ -606,7 +582,7 @@ WebUI.waitForPageLoad(5)
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_records per page_form-control'), 
-    'paniendra17')
+    'paniendra32')
 
 WebUI.delay(3)
 
@@ -629,6 +605,14 @@ WebUI.waitForPageLoad(5)
 'clicked edit info , it will  open edit employ details page '
 WebUI.takeScreenshot()
 
+WebUI.delay(3)
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.END))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/button_Save'))
 
 WebUI.waitForPageLoad(5)
@@ -637,7 +621,7 @@ WebUI.waitForPageLoad(5)
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_records per page_form-control'), 
-    'paniendra17')
+    'paniendra32')
 
 WebUI.delay(3)
 
@@ -688,7 +672,7 @@ WebUI.waitForPageLoad(5)
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_records per page_form-control'), 
-    'paniendra17')
+    'paniendra32')
 
 WebUI.delay(3)
 
@@ -711,13 +695,36 @@ WebUI.waitForPageLoad(5)
 'clicked upload photo button , it will open in pop up '
 WebUI.takeScreenshot()
 
-WebUI.waitForAlert(5)
+WebUI.waitForAlert(3)
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/button_Cancel_popup_upload'))
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.TAB, Keys.ENTER))
 
 WebUI.waitForPageLoad(5)
 
-'click close pop up '
+'clicked choose file button , it will open windows internet explorer to select file  '
+WebUI.takeScreenshot()
+
+WebUI.waitForAlert(5)
+
+autoit_prj = 'D:\\workspace\\KSW\\UF\\PP\\male.exe'
+
+Runtime.getRuntime().exec(autoit_prj)
+
+WebUI.delay(2)
+
+Thread.sleep(2000)
+
+WebUI.waitForPageLoad(5)
+
+'added image to user '
+WebUI.takeScreenshot()
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/button_Cancel_popup_upload'), FailureHandling.OPTIONAL)
+
+WebUI.waitForPageLoad(5)
+
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/button_Delete Profile Image'))
@@ -749,16 +756,7 @@ WebUI.waitForAlert(5)
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/Qualifications/span_Select_skills'))
-
-WebUI.delay(3)
-
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/Qualifications/input_concat(id(  s2id_autogen2_search  ))_s2id_autogen2_search__skills'), 
-    'networking')
-
-WebUI.delay(3)
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.TAB, Keys.ENTER, 'networking', Keys.ENTER))
 
 WebUI.delay(3)
 
@@ -781,11 +779,24 @@ WebUI.waitForPageLoad(5)
 'it was added the skills to employee '
 WebUI.takeScreenshot()
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/button_Education_btn btn-small btn-success'))
 
 WebUI.waitForPageLoad(5)
 
 'clicked add eaducation info it will open in pop up to add '
+WebUI.takeScreenshot()
+
+WebUI.delay(3)
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.TAB, Keys.ENTER, 'diploma', Keys.ENTER))
+
+WebUI.delay(3)
+
+WebUI.waitForPageLoad(5)
+
+'choosed opction from combo box '
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/Qualifications/input__institute_Education_Education'), 
@@ -812,11 +823,24 @@ WebUI.waitForPageLoad(5)
 'it was added the eaducation detaios to employee '
 WebUI.takeScreenshot()
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/button_Certifications_btn btn-small btn-success'))
 
 WebUI.waitForPageLoad(5)
 
 'clicked add certification info it will open in pop up to add '
+WebUI.takeScreenshot()
+
+WebUI.delay(3)
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.TAB, Keys.ENTER, 'risk management professional ', Keys.ENTER))
+
+WebUI.delay(3)
+
+WebUI.waitForPageLoad(5)
+
+'choosed opction from combo box '
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/Qualifications/input__institute_certification'), 'Malaysian institute')
@@ -842,11 +866,24 @@ WebUI.waitForPageLoad(5)
 'it was added the certification details to employee '
 WebUI.takeScreenshot()
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/button_Languages_btn btn-small btn-success'))
 
 WebUI.waitForPageLoad(5)
 
 'clicked add Languages info it will open in pop up to add \r\n'
+WebUI.takeScreenshot()
+
+WebUI.delay(3)
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.TAB, Keys.ENTER, 'my', Keys.ENTER))
+
+WebUI.delay(3)
+
+WebUI.waitForPageLoad(5)
+
+'choosed opction from combo box '
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/Qualifications/button_Save_language'))
@@ -856,12 +893,16 @@ WebUI.waitForPageLoad(5)
 'clicked save with given details , it will save details to employee '
 WebUI.takeScreenshot()
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/a_Family'))
 
 WebUI.waitForPageLoad(5)
 
 'clicked family link from employe details '
 WebUI.takeScreenshot()
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/button_Emergency Contacts_btn btn-small btn-success'))
 
@@ -896,6 +937,8 @@ WebUI.waitForPageLoad(5)
 'it was added the emergency contact details to employee '
 WebUI.takeScreenshot()
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/button_Dependents_btn btn-small btn-success'))
 
 WebUI.waitForPageLoad(5)
@@ -926,6 +969,8 @@ WebUI.waitForPageLoad(5)
 
 'it will save the dependents details to employee '
 WebUI.takeScreenshot()
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/a_Employees_3'))
 

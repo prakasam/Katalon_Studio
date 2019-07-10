@@ -49,7 +49,7 @@ WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Certificati
 
 WebUI.waitForPageLoad(5)
 
-'clicked eaducation link , it will open page '
+'clicked certification link , it will open page '
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Certifications/button_Add New'))
@@ -59,38 +59,38 @@ WebUI.waitForPageLoad(5)
 'clicked add new button , it will open page '
 WebUI.takeScreenshot()
 
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER, 'masters', Keys.ENTER))
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER, 'certified public', Keys.ENTER))
 
 WebUI.waitForPageLoad(5)
 
 'choosen Qualification information from combo box '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Eaducation/input__institute'), 'Malayu University')
+WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Certifications/input__institute'), 'Malayu University')
 
 'given institute information '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Eaducation/input_Start Date_date_start'), '2010-06-07')
+WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Certifications/input_Granted On_date_start'), '2010-06-07')
 
-'given start date information '
+'given graduated on date information '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Eaducation/input_Completed On_date_end'), '2013-03-05')
+WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Certifications/input_Valid Thru_date_end'), '2013-03-05')
 
-'click save with given end date information '
+'click save with given valid thru date information '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Eaducation/button_Save'))
+WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Certifications/button_Save'))
 
 WebUI.waitForPageLoad(5)
 
-'it will save the record and auto redirected to skills page '
+'it will save the record and auto redirected to certification page '
 WebUI.takeScreenshot()
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Eaducation/input_records per page_form-control'), 
+WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Certifications/input_records per page_form-control'), 
     'Malayu')
 
 WebUI.waitForPageLoad(5)
@@ -100,28 +100,28 @@ WebUI.waitForPageLoad(5)
 'search using institute info , it will display the matched records '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Eaducation/img_Malayu University_tableActionButton_edit'))
+WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Certifications/img_Malayu University_tableActionButton_edit'))
 
 WebUI.waitForPageLoad(5)
 
 'clicked edit image link , it will open the details in page '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Eaducation/input__institute'), 'Malayu University edit ')
+WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Certifications/input__institute'), 'Malayu University edit ')
 
 WebUI.waitForPageLoad(5)
 
 'click save with given required changes '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Eaducation/button_Save'))
+WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Certifications/button_Save'))
 
 WebUI.waitForPageLoad(5)
 
-'it will save the record and auto redirected to eaducation page '
+'it will save the record and auto redirected to certification page '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Eaducation/input_records per page_form-control'), 
+WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Certifications/input_records per page_form-control'), 
     'Malayu')
 
 WebUI.waitForPageLoad(5)
@@ -129,21 +129,37 @@ WebUI.waitForPageLoad(5)
 'search using institute info , it will display the matched records '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Eaducation/img_Malayu University edit_tableActionButton_copy'))
+WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Certifications/img_Malayu University edit_tableActionButton_copy'))
 
 WebUI.waitForPageLoad(5)
 
 'clicked copy image link , it will open the details in page '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Eaducation/button_Save'))
+WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Certifications/button_Save'))
 
 WebUI.waitForPageLoad(5)
 
-'it will save the record and auto redirected to eaducation page '
+WebUI.waitForAlert(5)
+
+'it will display the error info in pop up " A duplicate entry found" '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Eaducation/input_records per page_form-control'), 
+WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Certifications/button_Ok'))
+
+WebUI.waitForPageLoad(5)
+
+'Clicked ok in pop up '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Certifications/button_Cancel'))
+
+WebUI.waitForPageLoad(5)
+
+'clicked cancel button , it will auto redirected to certification page '
+WebUI.takeScreenshot()
+
+WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Certifications/input_records per page_form-control'), 
     'Malayu')
 
 WebUI.waitForPageLoad(5)
@@ -151,7 +167,7 @@ WebUI.waitForPageLoad(5)
 'search using institute info , it will display the matched records '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Eaducation/img_Malayu University edit_tableActionButton_delete'))
+WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Certifications/img_Malayu University edit_tableActionButton'))
 
 WebUI.waitForPageLoad(5)
 
@@ -160,133 +176,109 @@ WebUI.takeScreenshot()
 
 WebUI.waitForAlert(0)
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Eaducation/button_Delete'))
+WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Certifications/button_Delete'))
 
 WebUI.waitForPageLoad(5)
 
-'clicked delete button, it will delete the record and auto redirected to eaducation page '
+'clicked delete button, it will delete the record and auto redirected to certifications page '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Eaducation/input_records per page_form-control'), 
-    'Malayu')
+WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Certifications/input_records per page_form-control'), 
+    'Cisco Certified ')
 
 WebUI.waitForPageLoad(5)
 
-'search using institute info , it will display the matched records '
+'search using certification info , it will display the matched records '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Eaducation/img_Malayu University edit_tableActionButton_delete'))
+WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Certifications/input_records per page_form-control'), 
+    '2018-04-01')
 
 WebUI.waitForPageLoad(5)
 
-'clicked delete image link , it will ask confirmation in pop up to delete '
+'search using graduated on date info , it will display the matched records '
 WebUI.takeScreenshot()
 
-WebUI.waitForAlert(0)
-
-WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Eaducation/button_Delete'))
-
-WebUI.waitForPageLoad(5)
-
-'clicked delete button, it will delete the record and auto redirected to eaducation page '
-WebUI.takeScreenshot()
-
-WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Eaducation/input_records per page_form-control'), 
-    'Bachelors Degree')
+WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Certifications/input_records per page_form-control'), 
+    '2010-01-01')
 
 WebUI.waitForPageLoad(5)
 
-'search using Qualification info , it will display the matched records '
-WebUI.takeScreenshot()
-
-WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Eaducation/input_records per page_form-control'), 
-    '2014-01-01')
-
-WebUI.waitForPageLoad(5)
-
-'search using start date info , it will display the matched records '
-WebUI.takeScreenshot()
-
-WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Eaducation/input_records per page_form-control'), 
-    '2010-12-31')
-
-WebUI.waitForPageLoad(5)
-
-'search using Completed on info , it will display the matched records '
+'search using valid thru  info , it will display the matched records '
 WebUI.takeScreenshot()
 
 WebUI.refresh()
 
 WebUI.waitForPageLoad(5)
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/a_Education'))
+WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Certifications/a_Certifications'))
 
 WebUI.waitForPageLoad(5)
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/a_Education'))
+WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Certifications/a_Certifications'))
 
 WebUI.waitForPageLoad(5)
 
-'clicked eaducation link , it will open page '
+'clicked certifications link , it will open page '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Eaducation/th_Qualification_a'))
+WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Certifications/th_Certification_a'))
 
 WebUI.waitForPageLoad(5)
 
-'clicked Qualification in table , it will make records in Assending order '
+'clicked certifications in table , it will make records in Assending order '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Eaducation/th_Qualification'))
+WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Certifications/th_Certification'))
 
 WebUI.waitForPageLoad(5)
 
-'clicked Qualification in table , it will make records in Dessending order '
+'clicked certifications in table , it will make records in Dessending order '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Eaducation/th_Institute_a'))
+WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Certifications/th_Institute_a'))
 
 WebUI.waitForPageLoad(5)
 
 'clicked institute in table , it will make records in Assending order '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Eaducation/th_Institute'))
+WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Certifications/th_Institute'))
 
 WebUI.waitForPageLoad(5)
 
 'clicked institute in table , it will make records in Dessending order '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Eaducation/th_Start Date_a'))
+WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Certifications/th_Granted On_a'))
 
 WebUI.waitForPageLoad(5)
 
-'clicked start date in table , it will make records in Assending order '
+'clicked Graduated on date in table , it will make records in Assending order '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Eaducation/th_Start Date'))
+WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Certifications/th_Granted On'))
 
 WebUI.waitForPageLoad(5)
 
-'clicked start date in table , it will make records in Dessending order '
+'clicked Graduated on date in table , it will make records in Dessending order '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Eaducation/th_Completed On_a'))
+WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Certifications/th_Valid Thru_a'))
 
 WebUI.waitForPageLoad(5)
 
-'clicked Completed date on  in table , it will make records in Assending order '
+'clicked Valid thru date on  in table , it will make records in Assending order '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Eaducation/th_Completed On'))
+WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Certifications/th_Valid Thru'))
 
 WebUI.waitForPageLoad(5)
 
-'clicked Completed date on in table , it will make records in Dessending order '
+'clicked Valid thru date on in table , it will make records in Dessending order '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Eaducation/a_2'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Certifications/a_2'), FailureHandling.OPTIONAL)
 
 WebUI.waitForPageLoad(5)
 

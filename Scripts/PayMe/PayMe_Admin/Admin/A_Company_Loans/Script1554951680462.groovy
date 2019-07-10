@@ -133,7 +133,7 @@ WebUI.waitForPageLoad(5)
 'clicked Delete Image link , it will ask confirmation message to delete '
 WebUI.takeScreenshot()
 
-WebUI.waitForAlert(0)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/button_Delete'))
 
@@ -157,7 +157,7 @@ WebUI.waitForPageLoad(5)
 'clicked Delete Image link , it will ask confirmation message to delete '
 WebUI.takeScreenshot()
 
-WebUI.waitForAlert(0)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/button_Delete'))
 
@@ -229,25 +229,6 @@ WebUI.waitForPageLoad(5)
 'clicked add new page , it will open in new page '
 WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/span_alert(1) alert(1)_employee'), FailureHandling.CONTINUE_ON_FAILURE)
-
-not_run: WebUI.delay(2)
-
-not_run: WebUI.waitForPageLoad(5)
-
-'selected all employs combo box to choose required '
-not_run: WebUI.takeScreenshot()
-
-not_run: WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/input_Employee_s2id_autogen2_search_employee'), 
-    'aplus')
-
-not_run: WebUI.delay(2)
-
-not_run: WebUI.waitForPageLoad(5)
-
-'entered data to choose required employ '
-not_run: WebUI.takeScreenshot()
-
 WebUI.delay(2)
 
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER, 'aplus', Keys.ENTER))
@@ -275,24 +256,6 @@ WebUI.waitForPageLoad(5)
 
 'given few details '
 WebUI.takeScreenshot()
-
-not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/span_Utd. Arab Emir. Dirham__employee'), 
-    FailureHandling.CONTINUE_ON_FAILURE)
-
-not_run: WebUI.waitForPageLoad(5)
-
-'selected currency combo box to choose required '
-not_run: WebUI.takeScreenshot()
-
-not_run: WebUI.delay(2)
-
-not_run: WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/input_Currency_s2id_autogen3_search__employee'), 
-    'malaysian')
-
-not_run: WebUI.waitForPageLoad(5)
-
-'entered data to choose required currency '
-not_run: WebUI.takeScreenshot()
 
 WebUI.delay(2)
 
@@ -405,7 +368,7 @@ WebUI.waitForPageLoad(5)
 'clicked delte image button, it will ask confirmation in pop up '
 WebUI.takeScreenshot()
 
-WebUI.waitForAlert(0)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/button_Delete'))
 
@@ -429,7 +392,7 @@ WebUI.waitForPageLoad(5)
 'clicked delete button , it will delete record and auto redirected to employ loans page \r\n'
 WebUI.takeScreenshot()
 
-WebUI.waitForAlert(0)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/button_Delete'))
 
@@ -667,7 +630,7 @@ WebUI.takeScreenshot()
 WebUI.waitForAlert(5)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/select_All Loan TypesPersonal loanEducational loanSalary in Advance Salary Advance  - HSBC LoanProperty Loancdefghijklmaalert(XSSR)'), 
-    '1', true)
+    '1', true, FailureHandling.OPTIONAL)
 
 WebUI.waitForPageLoad(5)
 

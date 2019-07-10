@@ -172,7 +172,7 @@ WebUI.waitForPageLoad(5)
 'click delete image link , it will ask confirmation in pop up '
 WebUI.takeScreenshot()
 
-WebUI.waitForAlert(0)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_project_client_OR/button_Delete'))
 
@@ -196,7 +196,7 @@ WebUI.waitForPageLoad(5)
 'click delete image link , it will ask confirmation in pop up '
 WebUI.takeScreenshot()
 
-WebUI.waitForAlert(0)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_project_client_OR/button_Delete'))
 
@@ -410,7 +410,7 @@ WebUI.waitForPageLoad(5)
 'clicked delete button for confirmation , it will delete record and auto redirect to client page \r\n'
 WebUI.takeScreenshot()
 
-WebUI.waitForAlert(0)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_project_client_OR/button_Delete'))
 
@@ -434,7 +434,7 @@ WebUI.waitForPageLoad(5)
 'clicked delete button for confirmation , it will delete record and auto redirect to client page \r\n'
 WebUI.takeScreenshot()
 
-WebUI.waitForAlert(0)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_project_client_OR/button_Delete'))
 
@@ -545,7 +545,7 @@ WebUI.waitForPageLoad(5)
 'clicked filter button , it will open in pop up to filter '
 WebUI.takeScreenshot()
 
-WebUI.waitForAlert(0)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/A_project_client_OR/button_Filter_1'))
 
@@ -568,7 +568,7 @@ WebUI.waitForPageLoad(5)
 'clicked save , it will display message " Employee already added to this project" '
 WebUI.takeScreenshot()
 
-WebUI.waitForAlert(0)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/A_project_client_OR/button_Ok - Copy'), FailureHandling.OPTIONAL)
 
@@ -591,7 +591,7 @@ WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/A_project_client_OR/button_F
 
 WebUI.waitForPageLoad(5)
 
-WebUI.waitForAlert(0)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/A_project_client_OR/button_Filter_1'))
 
@@ -629,7 +629,7 @@ WebUI.waitForPageLoad(5)
 'click delete image link , it wwill open confirmation message in pop up '
 WebUI.takeScreenshot()
 
-WebUI.waitForAlert(0)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/A_project_client_OR/button_Delete'))
 

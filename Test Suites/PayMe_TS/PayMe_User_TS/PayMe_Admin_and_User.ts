@@ -22,7 +22,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/PayMe_TS/PayMe_User_TS/Login_Dashboard_Forgot_Password_TS</testSuiteEntity>
+         <testSuiteEntity>Test Suites/PayMe_TS/PayMe_User_TS/PayMe_User_Role</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -85,7 +85,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/PayMe_TS/PayMe_Admin_TS/PayMe_Admin_TS</testSuiteEntity>
+         <testSuiteEntity>Test Suites/PayMe_TS/PayMe_Admin_TS/PayMe_Admin</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>

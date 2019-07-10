@@ -80,23 +80,6 @@ WebUI.waitForPageLoad(5)
 'clicked save button with out given required info , it will display in red color for manadatory details '
 WebUI.takeScreenshot()
 
-not_run: WebUI.delay(3)
-
-not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/span_Kabir Hussin_add'))
-
-not_run: WebUI.delay(3)
-
-'clicked employee combo box to view '
-not_run: WebUI.takeScreenshot()
-
-not_run: WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_skills/input_Employee_s2id_autogen2_search'), 
-    'april')
-
-not_run: WebUI.delay(3)
-
-'searched employee to select '
-not_run: WebUI.takeScreenshot()
-
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_skills/a_Skills'))
 
 WebUI.waitForPageLoad(5)
@@ -117,23 +100,6 @@ WebUI.waitForPageLoad(5)
 
 'selected required employee from combo box  '
 WebUI.takeScreenshot()
-
-not_run: WebUI.delay(3)
-
-not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/span_Select_add'))
-
-not_run: WebUI.delay(3)
-
-'clicked skills combo box to view '
-not_run: WebUI.takeScreenshot()
-
-not_run: WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_skills/input_Skill_s2id_autogen3_search'), 
-    'information security')
-
-not_run: WebUI.delay(5)
-
-'searched required skills to select '
-not_run: WebUI.takeScreenshot()
 
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER, 'information security', Keys.ENTER))
 
@@ -195,14 +161,15 @@ WebUI.waitForPageLoad(5)
 'search using details info, it will display the matched records '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_skills/img_IT Security related edit_tableActionButton'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_skills/img_IT Security related edit_tableActionButton'), 
+    FailureHandling.OPTIONAL)
 
 WebUI.waitForPageLoad(5)
 
 'clicked image copy link , it will open page '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_skills/button_Save'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_skills/button_Save'), FailureHandling.OPTIONAL)
 
 WebUI.waitForPageLoad(5)
 
@@ -242,7 +209,7 @@ WebUI.waitForPageLoad(5)
 'clicked image delete link , it will open in pop up for confirmation to delete '
 WebUI.takeScreenshot()
 
-WebUI.waitForAlert(0)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_skills/button_Delete'))
 

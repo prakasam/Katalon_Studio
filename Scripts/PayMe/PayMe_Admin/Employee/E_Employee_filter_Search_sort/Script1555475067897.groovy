@@ -62,6 +62,69 @@ WebUI.delay(2)
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_records per page_form-control'), 
+    'paniendra31')
+
+WebUI.delay(3)
+
+WebUI.waitForPageLoad(5)
+
+'search using employ name , it will display the matched records \r\n'
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/img_Incomplete_tableActionButton_3'))
+
+WebUI.waitForPageLoad(5)
+
+'clicked view image link , it will open details to view '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/button_Upload Profile Image'))
+
+WebUI.waitForPageLoad(5)
+
+'clicked upload photo button , it will open in pop up '
+WebUI.takeScreenshot()
+
+WebUI.waitForAlert(3)
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.TAB, Keys.ENTER))
+
+WebUI.waitForPageLoad(5)
+
+'clicked upload photo button , it will open in pop up '
+WebUI.takeScreenshot()
+
+WebUI.waitForAlert(5)
+
+autoit_prj = 'D:\\workspace\\KSW\\UF\\PP\\male.exe'
+
+Runtime.getRuntime().exec(autoit_prj)
+
+WebUI.delay(2)
+
+Thread.sleep(2000)
+
+WebUI.waitForPageLoad(5)
+
+'added image to user '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/a_Employees_1'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/a_Employees_1'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.delay(2)
+
+'clicked employees sub menu , it will open empoyee details  page'
+WebUI.takeScreenshot()
+
+WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_records per page_form-control'), 
     'aplus')
 
 WebUI.delay(2)
@@ -369,99 +432,4 @@ WebUI.waitForPageLoad(5, FailureHandling.OPTIONAL)
 WebUI.takeScreenshot(FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/a_admin (1)'), FailureHandling.OPTIONAL)
-
-not_run: WebUI.waitForAlert(0, FailureHandling.OPTIONAL)
-
-not_run: WebUI.delay(3, FailureHandling.OPTIONAL)
-
-not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/Filter/span_All Job Titles_Filter - Copy'), FailureHandling.OPTIONAL)
-
-not_run: WebUI.delay(3, FailureHandling.OPTIONAL)
-
-not_run: WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/Filter/input_concat(id(  s2id_autogen2_search  ))_s2id_autogen2_search_Filter_jobtitle - Copy'), 
-    'software engineer', FailureHandling.OPTIONAL)
-
-not_run: WebUI.delay(3, FailureHandling.OPTIONAL)
-
-not_run: WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER), FailureHandling.OPTIONAL)
-
-not_run: WebUI.delay(3, FailureHandling.OPTIONAL)
-
-not_run: WebUI.waitForPageLoad(5, FailureHandling.OPTIONAL)
-
-not_run: WebUI.takeScreenshot(FailureHandling.OPTIONAL)
-
-not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/Filter/button_Filter_Popup'), FailureHandling.OPTIONAL)
-
-not_run: WebUI.waitForPageLoad(5, FailureHandling.OPTIONAL)
-
-not_run: WebUI.takeScreenshot(FailureHandling.OPTIONAL)
-
-not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/Filter/button_Filter'), FailureHandling.OPTIONAL)
-
-not_run: WebUI.waitForPageLoad(5, FailureHandling.OPTIONAL)
-
-not_run: WebUI.takeScreenshot(FailureHandling.OPTIONAL)
-
-not_run: WebUI.delay(3, FailureHandling.OPTIONAL)
-
-not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/Filter/span_All Departments_Filter'), FailureHandling.OPTIONAL)
-
-not_run: WebUI.delay(3, FailureHandling.OPTIONAL)
-
-not_run: WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/Filter/input_All Job Titles_s2id_autogen3_search_Filter_Department'), 
-    'samsung ', FailureHandling.OPTIONAL)
-
-not_run: WebUI.delay(3, FailureHandling.OPTIONAL)
-
-not_run: WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER), FailureHandling.OPTIONAL)
-
-not_run: WebUI.delay(3, FailureHandling.OPTIONAL)
-
-not_run: WebUI.waitForPageLoad(5, FailureHandling.OPTIONAL)
-
-not_run: WebUI.takeScreenshot(FailureHandling.OPTIONAL)
-
-not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/Filter/button_Filter_Popup'), FailureHandling.OPTIONAL)
-
-not_run: WebUI.waitForPageLoad(5, FailureHandling.OPTIONAL)
-
-not_run: WebUI.takeScreenshot(FailureHandling.OPTIONAL)
-
-not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/Filter/button_Filter'), FailureHandling.OPTIONAL)
-
-not_run: WebUI.waitForPageLoad(5, FailureHandling.OPTIONAL)
-
-not_run: WebUI.takeScreenshot(FailureHandling.OPTIONAL)
-
-not_run: WebUI.delay(3, FailureHandling.OPTIONAL)
-
-not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/Filter/span_Anyone_Filter'), FailureHandling.OPTIONAL)
-
-not_run: WebUI.delay(3, FailureHandling.OPTIONAL)
-
-not_run: WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/Filter/input_All Job Titles_s2id_autogen4_search_Filter_supervisor'), 
-    'aplus', FailureHandling.OPTIONAL)
-
-not_run: WebUI.delay(3, FailureHandling.OPTIONAL)
-
-not_run: WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER), FailureHandling.OPTIONAL)
-
-not_run: WebUI.delay(3, FailureHandling.OPTIONAL)
-
-not_run: WebUI.waitForPageLoad(5, FailureHandling.OPTIONAL)
-
-not_run: WebUI.takeScreenshot(FailureHandling.OPTIONAL)
-
-not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/Filter/button_Filter_Popup'), FailureHandling.OPTIONAL)
-
-not_run: WebUI.waitForPageLoad(5, FailureHandling.OPTIONAL)
-
-not_run: WebUI.takeScreenshot(FailureHandling.OPTIONAL)
-
-not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/Filter/li_Ok_fa fa-times__Filter_close'), FailureHandling.OPTIONAL)
-
-not_run: WebUI.waitForPageLoad(5)
-
-not_run: WebUI.takeScreenshot()
 

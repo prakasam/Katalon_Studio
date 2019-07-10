@@ -156,6 +156,8 @@ WebUI.waitForPageLoad(5)
 'click delete , it will delete the record and auto redirect to Salary component types page '
 WebUI.takeScreenshot()
 
+WebUI.delay(3)
+
 WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/P_Sallary_OR/input_records per page_form-control'), 
     'pdx bonus')
 

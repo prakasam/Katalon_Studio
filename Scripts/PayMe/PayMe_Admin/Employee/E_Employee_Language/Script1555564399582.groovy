@@ -87,23 +87,6 @@ WebUI.waitForPageLoad(5)
 'clicked add new button , it will open page to add '
 WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Language/span_Kabir Hussin'))
-
-not_run: WebUI.delay(3)
-
-'clicked employee combo box to view '
-not_run: WebUI.takeScreenshot()
-
-not_run: WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Language/input_EmployeeEmployee_s2id_autogen4_search'), 
-    'tia abdul')
-
-not_run: WebUI.delay(3)
-
-'searched employee to select '
-not_run: WebUI.takeScreenshot()
-
-not_run: WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
-
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER, 'aplus', Keys.ENTER))
 
 WebUI.delay(3)
@@ -115,24 +98,7 @@ WebUI.takeScreenshot()
 
 WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Language/span_en'))
-
-not_run: WebUI.delay(3)
-
-'clicked Language combo box to view '
-not_run: WebUI.takeScreenshot()
-
-not_run: WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Language/input_LanguageLanguage_s2id_autogen5_search'), 
-    'my')
-
-not_run: WebUI.delay(3)
-
-'searched required Language to select '
-not_run: WebUI.takeScreenshot()
-
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER, 'my', Keys.ENTER))
-
-not_run: WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER, 'my', Keys.ENTER))
 
 WebUI.delay(3)
 
@@ -261,7 +227,7 @@ WebUI.waitForPageLoad(5)
 'clicked image delete link , it will open in pop up for confirmation to delete '
 WebUI.takeScreenshot()
 
-WebUI.waitForAlert(0)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Language/button_Delete'))
 

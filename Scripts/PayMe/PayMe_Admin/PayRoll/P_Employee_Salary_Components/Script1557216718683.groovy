@@ -178,7 +178,8 @@ WebUI.waitForPageLoad(5)
 'Search using name , it will display the matched records '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/P_Sallary_OR/Employee_Salary_Components/img_standard edit_tableActionButton'))
+WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/P_Sallary_OR/Employee_Salary_Components/img_standard edit_tableActionButton'), 
+    FailureHandling.OPTIONAL)
 
 WebUI.waitForPageLoad(5)
 
@@ -187,7 +188,7 @@ WebUI.takeScreenshot()
 
 WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/P_Sallary_OR/Employee_Salary_Components/button_Delete'))
+WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/P_Sallary_OR/Employee_Salary_Components/button_Delete'), FailureHandling.OPTIONAL)
 
 WebUI.waitForPageLoad(5)
 

@@ -12,6 +12,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
@@ -102,6 +103,8 @@ WebUI.setText(findTestObject('Object Repository/BO_Support-OR/Kiosk-OR/Roadtax/R
 
 WebUI.setText(findTestObject('Object Repository/BO_Support-OR/Kiosk-OR/Roadtax/Roadtax_Kiosk_User_Transaction_OR/input_prevbalance_tb_prevbalan'), 
     '4282.1')
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
 
 'Click Update with Given Required info to change '
 WebUI.takeScreenshot()

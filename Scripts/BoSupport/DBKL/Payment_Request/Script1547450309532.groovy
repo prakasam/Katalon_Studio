@@ -170,6 +170,34 @@ WebUI.click(findTestObject('BO_Support-OR/DBKL/Payment_Request-OR/input_Select t
 
 WebUI.delay(2)
 
+not_run: WebUI.click(findTestObject('Object Repository/BO_Support-OR/DBKL/Payment_Request-OR/td_update'))
+
+not_run: WebUI.delay(2)
+
+'click Update  from opctions '
+not_run: WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Object Repository/BO_Support-OR/DBKL/Payment_Request-OR/td_selectmerchant_transid'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Object Repository/BO_Support-OR/DBKL/Payment_Request-OR/textarea_merchant_transid_tb_m'), 
+    'FXDL1901042546')
+
+'Click GO with Given Valid merchant id '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Object Repository/BO_Support-OR/DBKL/Payment_Request-OR/button_Go'))
+
+WebUI.delay(2)
+
+'it will dispolay the result '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('BO_Support-OR/DBKL/Payment_Request-OR/input_Select the Query_cb_Dbkl'))
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/BO_Support-OR/DBKL/Payment_Request-OR/td_update'))
 
 WebUI.delay(2)
@@ -193,13 +221,21 @@ WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/BO_Support-OR/DBKL/Payment_Request-OR/input_amount_tb_merId'), 'FXDL1901042546')
 
-WebUI.click(findTestObject('null'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('BO_Support-OR/DBKL/Payment_Request-OR/input_amount_cb_statuscode'))
 
-WebUI.click(findTestObject('null'))
+WebUI.delay(2)
+
+WebUI.click(findTestObject('BO_Support-OR/DBKL/Payment_Request-OR/td_9'))
+
+WebUI.click(findTestObject('BO_Support-OR/DBKL/Payment_Request-OR/input_P_cb_statusmsg'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/BO_Support-OR/DBKL/Payment_Request-OR/td_Success'))
+
+WebUI.delay(2)
 
 WebUI.setText(findTestObject('Object Repository/BO_Support-OR/DBKL/Payment_Request-OR/input_Pending_tb_amount'), '102.12')
 

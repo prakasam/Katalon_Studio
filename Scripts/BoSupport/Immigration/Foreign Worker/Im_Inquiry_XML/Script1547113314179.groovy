@@ -12,6 +12,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
@@ -127,7 +128,7 @@ WebUI.delay(2)
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/BO_Support-OR/Immigration/Foreign Worker/Im_Inquiry_XML-OR/input_Passport No_tb_passport'), 
-    '3MIMT120171227165600')
+    '3MIMT1201806291157000616')
 
 'click go with given passwort no '
 WebUI.takeScreenshot()
@@ -139,7 +140,7 @@ WebUI.delay(2)
 'it will display the info " record not found " '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/BO_Support-OR/Immigration/Foreign Worker/Im_Inquiry_XML-OR/button_OK'))
+WebUI.click(findTestObject('Object Repository/BO_Support-OR/Immigration/Foreign Worker/Im_Inquiry_XML-OR/button_OK'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(2)
 
@@ -148,6 +149,10 @@ WebUI.setText(findTestObject('Object Repository/BO_Support-OR/Immigration/Foreig
 
 'click go with given valid passport '
 WebUI.takeScreenshot()
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/BO_Support-OR/Immigration/Foreign Worker/Im_Inquiry_XML-OR/button_Go'))
 
@@ -187,10 +192,14 @@ WebUI.click(findTestObject('BO_Support-OR/Immigration/Foreign Worker/Im_Inquiry_
 WebUI.delay(2)
 
 WebUI.setText(findTestObject('Object Repository/BO_Support-OR/Immigration/Foreign Worker/Im_Inquiry_XML-OR/input_Passport No_tb_passport'), 
-    'AU242338_')
+    'BW0847759')
 
 'click go with given valid passport no '
 WebUI.takeScreenshot()
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/BO_Support-OR/Immigration/Foreign Worker/Im_Inquiry_XML-OR/button_Go'))
 
@@ -200,19 +209,28 @@ WebUI.delay(2)
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/BO_Support-OR/Immigration/Foreign Worker/Im_Inquiry_XML-OR/input_Set print_status_tb_stat'), 
-    'SUCCESS')
+    'SUCCESS', FailureHandling.OPTIONAL)
 
-'click Update with given status '
-WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('Object Repository/BO_Support-OR/Immigration/Foreign Worker/Im_Inquiry_XML-OR/button_Update'))
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
 
 WebUI.delay(2)
 
-'it will display the confirmation message " record updated successfully " '
-WebUI.takeScreenshot()
+'click Update with given status '
+WebUI.takeScreenshot(FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('BO_Support-OR/Immigration/Foreign Worker/Im_Inquiry_XML-OR/button_OK'))
+WebUI.click(findTestObject('Object Repository/BO_Support-OR/Immigration/Foreign Worker/Im_Inquiry_XML-OR/button_Update'), 
+    FailureHandling.OPTIONAL)
+
+WebUI.delay(2, FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('Object Repository/BO_Support-OR/Immigration/Foreign Worker/Im_Inquiry_XML-OR/button_OK'), FailureHandling.OPTIONAL)
+
+WebUI.delay(2, FailureHandling.OPTIONAL)
+
+'it will display the confirmation message " record updated successfully " '
+WebUI.takeScreenshot(FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('BO_Support-OR/Immigration/Foreign Worker/Im_Inquiry_XML-OR/button_OK'), FailureHandling.OPTIONAL)
 
 WebUI.refresh()
 

@@ -12,6 +12,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
@@ -139,6 +140,8 @@ WebUI.takeScreenshot()
 WebUI.setText(findTestObject('BO_Support-OR/Kiosk-OR/Roadtax/Roadtax_Kiosk_User_OR/input_Set Balance_upduser_fee'), '2.75', 
     FailureHandling.OPTIONAL)
 
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
+
 'click Update button with given required Fee amount '
 WebUI.takeScreenshot()
 
@@ -174,6 +177,8 @@ WebUI.click(findTestObject('BO_Support-OR/Kiosk-OR/Roadtax/Roadtax_Kiosk_User_OR
 WebUI.delay(2)
 
 WebUI.setText(findTestObject('BO_Support-OR/Kiosk-OR/Roadtax/Roadtax_Kiosk_User_OR/input_upduser_balance'), '5000', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
 
 'click update with given the required balance '
 WebUI.takeScreenshot()
@@ -211,6 +216,8 @@ WebUI.delay(2)
 
 WebUI.setEncryptedText(findTestObject('BO_Support-OR/Kiosk-OR/Roadtax/Roadtax_Kiosk_User_OR/input_Set Password_tb_password'), 
     'RigbBhfdqOBGNlJIWM1ClA==')
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
 
 'click update with given required password '
 WebUI.takeScreenshot()

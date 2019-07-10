@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Qualification  from personal information</description>
+   <name>PI_Qualification_Language</name>
+   <tag>Personal Information</tag>
+   <comment></comment>
+   <testCaseGuid>ea78fd30-b248-4ca5-b528-4c61561e4bf6</testCaseGuid>
+</TestCaseEntity>

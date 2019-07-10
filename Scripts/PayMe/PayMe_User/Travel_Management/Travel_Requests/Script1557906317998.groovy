@@ -355,7 +355,7 @@ WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Travel_Requ
 
 WebUI.waitForPageLoad(5)
 
-'clicked subordinated travel request link , it will open page '
+'clicked travel request approved link , it will open page '
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Travel_Requests_OR/a_Aplus edited 12'))

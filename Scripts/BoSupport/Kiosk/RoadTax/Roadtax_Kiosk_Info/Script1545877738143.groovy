@@ -208,6 +208,8 @@ WebUI.setText(findTestObject('Object Repository/BO_Support-OR/Kiosk-OR/Roadtax/R
 WebUI.setText(findTestObject('Object Repository/BO_Support-OR/Kiosk-OR/Roadtax/Roadtax_Kiosk_Info_OR/input_Set Kiosk Location_tb_lo'), 
     'MyNiss Main Entrance ')
 
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
+
 'Given required info '
 WebUI.takeScreenshot()
 
@@ -251,6 +253,8 @@ WebUI.setText(findTestObject('Object Repository/BO_Support-OR/Kiosk-OR/Roadtax/R
 
 WebUI.setText(findTestObject('Object Repository/BO_Support-OR/Kiosk-OR/Roadtax/Roadtax_Kiosk_Info_OR/input_Kiosk_IOC_tb_kiosk_loc'), 
     'MyNiss ICE Scating Entrance ')
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
 
 'given required information \r\n'
 WebUI.takeScreenshot()
@@ -296,6 +300,8 @@ WebUI.setText(findTestObject('Object Repository/BO_Support-OR/Kiosk-OR/Roadtax/R
 WebUI.setEncryptedText(findTestObject('Object Repository/BO_Support-OR/Kiosk-OR/Roadtax/Roadtax_Kiosk_Info_OR/input_Set Password_tb_password'), 
     'jyIV9S0JItsXqJTkpjAb4w==')
 
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
+
 'Given required information '
 WebUI.takeScreenshot()
 
@@ -336,6 +342,8 @@ WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/BO_Support-OR/Kiosk-OR/Roadtax/Roadtax_Kiosk_Info_OR/input_Set PaperVersion_tb_pape'), 
     '2')
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
 
 'click Update with Given required paper version '
 WebUI.takeScreenshot()

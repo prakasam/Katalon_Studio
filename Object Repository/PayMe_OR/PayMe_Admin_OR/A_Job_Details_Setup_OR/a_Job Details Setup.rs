@@ -4,6 +4,16 @@
    <name>a_Job Details Setup</name>
    <tag></tag>
    <elementGuidId>889d0c16-0c13-491c-89de-992944b70145</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;admin_Admin&quot;)/li[3]/a[1][count(. | //a[@href = 'https://payme-uat.myegdev.com/app/?g=admin&amp;n=jobs&amp;m=admin_Admin' and (text() = '
+                                             Job Details Setup                                        ' or . = '
+                                             Job Details Setup                                        ')]) = count(//a[@href = 'https://payme-uat.myegdev.com/app/?g=admin&amp;n=jobs&amp;m=admin_Admin' and (text() = '
+                                             Job Details Setup                                        ' or . = '
+                                             Job Details Setup                                        ')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -36,7 +46,7 @@
                                              Job Details Setup                                        </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

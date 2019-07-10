@@ -197,6 +197,8 @@ WebUI.takeScreenshot()
 WebUI.setText(findTestObject('Object Repository/BO_Support-OR/Kiosk-OR/Roadtax/Roadtax_Report_Login-OR/input_Set Ag Code_tb_agcode'), 
     'A014311')
 
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
+
 'Click Update with given  AG Code '
 WebUI.takeScreenshot()
 
@@ -236,6 +238,8 @@ WebUI.takeScreenshot()
 WebUI.setEncryptedText(findTestObject('Object Repository/BO_Support-OR/Kiosk-OR/Roadtax/Roadtax_Report_Login-OR/input_Set Password_tb_password'), 
     'RigbBhfdqOBGNlJIWM1ClA==')
 
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
+
 'Click Update with given password'
 WebUI.takeScreenshot()
 
@@ -274,6 +278,8 @@ WebUI.takeScreenshot()
 
 'will re do later '
 WebUI.setText(findTestObject('BO_Support-OR/Kiosk-OR/Roadtax/Roadtax_Report_Login-OR/input__tb_name'), 'prakasam', FailureHandling.OPTIONAL)
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
 
 WebUI.click(findTestObject('BO_Support-OR/Kiosk-OR/Roadtax/Roadtax_Report_Login-OR/button_Update'))
 

@@ -12,6 +12,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
@@ -168,6 +169,10 @@ WebUI.setText(findTestObject('Object Repository/BO_Support-OR/Immigration/Foreig
 'click update with changed required info '
 WebUI.takeScreenshot()
 
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/BO_Support-OR/Immigration/Foreign Worker/Im_Sticker_Range-OR/button_Update'))
 
 WebUI.delay(2)
@@ -219,6 +224,10 @@ WebUI.setText(findTestObject('BO_Support-OR/Immigration/Foreign Worker/Im_Sticke
 
 'click update with changed required info '
 WebUI.takeScreenshot()
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('BO_Support-OR/Immigration/Foreign Worker/Im_Sticker_Range-OR/button_Update'))
 

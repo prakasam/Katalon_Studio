@@ -12,6 +12,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
@@ -142,6 +143,8 @@ WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/BO_Support-OR/Kiosk-OR/Roadtax/Prepaid_Details-OR/input_Set AccNo_tb_acct'), 
     '8069238921')
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
 
 'click update with given account no '
 WebUI.takeScreenshot()

@@ -4,6 +4,12 @@
    <name>th_Code</name>
    <tag></tag>
    <elementGuidId>c5495f16-0bab-4483-92aa-7b28748bc3a6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//th[(text() = 'Code' or . = 'Code')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

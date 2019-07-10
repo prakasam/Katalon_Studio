@@ -4,7 +4,6 @@
    <name>DBKL</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-01-16T12:33:13</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

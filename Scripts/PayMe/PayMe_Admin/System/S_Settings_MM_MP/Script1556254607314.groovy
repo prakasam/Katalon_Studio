@@ -408,6 +408,8 @@ WebUI.waitForPageLoad(5)
 'clicked filter button , it will open in pop up to choose opctions '
 WebUI.takeScreenshot()
 
+WebUI.waitForAlert(5)
+
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.TAB, Keys.ENTER, 'personal information employees', Keys.ENTER))
 
 WebUI.waitForPageLoad(5)
@@ -415,12 +417,16 @@ WebUI.waitForPageLoad(5)
 'choosen required opction using combo box '
 WebUI.takeScreenshot()
 
+WebUI.waitForAlert(5)
+
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/S_Settings_MM_MP_OR/button_Filter_1'))
 
 WebUI.waitForPageLoad(5)
 
 'clickd filter in pop up, it will filter the available reqiuired data '
 WebUI.takeScreenshot()
+
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/S_Settings_MM_MP_OR/a_Manage Permissions'))
 

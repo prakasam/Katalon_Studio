@@ -12,6 +12,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
@@ -98,7 +99,7 @@ WebUI.delay(2)
 'select Passport number from opctions '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('BO_Support-OR/Immigration/Foreign Worker/Im_Transactions-OR/input_Passport No_tb_id'), 'BB0683742')
+WebUI.setText(findTestObject('BO_Support-OR/Immigration/Foreign Worker/Im_Transactions-OR/input_Passport No_tb_id'), 'PHL140099_')
 
 'Click Go with given Passport number'
 WebUI.takeScreenshot()
@@ -110,7 +111,7 @@ WebUI.delay(2)
 'it will display the available result '
 WebUI.takeScreenshot()
 
-WebUI.refresh()
+not_run: WebUI.refresh()
 
 WebUI.click(findTestObject('BO_Support-OR/Immigration/Foreign Worker/Im_Transactions-OR/input_Select the Query_cb_repr'))
 
@@ -122,7 +123,7 @@ WebUI.click(findTestObject('Object Repository/BO_Support-OR/Immigration/Foreign 
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('BO_Support-OR/Immigration/Foreign Worker/Im_Transactions-OR/input_Passport No_tb_id (1)'), 
-    'OTH1710240830029146')
+    'OTH1710240830029146', FailureHandling.OPTIONAL)
 
 'click go with given merchant id '
 WebUI.takeScreenshot()
@@ -147,8 +148,7 @@ WebUI.delay(2)
 'selecte update by mechant id from opctions '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/BO_Support-OR/Immigration/Foreign Worker/Im_Transactions-OR/input_Passport No_tb_id'), 
-    'N6222518')
+WebUI.setText(findTestObject('BO_Support-OR/Immigration/Foreign Worker/Im_Transactions-OR/input_Passport No_tb_id'), 'PHL16547')
 
 WebUI.delay(2)
 
@@ -166,7 +166,9 @@ WebUI.click(findTestObject('Object Repository/BO_Support-OR/Immigration/Foreign 
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('BO_Support-OR/Immigration/Foreign Worker/Im_Transactions-OR/input_Passport No_tb_id'), 'BB0683742')
+WebUI.setText(findTestObject('BO_Support-OR/Immigration/Foreign Worker/Im_Transactions-OR/input_Passport No_tb_id'), 'PHL140099_')
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
 
 'click go with given valid passport no '
 WebUI.takeScreenshot()
@@ -180,6 +182,8 @@ WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('BO_Support-OR/Immigration/Foreign Worker/Im_Transactions-OR/input_Set merchant_id_tb_merch'), 
     'OTH1703052345014085')
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
 
 'click Update with given merchant id '
 WebUI.takeScreenshot()
@@ -221,6 +225,8 @@ WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/BO_Support-OR/Immigration/Foreign Worker/Im_Transactions-OR/input_Set jms_flag_tb_jmsflag'), 
     'Y')
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
 
 'click update with given JMS flag '
 WebUI.takeScreenshot()

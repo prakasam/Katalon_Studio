@@ -11,9 +11,21 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>9f451e67-e981-4d3e-964d-b9f2ee6a66ed</testSuiteGuid>
    <testCaseLink>
-      <guid>679e3393-72eb-4ad0-ade6-50016864553c</guid>
+      <guid>eaf2b5d2-0b57-4079-9555-dd2fd142b4eb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/PayMe/PayMe_User/Time_Management/TM_Overtime_Requests</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/BoSupport/Immigration/Foreign Worker/Im_Inquiry_XML</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>410ce2fd-75aa-444c-ac2a-28dc88f697b4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/BoSupport/Immigration/Foreign Worker/Im_Sticker_Range</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9259d60b-1767-42a3-8318-36e2b4aab262</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/BoSupport/Immigration/Foreign Worker/Im_Transactions</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -525,7 +525,7 @@ WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Overtime_Administration_OR/a_admin'))
 
-WebUI.waitForPageLoad(0)
+WebUI.waitForPageLoad(5)
 
 'clicked logged in name to view sign out opction '
 WebUI.takeScreenshot()

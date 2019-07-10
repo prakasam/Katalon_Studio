@@ -91,7 +91,7 @@ WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('BO_Support-OR/JPJ-OR/CDL/CDL_AsInfo_OB/input_Please enter the Id_No_t'), 'Z1799485')
 
-WebUI.setText(findTestObject('BO_Support-OR/JPJ-OR/CDL/CDL_AsInfo_OB/input_req_date_tb_reqdate'), '2017-05-30 16:08:56.434')
+WebUI.setText(findTestObject('BO_Support-OR/JPJ-OR/CDL/CDL_AsInfo_OB/input_req_date_tb_reqdate'), '2017-05-30 16:08:56')
 
 'click go button with given id no and request date '
 WebUI.takeScreenshot()
@@ -103,7 +103,7 @@ WebUI.delay(2)
 'it will display the all colums in text box to change it '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('BO_Support-OR/JPJ-OR/CDL/CDL_AsInfo_OB/input_ag_code_db_date'), '2017-05-30 16:08:56.434')
+WebUI.setText(findTestObject('BO_Support-OR/JPJ-OR/CDL/CDL_AsInfo_OB/input_ag_code_db_date'), '2017-05-30 16:08:56')
 
 WebUI.setText(findTestObject('BO_Support-OR/JPJ-OR/CDL/CDL_AsInfo_OB/input_Sat_tb_id'), 'Z1799485')
 

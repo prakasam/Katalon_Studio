@@ -86,48 +86,10 @@ WebUI.waitForPageLoad(5)
 
 WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/Certifications/button_Add New'))
 
-not_run: WebUI.delay(3)
-
-not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/Certifications/span_Kabir Hussin'))
-
-not_run: WebUI.delay(3)
-
-'clicked employee combo box to view '
-not_run: WebUI.takeScreenshot()
-
-not_run: WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/Certifications/input_Employee_s2id_autogen2_search'), 
-    'tia abdul')
-
-not_run: WebUI.delay(3)
-
 'searched employee to select '
 WebUI.takeScreenshot()
 
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER, 'aplus', Keys.ENTER))
-
-not_run: WebUI.delay(3)
-
-not_run: WebUI.waitForPageLoad(5)
-
-'selected required employee from combo box  '
-not_run: WebUI.takeScreenshot()
-
-not_run: WebUI.delay(3)
-
-not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/Certifications/span_Red Hat Certified Architect (RHCA)'))
-
-not_run: WebUI.delay(3)
-
-'clicked skills combo box to view '
-not_run: WebUI.takeScreenshot()
-
-not_run: WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/Certifications/input_Certification_s2id_autogen3_search'), 
-    'project man')
-
-not_run: WebUI.delay(3)
-
-'searched required skills to select '
-not_run: WebUI.takeScreenshot()
 
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER, 'project man', Keys.ENTER))
 
@@ -180,7 +142,7 @@ WebUI.waitForPageLoad(5)
 'clicked image edit link , it will open page '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/Certifications/input__institute'), 'Malayu Mniversity Edit ')
+WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/Certifications/input__institute'), 'Malayu University Edit ')
 
 WebUI.waitForPageLoad(5)
 
@@ -245,7 +207,7 @@ WebUI.waitForPageLoad(5)
 'clicked image delete link , it will open in pop up for confirmation to delete '
 WebUI.takeScreenshot()
 
-WebUI.waitForAlert(0)
+WebUI.waitForAlert(5)
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_skills/button_Delete'))
 
