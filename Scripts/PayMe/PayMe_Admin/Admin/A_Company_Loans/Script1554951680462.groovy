@@ -269,7 +269,7 @@ WebUI.takeScreenshot()
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/input__amount'), '9000.00')
+WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/input__amount'), '9999')
 
 WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/input__monthly_installment'), 
     '1000.00')
@@ -277,7 +277,7 @@ WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Compan
 WebUI.selectOptionByValue(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/select_Personal loanEducational loanSalary in Advance Salary Advance  - HSBC LoanProperty Loancdefghijklmaalert(XSSR)'), 
     'Approved', true, FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/textarea_Details_details'), 'amount deducted from salary ')
+WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/textarea_Details_details'), 'the amount deducted from the salary for property ')
 
 WebUI.waitForPageLoad(5)
 
@@ -303,11 +303,11 @@ WebUI.waitForPageLoad(5)
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/input_records per page_form-control_Employee'), 
-    'property')
+    '9999')
 
 WebUI.waitForPageLoad(5)
 
-'search using Loan type , it will display the matched records '
+'search using Loan amount , it will display the matched records '
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/img_Approved_tableActionButton'))
@@ -325,11 +325,11 @@ WebUI.waitForPageLoad(5)
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/input_records per page_form-control_Employee'), 
-    'property')
+    '9999')
 
 WebUI.waitForPageLoad(5)
 
-'search using Loan type , it will display the matched records '
+'search using Loan amount , it will display the matched records '
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/img_Approved_tableActionButton_1'))
@@ -354,11 +354,11 @@ WebUI.waitForPageLoad(5)
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/input_records per page_form-control_Employee'), 
-    'property')
+    '9999')
 
 WebUI.waitForPageLoad(5)
 
-'search using Loan type , it will display the matched records '
+'search using Loan amount , it will display the matched records '
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/img_Approved_tableActionButton_2'))
@@ -378,11 +378,11 @@ WebUI.waitForPageLoad(5)
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/input_records per page_form-control_Employee'), 
-    'property')
+    '9999')
 
 WebUI.waitForPageLoad(5)
 
-'search using Loan type , it will display the matched records '
+'search using Loan amount , it will display the matched records '
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/img_Approved_tableActionButton_3'))

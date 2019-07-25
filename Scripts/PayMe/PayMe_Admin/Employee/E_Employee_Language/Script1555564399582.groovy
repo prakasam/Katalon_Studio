@@ -155,11 +155,25 @@ WebUI.waitForPageLoad(5)
 'it will save the record and auto redirect to Language page '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Language/input_records per page_form-control'), 'aplus')
+WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Language/button_Ok'), FailureHandling.OPTIONAL)
 
 WebUI.waitForPageLoad(5)
 
-'search using employee name  , it will display the matched records '
+'clicked ok button in pop up info '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Language/button_Cancel'), FailureHandling.OPTIONAL)
+
+WebUI.waitForPageLoad(5)
+
+'clicked cancel button '
+WebUI.takeScreenshot()
+
+WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Language/input_records per page_form-control'), 'my')
+
+WebUI.waitForPageLoad(5)
+
+'search using Language , it will display the matched records '
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Language/img_Limited Working Proficiency_tableActionButton_edit'))
@@ -176,11 +190,11 @@ WebUI.waitForPageLoad(5)
 'it will save the record and auto redirect to Language page '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Language/input_records per page_form-control'), 'aplus')
+WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Language/input_records per page_form-control'), 'my')
 
 WebUI.waitForPageLoad(5)
 
-'search using employee name  , it will display the matched records '
+'search using Language   , it will display the matched records '
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Language/img_Limited Working Proficiency_tableActionButton_copy'))
@@ -213,11 +227,11 @@ WebUI.waitForPageLoad(5)
 'clicked cancel button '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Language/input_records per page_form-control'), 'aplus')
+WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Language/input_records per page_form-control'), 'my')
 
 WebUI.waitForPageLoad(5)
 
-'search using employee name  , it will display the matched records '
+'search using Language  , it will display the matched records '
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Language/img_Limited Working Proficiency_tableActionButton'))
@@ -236,11 +250,11 @@ WebUI.waitForPageLoad(5)
 'clicked delete button, it will delete the record and auto redirected to Language page '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Language/input_records per page_form-control'), 'zh')
+WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Language/input_records per page_form-control'), 'Aplus')
 
 WebUI.waitForPageLoad(5)
 
-'search using Language info, it will display the matched records '
+'search using name info, it will display the matched records '
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Language/input_records per page_form-control'), 'limited working')

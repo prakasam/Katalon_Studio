@@ -124,9 +124,13 @@ WebUI.refresh()
 
 WebUI.waitForPageLoad(5)
 
-WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/F_Salary_Loans/a_Finance'))
+WebUI.refresh(FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForPageLoad(5)
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/F_Salary_Loans/a_Finance'))
+
+WebUI.waitForPageLoad(5)
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/F_Salary_Loans/a_Loans'))
 

@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;Education&quot;)/div[@class=&quot;box-body table-responsive&quot;]/div[@id=&quot;grid_wrapper&quot;]/table[@id=&quot;grid&quot;]/thead[1]/tr[1]/th[@class=&quot;header&quot;][count(. | //th[(text() = 'Name' or . = 'Name')]) = count(//th[(text() = 'Name' or . = 'Name')])]</value>
+         <value>//div[2]/div/div[2]/div/table/thead/tr/th[count(. | //th[(text() = 'Name' or . = 'Name')]) = count(//th[(text() = 'Name' or . = 'Name')])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//table[@id='grid']/thead/tr/th)[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -66,36 +70,41 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Education&quot;)/div[@class=&quot;box-body table-responsive&quot;]/div[@id=&quot;grid_wrapper&quot;]/table[@id=&quot;grid&quot;]/thead[1]/tr[1]/th[@class=&quot;header&quot;]</value>
+      <value>//div[2]/div/div[2]/div/table/thead/tr/th</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
+      <type>Main</type>
       <value>(//table[@id='grid']/thead/tr/th)[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New'])[2]/following::th[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[2]/preceding::th[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bachelors Degree'])[1]/preceding::th[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
+      <type>Main</type>
       <value>//div[2]/div/div[2]/div/table/thead/tr/th</value>
    </webElementXpaths>
 </WebElementEntity>

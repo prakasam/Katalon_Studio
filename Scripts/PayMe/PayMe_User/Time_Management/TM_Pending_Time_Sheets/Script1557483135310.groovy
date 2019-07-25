@@ -105,7 +105,7 @@ WebUI.waitForPageLoad(5)
 'search  using date , it will dispaly the matched records '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/TM_Time_Sheets/Pending_Time_Sheets/img_Pending_tableActionButton'))
+WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/TM_Time_Sheets/Pending_Time_Sheets/img_Pending_tableActionButton'), FailureHandling.OPTIONAL)
 
 WebUI.waitForPageLoad(5)
 

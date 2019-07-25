@@ -83,7 +83,7 @@ WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/S_Users_
 'given Email '
 WebUI.takeScreenshot()
 
-WebUI.sendKeys(findTestObject('PayMe_OR/PayMe_Admin_OR/S_Users_OR/input__email'), Keys.chord(Keys.TAB, Keys.ENTER, 'paniendra8', 
+WebUI.sendKeys(findTestObject('PayMe_OR/PayMe_Admin_OR/S_Users_OR/input__email'), Keys.chord(Keys.TAB, Keys.ENTER, 'paniendra', 
         Keys.ENTER))
 
 'Selected employee from commbo box '

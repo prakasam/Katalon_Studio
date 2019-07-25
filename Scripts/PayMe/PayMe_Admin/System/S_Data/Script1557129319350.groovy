@@ -360,220 +360,225 @@ WebUI.waitForPageLoad(5)
 'refresh the page '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/a_Data Import Files'))
+not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/a_Data Import Files'))
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'clicked data imports files link , it will open page '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/button_Add New'))
+not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/button_Add New'))
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'clicked add new it will open page'
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.waitForAlert(5)
+not_run: WebUI.waitForAlert(5)
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/input__name'), 'Sample Attendance Import Files')
+not_run: WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/input__name'), 'Sample Attendance Import Files')
 
-WebUI.selectOptionByValue(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/select_Employee Data ImportAttendance Data ImportPayroll Data ImportXIMPORTSample Attendance'), 
+not_run: WebUI.waitForPageLoad(5)
+
+'given name info '
+not_run: WebUI.takeScreenshot()
+
+not_run: WebUI.selectOptionByValue(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/select_Employee Data ImportAttendance Data ImportPayroll Data ImportXIMPORTSample Attendance'), 
     '2', true, FailureHandling.OPTIONAL)
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'given required info '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.waitForAlert(2)
+not_run: WebUI.waitForAlert(2)
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/i_Upload_fa fa-cloud-upload text-green'), 
+not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/i_Upload_fa fa-cloud-upload text-green'), 
     FailureHandling.OPTIONAL)
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'clicked upload image it will open in pop up to choose upload '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.TAB, Keys.ENTER))
+not_run: WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.TAB, Keys.ENTER))
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'clicked choose file in pop up to upload '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-autoit_prj = 'D:\\workspace\\KSW\\UF\\PP\\File_Attendance_PD0001.exe'
+not_run: autoit_prj = 'D:\\workspace\\KSW\\UF\\PP\\File_Attendance_PD0001.exe'
 
-Runtime.getRuntime().exec(autoit_prj)
+not_run: Runtime.getRuntime().exec(autoit_prj)
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
-Thread.sleep(2000)
+not_run: Thread.sleep(2000)
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'selected required file to upload it '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/textarea_Last Export Result_details'), 
+not_run: WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/textarea_Last Export Result_details'), 
     'Employ Attendance Data Imports files')
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'given required info '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/button_Save'))
+not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/button_Save'))
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'clicked save it will save the data and auto redirected to data imports files page '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/input_records per page_form-control'), 
+not_run: WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/input_records per page_form-control'), 
     'Sample Attendance')
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'search using name , it will display the matched records '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/img_Not Processed_tableActionButton_edit'))
+not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/img_Not Processed_tableActionButton_edit'))
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'clicked edit image link , it will open page '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/textarea_Last Export Result_details'), 
+not_run: WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/textarea_Last Export Result_details'), 
     'Employ Attendance Data Imports files Edit')
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'changed required info '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/button_Save'))
+not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/button_Save'))
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'clicked save it will save the data and auto redirected to data imports files page '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/input_records per page_form-control'), 
+not_run: WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/input_records per page_form-control'), 
     'Sample Attendance')
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'search using name , it will display the matched records '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/img_Not Processed_tableActionButton_Copy'))
+not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/img_Not Processed_tableActionButton_Copy'))
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'clicked copy image link , it will open page '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/button_Save'))
+not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/button_Save'))
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'clicked save it will save the data and auto redirected to data imports files page '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/input_records per page_form-control'), 
+not_run: WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/input_records per page_form-control'), 
     'Sample Attendance')
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'search using name , it will display the matched records '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/img_Not Processed_tableActionButton'))
+not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/img_Not Processed_tableActionButton'))
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'clicked delete image link , it will ask confirmation in pop up '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.waitForAlert(5)
+not_run: WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/button_Delete'))
+not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/button_Delete'))
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'clicked Delete it will delete the data and auto redirected to data imports files page '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/input_records per page_form-control'), 
+not_run: WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/input_records per page_form-control'), 
     'Sample Attendance')
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'search using name , it will display the matched records '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/img_Not Processed_tableActionButton'))
+not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/img_Not Processed_tableActionButton'))
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'clicked delete image link , it will ask confirmation in pop up '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.waitForAlert(5)
+not_run: WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/button_Delete'))
+not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/button_Delete'))
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'clicked Delete it will delete the data and auto redirected to data imports files page '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/th_Name_a'), FailureHandling.OPTIONAL)
+not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/th_Name_a'), FailureHandling.OPTIONAL)
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'clikced name in table, it will order data in assending '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/th_Name'), FailureHandling.OPTIONAL)
+not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/th_Name'), FailureHandling.OPTIONAL)
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'clikced name in table, it will order data in Dessending '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/th_Data Import Definition_a'))
+not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/th_Data Import Definition_a'))
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'clikced Data Import Definition in table, it will order data in assending '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/th_Data Import Definition'))
+not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/th_Data Import Definition'))
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'clikced Data Import Definition in table, it will order data in dessending '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/th_Status_a'))
+not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/th_Status_a'))
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'clikced status in table, it will order data in assending '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/th_Status'))
+not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/S_data_import_or/Import_Files/th_Status'))
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'clikced status in table, it will order data in dessending '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/S_data_import_or/a_admin (1)'))
 

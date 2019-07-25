@@ -66,14 +66,16 @@ WebUI.waitForPageLoad(5)
 'clicked add new button , it will open new page to add employee '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input__employee_id'), 'PDX0032')
+WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input__employee_id'), findTestData(
+        'PayMe/Employee').getValue(1, 1))
 
 WebUI.waitForPageLoad(5)
 
 'given few details for employee '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input__first_name'), 'paniendra32')
+WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input__first_name'), findTestData(
+        'PayMe/Employee').getValue(2, 1))
 
 WebUI.waitForPageLoad(5)
 
@@ -96,18 +98,8 @@ WebUI.takeScreenshot()
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/span_Afghan_Nactionality_Employee'))
-
-WebUI.delay(3)
-
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_Nationality_s2id_autogen2_search_Nactionality_Employee'), 
-    'indian')
-
-WebUI.delay(3)
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
-
-WebUI.delay(3)
+WebUI.sendKeys(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input__last_name'), Keys.chord(Keys.TAB, 
+        Keys.ENTER, 'indian', Keys.ENTER))
 
 'given few details for employee '
 WebUI.waitForPageLoad(5)
@@ -133,53 +125,35 @@ WebUI.takeScreenshot()
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/span_Select_ethnicity_Employee'))
-
-WebUI.delay(3)
-
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_Ethnicity_s2id_autogen3_search_ethnicity_Employee'), 
-    'indian')
-
-WebUI.delay(3)
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
-
-WebUI.delay(3)
+WebUI.selectOptionByValue(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/select_MarriedSingleDivorcedWidowedOther'), 
+    'Married', true)
 
 WebUI.waitForPageLoad(5)
 
 'given few details for employee '
 WebUI.takeScreenshot()
 
-WebUI.delay(3)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/span_Citizen_immigration_status_Employee'), FailureHandling.OPTIONAL)
-
-WebUI.delay(3)
-
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_Immigration Status_s2id_autogen4_search_immigration_status_Employee'), 
-    'work permit', FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/span_Citizen'), FailureHandling.OPTIONAL)
 
 WebUI.delay(3)
 
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject(null), Keys.chord('Work Permit Holder', Keys.ENTER))
 
 WebUI.delay(3)
+
+'given few details for employee '
+WebUI.takeScreenshot()
+
+WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_Permit Expiry Date_permit_expiry_Employee'), '2022-04-30')
 
 WebUI.waitForPageLoad(5)
 
 'given few details for employee '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_Permit Expiry Date_permit_expiry_Employee'), '2019-04-30')
-
-WebUI.waitForPageLoad(5)
-
-'given few details for employee '
-WebUI.takeScreenshot()
-
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_Permit Expiry Date_permit_expiry_Employee'), Keys.chord(
-        Keys.TAB, 'pdx.com'))
+WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_Perkeso No_socso_num'), 'SOCSO1234')
 
 WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_SSNNRIC_ssn_num'), 'NA')
 
@@ -275,12 +249,7 @@ WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/span_Albania_c
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_Country_s2id_autogen8_search_country_Employee'), 
-    'malaysia')
-
-WebUI.delay(3)
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject(null), Keys.chord('malaysia', Keys.ENTER))
 
 WebUI.delay(3)
 
@@ -493,7 +462,7 @@ WebUI.waitForPageLoad(5)
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_records per page_form-control'), 
-    'paniendra32')
+    findTestData('PayMe/Employee').getValue(2, 1))
 
 WebUI.delay(3)
 
@@ -509,7 +478,8 @@ WebUI.waitForPageLoad(5)
 'clicked edit image button , it will open in new page to edit '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input__first_name'), 'paniendra32 edit')
+WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input__first_name'), findTestData(
+        'PayMe/Employee').getValue(2, 1))
 
 WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_Middle Name_middle_name'), 'myeg edit')
 
@@ -582,7 +552,7 @@ WebUI.waitForPageLoad(5)
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_records per page_form-control'), 
-    'paniendra32')
+    findTestData('PayMe/Employee').getValue(2, 1))
 
 WebUI.delay(3)
 
@@ -621,7 +591,7 @@ WebUI.waitForPageLoad(5)
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_records per page_form-control'), 
-    'paniendra32')
+    findTestData('PayMe/Employee').getValue(2, 1))
 
 WebUI.delay(3)
 
@@ -672,7 +642,7 @@ WebUI.waitForPageLoad(5)
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_records per page_form-control'), 
-    'paniendra32')
+    findTestData('PayMe/Employee').getValue(2, 1))
 
 WebUI.delay(3)
 
@@ -727,7 +697,7 @@ WebUI.waitForPageLoad(5)
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/button_Delete Profile Image'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/button_Delete Profile Image'), FailureHandling.OPTIONAL)
 
 WebUI.waitForPageLoad(5)
 
@@ -973,4 +943,20 @@ WebUI.takeScreenshot()
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/a_Employees_3'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/a_Employees_3'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_Employee_OR/input_records per page_form-control'), 
+    findTestData('PayMe/Employee').getValue(2, 1))
+
+WebUI.delay(3)
+
+WebUI.waitForPageLoad(5)
+
+'search using employ name , it will display the matched records with complete employee profile \r\n\r\n'
+WebUI.takeScreenshot()
 

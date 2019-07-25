@@ -73,7 +73,7 @@ WebUI.waitForPageLoad(5)
 'clicked add new button , it will open page to add '
 WebUI.takeScreenshot()
 
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER, 'paniendra1', Keys.ENTER))
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER, 'paniendra', Keys.ENTER))
 
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER, 'Car Allowance', Keys.ENTER))
 
@@ -195,6 +195,21 @@ WebUI.waitForPageLoad(5)
 'click delete , it will delete the record and auto redirect to employee Salary components page '
 WebUI.takeScreenshot()
 
+WebUI.refresh()
+
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/P_Sallary_OR/Employee_Salary_Components/a_Employee Salary Components'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/P_Sallary_OR/Employee_Salary_Components/a_Employee Salary Components'))
+
+WebUI.waitForPageLoad(5)
+
+'clicked Employee salary Components link  , it will open page '
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/P_Sallary_OR/Employee_Salary_Components/button_Filter_m'))
 
 WebUI.waitForPageLoad(5)
@@ -222,6 +237,10 @@ WebUI.waitForPageLoad(5)
 
 'clicked salary sub menu , it will open page '
 WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/P_Sallary_OR/Employee_Salary_Components/a_Employee Salary Components'))
+
+WebUI.waitForPageLoad(5)
 
 WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/P_Sallary_OR/Employee_Salary_Components/a_Employee Salary Components'))
 

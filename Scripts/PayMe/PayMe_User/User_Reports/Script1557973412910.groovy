@@ -101,9 +101,11 @@ WebUI.takeScreenshot()
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/UR_Reports/a_alert(1)'))
+not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/UR_Reports/a_alert(1)'))
 
-WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/UR_Reports/a_Sign out'))
+not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/UR_Reports/a_Sign out'))
+
+WebUI.navigateToUrl('https://payme-uat.myegdev.com/app/logout.php')
 
 'sign out from user '
 WebUI.takeScreenshot()
@@ -143,7 +145,9 @@ WebUI.takeScreenshot()
 
 WebUI.refresh()
 
-WebUI.doubleClick(findTestObject('PayMe_OR/PayMe_User_OR/UR_Reports/Time_Entry_Report'))
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/UR_Reports/Time_Entry_Report'))
 
 WebUI.waitForPageLoad(5)
 

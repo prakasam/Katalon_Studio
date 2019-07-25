@@ -124,6 +124,14 @@ WebUI.waitForPageLoad(5)
 'it will save the record and auto redirect to skills page '
 WebUI.takeScreenshot()
 
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_skills/a_Skills'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_skills/a_Skills'))
+
+WebUI.waitForPageLoad(5)
+
 WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_skills/input_records per page_form-control'), 
     'security')
 
@@ -326,7 +334,8 @@ WebUI.waitForPageLoad(5)
 'clicked filter in after slection opctions , it will display the result based on the selection '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_skills/button_Employee  Aplus edited 12 Multipurpose 12  Skill  Networking'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/E_skills/button_Employee  Aplus edited 12 Multipurpose 12  Skill  Networking'), 
+    FailureHandling.OPTIONAL)
 
 WebUI.waitForPageLoad(5)
 

@@ -245,7 +245,7 @@ not_run: WebUI.takeScreenshot()
 
 WebUI.delay(3)
 
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER, 'pay per hour ', Keys.ENTER))
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER, 'Public Holiday OT ', Keys.ENTER))
 
 WebUI.waitForPageLoad(5)
 
@@ -306,7 +306,7 @@ WebUI.waitForPageLoad(5)
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Overtime_Administration_OR/input_records per page_form-control_Requests'), 
-    'pay per hour basic ')
+    'Public Holiday OT ')
 
 WebUI.waitForPageLoad(5)
 
@@ -341,7 +341,7 @@ WebUI.waitForPageLoad(5)
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Overtime_Administration_OR/input_records per page_form-control_Requests'), 
-    'pay per hour basic ')
+    'Public Holiday OT ')
 
 WebUI.waitForPageLoad(5)
 
@@ -395,7 +395,7 @@ WebUI.waitForPageLoad(5)
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Overtime_Administration_OR/input_records per page_form-control_Requests'), 
-    'pay per hour basic ')
+    'Public Holiday OT ')
 
 WebUI.waitForPageLoad(5)
 
@@ -435,7 +435,7 @@ WebUI.waitForPageLoad(5)
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Overtime_Administration_OR/input_records per page_form-control_Requests'), 
-    'pay per hour basic ')
+    'Public Holiday OT ')
 
 WebUI.waitForPageLoad(5)
 

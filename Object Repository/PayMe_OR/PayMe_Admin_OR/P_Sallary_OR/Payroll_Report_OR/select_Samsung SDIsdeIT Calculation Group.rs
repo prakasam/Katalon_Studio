@@ -4,6 +4,12 @@
    <name>select_Samsung SDIsdeIT Calculation Group</name>
    <tag></tag>
    <elementGuidId>45e67789-2695-4af7-9fab-d040c2c5a3be</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@type = 'select-one' and @id = 'deduction_group' and @name = 'deduction_group']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -42,12 +48,12 @@
       <value>deduction_group</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <isSelected>false</isSelected>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>
-	  	Samsung SDIsdeIT Calculation Group (Local)IT Calculation Group (Foreigner)PDX Worker  calculation group textXgroupbcdefghiklaPDX Local Worker  calculation group 
+	  	Samsung SDIsdeIT Calculation Group (Local)IT Calculation Group (Foreigner)PDX Worker  calculation group textXgroupbcdefghikla  calculation group 
 	  	</value>
    </webElementProperties>
    <webElementProperties>
@@ -61,30 +67,35 @@
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
+      <type>Main</type>
       <value>//select[@id='deduction_group']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
+      <type>Main</type>
       <value>//div[@id='field_deduction_group']/div/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[3]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[4]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
+      <type>Main</type>
       <value>//div[4]/div/select</value>
    </webElementXpaths>
 </WebElementEntity>

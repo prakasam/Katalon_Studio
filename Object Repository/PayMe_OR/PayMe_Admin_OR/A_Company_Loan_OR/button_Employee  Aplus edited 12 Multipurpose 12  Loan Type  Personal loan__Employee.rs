@@ -4,6 +4,12 @@
    <name>button_Employee  Aplus edited 12 Multipurpose 12  Loan Type  Personal loan__Employee</name>
    <tag></tag>
    <elementGuidId>3b124dbc-921a-46af-94c9-2f43813792a0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id = 'EmployeeCompanyLoan_resetFilters' and (text() = 'Employee = Aplus edited Multipurpose | Loan Type = Personal loan ' or . = 'Employee = Aplus edited Multipurpose | Loan Type = Personal loan ')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -39,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Employee = Aplus edited 12 Multipurpose 12 | Loan Type = Personal loan </value>
+      <value>Employee = Aplus edited Multipurpose | Loan Type = Personal loan </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,36 +58,42 @@
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
+      <type>Main</type>
       <value>//button[@id='EmployeeCompanyLoan_resetFilters']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
+      <type>Main</type>
       <value>//div[@id='EmployeeCompanyLoan']/div/div/button[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New'])[2]/following::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Employee'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
+      <type>Main</type>
       <value>//button[3]</value>
    </webElementXpaths>
 </WebElementEntity>

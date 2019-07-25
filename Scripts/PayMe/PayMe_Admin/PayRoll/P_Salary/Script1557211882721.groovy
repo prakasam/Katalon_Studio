@@ -210,7 +210,7 @@ WebUI.waitForPageLoad(5)
 'clicked name in table , it will make records Dessending order '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/P_Sallary_OR/a_2'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/P_Sallary_OR/a_2'), FailureHandling.OPTIONAL)
 
 WebUI.waitForPageLoad(5)
 

@@ -7,15 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;data_import_definition&quot;)[count(. | //select[@type = 'select-one' and @id = 'data_import_definition' and @name = 'data_import_definition' and (text() = '
-	  	Employee Data ImportAttendance Data ImportPayroll Data ImportXIMPORTSample Attendance
-	  	' or . = '
-	  	Employee Data ImportAttendance Data ImportPayroll Data ImportXIMPORTSample Attendance
-	  	')]) = count(//select[@type = 'select-one' and @id = 'data_import_definition' and @name = 'data_import_definition' and (text() = '
-	  	Employee Data ImportAttendance Data ImportPayroll Data ImportXIMPORTSample Attendance
-	  	' or . = '
-	  	Employee Data ImportAttendance Data ImportPayroll Data ImportXIMPORTSample Attendance
-	  	')])]</value>
+         <value>id(&quot;data_import_definition&quot;)[count(. | //select[@type = 'select-one' and @id = 'data_import_definition' and @name = 'data_import_definition']) = count(//select[@type = 'select-one' and @id = 'data_import_definition' and @name = 'data_import_definition'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -56,8 +48,8 @@
       <value>data_import_definition</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <isSelected>false</isSelected>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>
@@ -75,30 +67,35 @@
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
+      <type>Main</type>
       <value>//select[@id='data_import_definition']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
+      <type>Main</type>
       <value>//div[@id='field_data_import_definition']/div/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[3]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
+      <type>Main</type>
       <value>//div/select</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -459,7 +459,9 @@ WebUI.takeScreenshot()
 
 WebUI.refresh()
 
-WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Job_Details_Setup_OR/a_Job Details Setup'))
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Job_Details_Setup_OR/a_Job Details Setup'), FailureHandling.OPTIONAL)
 
 WebUI.waitForPageLoad(5)
 

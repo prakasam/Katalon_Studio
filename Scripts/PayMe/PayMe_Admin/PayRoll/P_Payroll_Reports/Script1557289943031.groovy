@@ -97,7 +97,7 @@ WebUI.waitForPageLoad(5)
 WebUI.takeScreenshot()
 
 WebUI.selectOptionByValue(findTestObject('PayMe_OR/PayMe_Admin_OR/P_Sallary_OR/Payroll_Report_OR/select_PayslipsdeIT -'), 
-    '1', true)
+    '2', true)
 
 WebUI.waitForPageLoad(5)
 

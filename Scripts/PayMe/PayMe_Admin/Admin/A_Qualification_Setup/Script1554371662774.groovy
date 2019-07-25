@@ -155,6 +155,8 @@ WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Qualif
 
 WebUI.waitForPageLoad(5)
 
+WebUI.delay(2)
+
 'Search using description, it will display the available matced records '
 WebUI.takeScreenshot()
 

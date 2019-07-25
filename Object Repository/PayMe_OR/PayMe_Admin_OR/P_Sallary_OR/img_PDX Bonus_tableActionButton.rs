@@ -4,6 +4,16 @@
    <name>img_PDX Bonus_tableActionButton</name>
    <tag></tag>
    <elementGuidId>33ae21f5-a0e7-43d7-924f-c47cbf8965bd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@onclick='modJs.edit(19);return false;']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//table[@id='grid']/tbody/tr/td[3]/div/img[count(. | //img[@src = 'https://payme-uat.myegdev.com/web/images/edit.png' and contains(@title, 'Edit')]) = count(//img[@src = 'https://payme-uat.myegdev.com/web/images/edit.png' and contains(@title, 'Edit')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -36,7 +46,7 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>title</name>
       <type>Main</type>
       <value>Edit</value>
@@ -49,52 +59,59 @@
       <value>modJs.edit(19);return false;</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;grid&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[@class=&quot;center&quot;]/div[1]/img[@class=&quot;tableActionButton&quot;]</value>
+      <value>//table[@id='grid']/tbody/tr/td[3]/div/img</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
+      <type>Main</type>
       <value>//img[@onclick='modJs.edit(19);return false;']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
+      <type>Main</type>
       <value>//table[@id='grid']/tbody/tr/td[3]/div/img</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PDX Bonus'])[1]/following::img[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='P007'])[1]/following::img[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing 1 to 1 of 1 entries (filtered from 19 total entries)'])[1]/preceding::img[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:img</name>
+      <type>Main</type>
       <value>//img[@title='Edit']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
+      <type>Main</type>
       <value>//td[3]/div/img</value>
    </webElementXpaths>
 </WebElementEntity>

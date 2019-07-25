@@ -70,6 +70,8 @@ WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Temporarly_deacti
 
 WebUI.waitForPageLoad(5)
 
+WebUI.delay(2)
+
 'clicked  Temporarily Deactivated Employees link it will open Temporarily Deactivated Employees page '
 WebUI.takeScreenshot()
 
@@ -214,7 +216,7 @@ WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Temporarly_deacti
 'clicked Employee Number in table  to sort in Assending order '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Temporarly_deactivated/th_Employee Number'))
+WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Temporarly_deactivated/th_Employee Number - Copy'))
 
 'clicked Employee Number in table  to sort in Dessending order '
 WebUI.takeScreenshot()
