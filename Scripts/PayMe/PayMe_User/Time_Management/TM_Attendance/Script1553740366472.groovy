@@ -167,22 +167,22 @@ WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/TM_Attendan
 'click to view second page using pagination '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/TM_Attendance/button_Punch-out'))
+not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/TM_Attendance/button_Punch-out'))
 
 'Clicked punch out button'
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.waitForAlert(10)
+not_run: WebUI.waitForAlert(10)
 
-WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/TM_Attendance/textarea_Note_note'), 'punch out')
+not_run: WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/TM_Attendance/textarea_Note_note'), 'punch out')
 
 'click save with given notes'
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/TM_Attendance/button_Save'))
+not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/TM_Attendance/button_Save'))
 
 'it was saved the record '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/TM_Attendance/a_Aplus edited 12'))
 

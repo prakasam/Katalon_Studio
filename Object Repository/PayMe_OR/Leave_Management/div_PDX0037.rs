@@ -4,6 +4,16 @@
    <name>div_PDX0037</name>
    <tag></tag>
    <elementGuidId>c75c3329-dc80-409b-a3d9-c978e651cb80</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = '
+        paniendra37 edit myeg edit malaysia edit (PDX0037)
+      ' or . = '
+        paniendra37 edit myeg edit malaysia edit (PDX0037)
+      ')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -26,7 +36,7 @@
       <name>text</name>
       <type>Main</type>
       <value>
-        PDX0037
+        paniendra37 edit myeg edit malaysia edit (PDX0037)
       </value>
    </webElementProperties>
    <webElementProperties>

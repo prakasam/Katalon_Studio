@@ -4,6 +4,14 @@
    <name>button_Download CSV template here</name>
    <tag></tag>
    <elementGuidId>b2e6c536-c36b-43c4-ae3a-b7e628a5af95</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'submit' and (text() = ' Download template
+      ' or . = ' Download template
+      ')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -32,7 +40,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Download CSV template here
+      <value> Download template
       </value>
    </webElementProperties>
    <webElementProperties>

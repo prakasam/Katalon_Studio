@@ -640,7 +640,7 @@ WebUI.takeScreenshot()
 
 WebUI.refresh()
 
-WebUI.waitForPageLoad(5)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_project_client_OR/a_ProjectsClient Setup'), FailureHandling.OPTIONAL)
 

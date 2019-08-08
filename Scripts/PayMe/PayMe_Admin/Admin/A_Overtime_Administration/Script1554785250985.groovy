@@ -162,7 +162,9 @@ WebUI.waitForPageLoad(5)
 'clicked delete button , it will delete record and auto redirected to overtime category page '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Overtime_Administration_OR/th_Name'))
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Overtime_Administration_OR/th_Name'), FailureHandling.OPTIONAL)
 
 'clicked name to arrange table data in assending order '
 WebUI.takeScreenshot()

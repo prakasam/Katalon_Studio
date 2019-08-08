@@ -11,6 +11,12 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>4a175f13-b655-40da-aeba-0c1b7445f624</testSuiteGuid>
    <testCaseLink>
+      <guid>51e72b1f-0ca7-4699-a54e-03d6bcea30ab</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/PayMe/PayMe_Admin/Employee/E_Employee_Emergency_Contacts</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>e08f38be-9e3d-4f66-b124-64d8db2e6269</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -51,12 +57,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/PayMe/PayMe_Admin/Employee/E_Employee_Dependents</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>51e72b1f-0ca7-4699-a54e-03d6bcea30ab</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/PayMe/PayMe_Admin/Employee/E_Employee_Emergency_Contacts</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4cec3577-18c9-4500-a900-3bc314e2c126</guid>

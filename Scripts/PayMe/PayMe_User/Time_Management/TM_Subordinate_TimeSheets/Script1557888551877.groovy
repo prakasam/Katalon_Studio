@@ -99,7 +99,7 @@ WebUI.waitForPageLoad(5)
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/TM_Time_Sheets/TM_Subordinated_OR/input_records per page_form-control'), 
-    '2019-04-14')
+    '2019-07-14')
 
 WebUI.waitForPageLoad(5)
 
@@ -125,7 +125,7 @@ WebUI.waitForPageLoad(5)
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/TM_Time_Sheets/TM_Subordinated_OR/input_records per page_form-control'), 
-    '2019-04-07')
+    '2019-07-07')
 
 WebUI.waitForPageLoad(5)
 
@@ -207,7 +207,8 @@ WebUI.waitForPageLoad(5)
 'clicked filter button in pop up , it will display filtered information '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/TM_Time_Sheets/TM_Subordinated_OR/button_Employee  paniendra3 edit malaysia edit'))
+WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/TM_Time_Sheets/TM_Subordinated_OR/button_Employee  paniendra3 edit malaysia edit'), 
+    FailureHandling.OPTIONAL)
 
 WebUI.waitForPageLoad(5)
 
