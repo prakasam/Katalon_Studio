@@ -4,7 +4,6 @@
    <name>JPJ - - AES</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-01-11T18:01:31</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

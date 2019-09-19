@@ -190,7 +190,7 @@ WebUI.setText(findTestObject('BO_Support-OR/JPJ-OR/AES/AES_Summon_Details/input_
 
 WebUI.setText(findTestObject('BO_Support-OR/JPJ-OR/AES/AES_Summon_Details/input_Pending_tb_revcode'), '77777')
 
-WebUI.setText(findTestObject('BO_Support-OR/JPJ-OR/AES/AES_Summon_Details/input_Pending_tb_transdate'), '2018-12-07 12:00:59')
+not_run: WebUI.setText(findTestObject('BO_Support-OR/JPJ-OR/AES/AES_Summon_Details/input_Pending_tb_transdate'), '2018-12-07 12:00:59')
 
 WebUI.setText(findTestObject('BO_Support-OR/JPJ-OR/AES/AES_Summon_Details/input_Sat_tb_userid'), 'qatest1819@gmail.com')
 
@@ -233,7 +233,7 @@ WebUI.sendKeys(findTestObject('BO_Support-OR/JPJ-OR/AES/AES_Summon_Details/input
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('BO_Support-OR/JPJ-OR/AES/AES_Summon_Details/input_Sat_tb_requestid'), 'eServSummonSub20181207120059828006')
+not_run: WebUI.setText(findTestObject('BO_Support-OR/JPJ-OR/AES/AES_Summon_Details/input_Sat_tb_requestid'), 'eServSummonSub20181207120059828006')
 
 WebUI.setText(findTestObject('BO_Support-OR/JPJ-OR/AES/AES_Summon_Details/input_Sat_tb_summondate'), '2015-08-27 00:00:00')
 
@@ -253,6 +253,8 @@ WebUI.delay(2)
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('BO_Support-OR/JPJ-OR/AES/AES_Summon_Details/button_Update'))
+
+WebUI.delay(2)
 
 'it will display message " Record Successfully Updated " '
 WebUI.takeScreenshot()

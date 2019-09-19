@@ -37,240 +37,238 @@ WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_
 'Dash board of user login \r\n'
 WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/a_Dependents'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/a_Dependents'))
 
 'Clicked  Dependents from Personal information menu \r\n'
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/button_Add New'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/button_Add New'))
 
 'Clicked Add new from Dependents page \r\n'
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/button_Save'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/button_Save'))
 
 'Clicked save with out given info, it will change block to red color for required fields name \r\n'
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/input__name'), 
-    'Baseus S-09A')
+WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/input__name'), 'Baseus S-09A')
 
-not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/select_ChildSpouseParentOther'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/select_ChildSpouseParentOther'), 
     'Other', true)
 
-not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/i__fa fa-calendar'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/i__fa fa-calendar'))
 
-not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/span_2010'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/span_2010'))
 
-not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/span_Jan'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/span_Jan'))
 
-not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/td_1'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/td_1'))
 
-not_run: WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/input_Id Number_id_number'), 
+WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/input_Id Number_id_number'), 
     '6953156288287')
 
 'Click save with given all required information \r\n'
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/button_Save'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/button_Save'))
 
 'it will save the data and auto redirect to dependents page '
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.refresh()
+WebUI.refresh()
 
 'Search invalid data \r\n'
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/input_records per page_form-control'), 
+WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/input_records per page_form-control'), 
     'invalid data 7855')
 
 'it will display info " No Matching record found " \r\n'
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.refresh()
+WebUI.refresh()
 
 'Search Using name \r\n'
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/input_records per page_form-control'), 
+WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/input_records per page_form-control'), 
     'baseus')
 
 'it will display the available matched records \r\n'
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/img_Other_tableActionButton'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/img_Other_tableActionButton'))
 
 'Clicked  edit image link, it will open the edit page for selected info \r\n'
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/input__name'), 
-    'Baseus S-09A edit')
+WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/input__name'), 'Baseus S-09A edit')
 
-not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/select_ChildSpouseParentOther'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/select_ChildSpouseParentOther'), 
     'Child', true)
 
-not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/i__fa fa-calendar'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/i__fa fa-calendar'))
 
-not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/span_2017'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/span_2017'))
 
-not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/span_Feb'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/span_Feb'))
 
-not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/td_28'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/td_28'))
 
-not_run: WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/input_Id Number_id_number'), 
+WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/input_Id Number_id_number'), 
     '6953156288287_edit')
 
 'Click save with given updated information \r\n'
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/button_Save'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/button_Save'))
 
 'it will save the data and auto redirect to dependents page '
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.refresh()
+WebUI.refresh()
 
 'Search using Id Number \r\n'
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/input_records per page_form-control'), 
+WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/input_records per page_form-control'), 
     '6953156288287')
 
 'it will display the available information \r\n'
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/img_Child_tableActionButton'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/img_Child_tableActionButton'))
 
 'Click copy image link, \r\n'
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/button_Save'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/button_Save'))
 
 'Click save with out changing copy information , it will save in new record '
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.refresh()
+WebUI.refresh()
 
 'Search using Relathion ship info \r\n'
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/input_records per page_form-control'), 
+WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/input_records per page_form-control'), 
     'child')
 
 'it will filter the available searched info '
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.refresh()
+WebUI.refresh()
 
 'Search using Date of Birth info \r\n'
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/input_records per page_form-control'), 
+WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/input_records per page_form-control'), 
     '2017-02-28')
 
 'it will filter the available searched info '
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/img_Child_tableActionButton_1'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/img_Child_tableActionButton_1'))
 
 'clicked delete image link '
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.waitForAlert(10)
+WebUI.waitForAlert(10)
 
 'it will ask confirmstion to delete'
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/button_Delete'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/button_Delete'))
 
 'clicked delete. it will delete the record '
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.refresh()
+WebUI.refresh()
 
 'Search using ID Number info\r\n'
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/input_records per page_form-control'), 
+WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/input_records per page_form-control'), 
     '6953156288287')
 
 'it will filter the available searched info '
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/img_Child_tableActionButton_2'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/img_Child_tableActionButton_2'))
 
 'clicked delete image link '
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.waitForAlert(10)
+WebUI.waitForAlert(10)
 
 'it will ask confirmstion to delete'
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/button_Delete'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/button_Delete'))
 
 'clicked delete. it will delete the record '
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.refresh()
+WebUI.refresh()
 
-not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/th_Name'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/th_Name'))
 
 'Ascending order Soted based on the name '
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/th_Name'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/th_Name'))
 
 'descending order Soted based on the name '
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/th_Relationship'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/th_Relationship'))
 
 'Ascending order Soted based on the Relation ship '
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/th_Relationship'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/th_Relationship'))
 
 'descending order Soted based on the Relation ship '
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/th_Date of Birth'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/th_Date of Birth'))
 
 'Ascending order Soted based on the Date of birth'
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/th_Date of Birth'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/th_Date of Birth'))
 
 'descending order Soted based on the Date of Birth'
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/th_Id Number'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/th_Id Number'))
 
 'Ascending order Soted based on the ID Number'
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/th_Id Number'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/th_Id Number'))
 
 'descending order Soted based on the ID Number'
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.refresh()
+WebUI.refresh()
 
 'click second page in pagination opctions '
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/a_2'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/a_2'))
 
 'it will open second page od dependents  '
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.refresh()
+WebUI.refresh()
 
-not_run: WebUI.delay(5)
+WebUI.delay(5)
 
 'click Emergency Contacts sub menu from Personal Information '
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/a_Emergency Contacts'))
 
@@ -320,7 +318,7 @@ WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependent
 'it will display the matched available records '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/img_Friend_tableActionButton'))
+WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/img_Friend_tableActionButton (1)'))
 
 'clicked Edit image link '
 WebUI.takeScreenshot()
@@ -358,7 +356,7 @@ WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependent
 'it will display the matched records '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/img_Friend edit_tableActionButton'))
+WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/img_Friend edit_tableActionButton (1)'))
 
 'click copy image link, it will copy the contact information into new record'
 WebUI.takeScreenshot()
@@ -405,7 +403,7 @@ WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependent
 'it will display the matched records '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/img_Friend edit_tableActionButton_2'))
+WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/img_Friend edit_tableActionButton_1'))
 
 'clicked delete image link,'
 WebUI.takeScreenshot()
@@ -498,7 +496,7 @@ WebUI.refresh()
 'click second page in pagination opctions '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/a_2'))
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/a_2'), FailureHandling.OPTIONAL)
 
 'it will open second page od dependents  '
 WebUI.takeScreenshot()

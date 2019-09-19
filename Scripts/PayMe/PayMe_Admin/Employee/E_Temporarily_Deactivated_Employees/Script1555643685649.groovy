@@ -107,10 +107,10 @@ WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Temporarly_deactivated/img_Kenglav_tableActionButton'))
 
-WebUI.waitForPageLoad(5, FailureHandling.OPTIONAL)
+WebUI.waitForAlert(5, FailureHandling.CONTINUE_ON_FAILURE)
 
 'clicked archive Employee image link , it will open in pop up for confirmation archive '
-WebUI.takeScreenshot(FailureHandling.OPTIONAL)
+not_run: WebUI.takeScreenshot(FailureHandling.OPTIONAL)
 
 WebUI.dismissAlert(FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -129,10 +129,10 @@ WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Temporarly_deactivated/img_Madan_tableActionButton'))
 
-WebUI.waitForPageLoad(5, FailureHandling.OPTIONAL)
+WebUI.waitForAlert(5, FailureHandling.CONTINUE_ON_FAILURE)
 
 'clicked restore image link , it will open in pop up for confirmation to restore'
-WebUI.takeScreenshot(FailureHandling.OPTIONAL)
+not_run: WebUI.takeScreenshot(FailureHandling.OPTIONAL)
 
 WebUI.acceptAlert(FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -168,10 +168,10 @@ WebUI.takeScreenshot()
 WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Temporarly_deactivated/img_Complete_tableActionButton_terminate_employee'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForPageLoad(5, FailureHandling.OPTIONAL)
+WebUI.waitForAlert(5, FailureHandling.CONTINUE_ON_FAILURE)
 
 'clicked Terminate Employee image link , it will open in pop up for confirmation to terminate '
-WebUI.takeScreenshot(FailureHandling.OPTIONAL)
+not_run: WebUI.takeScreenshot(FailureHandling.OPTIONAL)
 
 WebUI.acceptAlert()
 

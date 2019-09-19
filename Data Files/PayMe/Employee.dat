@@ -8,9 +8,6 @@
    <dataFileGUID>5b573f5d-fc65-49b0-bf5e-c45881c18350</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>PDX0047 paniendra47 edit</data>
-   <data>PDX0048 paniendra48 edit</data>
-   <data>PDX0050 paniendra50 edit</data>
    <data>PDX0051 paniendra51 null</data>
    <data>PDX0052 paniendra52 null</data>
    <data>PDX0053 paniendra53 null</data>
@@ -24,17 +21,17 @@
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>emp_no</name>
-      <size>13</size>
+      <size>10</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>emp_FName</name>
-      <size>13</size>
+      <size>10</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>emp_LName</name>
-      <size>13</size>
+      <size>10</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

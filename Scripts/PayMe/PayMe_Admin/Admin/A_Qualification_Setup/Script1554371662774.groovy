@@ -176,7 +176,9 @@ WebUI.waitForPageLoad(5)
 'clicked delete for confirmation , record deleted and auto redirect to skirlls page '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Qualification_Setup_OR/th_Name'))
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Qualification_Setup_OR/th_Name'), FailureHandling.OPTIONAL)
 
 'clicked name , it will arrange the records in Assending Order '
 WebUI.takeScreenshot()
