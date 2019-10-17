@@ -443,12 +443,12 @@ WebUI.refresh()
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/th_Name'))
 
-'Ascending order Soted based on the Relation ship '
+'Ascending order Soted based on the Name  '
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/th_Name'))
 
-'descending order Soted based on the Relation ship '
+'descending order Soted based on the Name'
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/th_Relationship'))
@@ -463,32 +463,32 @@ WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/th_Home Phone'))
 
-'Ascending order Soted based on the Relation ship '
+'Ascending order Soted based on the Home Phone '
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/th_Home Phone'))
 
-'descending order Soted based on the Relation ship '
+'descending order Soted based on the Home Phone '
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/th_Work Phone'))
 
-'Ascending order Soted based on the Relation ship '
+'Ascending order Soted based on the Work Phone '
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/th_Work Phone'))
 
-'descending order Soted based on the Relation ship '
+'descending order Soted based on the Work Phone '
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/th_Mobile Phone'))
 
-'Ascending order Soted based on the Relation ship '
+'Ascending order Soted based on the Mobile Number'
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Dependents_Emergency_Contacts_OR/th_Mobile Phone'))
 
-'descending order Soted based on the Relation ship '
+'descending order Soted based on the Mobile Number'
 WebUI.takeScreenshot()
 
 WebUI.refresh()

@@ -301,12 +301,12 @@ WebUI.waitForPageLoad(5)
 'clicked emply name in table to arrange in assending order '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Employee_Custom_Fields_OR/th_Name_employee'), FailureHandling.OPTIONAL)
+not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/A_Employee_Custom_Fields_OR/th_Name_employee'), FailureHandling.OPTIONAL)
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'clicked emply name in table to arrange in dessending order '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Employee_Custom_Fields_OR/th_Display Status'))
 
@@ -317,12 +317,13 @@ WebUI.takeScreenshot()
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Employee_Custom_Fields_OR/th_Display Status'), FailureHandling.OPTIONAL)
+not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Employee_Custom_Fields_OR/th_Display Status'), 
+    FailureHandling.OPTIONAL)
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'clicked display status in table to arrange in dessending order '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Employee_Custom_Fields_OR/th_Priority'))
 

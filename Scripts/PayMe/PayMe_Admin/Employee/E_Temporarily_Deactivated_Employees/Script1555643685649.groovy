@@ -226,20 +226,20 @@ WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Temporarly_deacti
 'clicked First name in table  to sort in Assending order '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Temporarly_deactivated/th_First Name'), FailureHandling.OPTIONAL)
+not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Temporarly_deactivated/th_First Name'), FailureHandling.OPTIONAL)
 
-'clicked First Name in table  to sort in Assending order '
-WebUI.takeScreenshot()
+'clicked First Name in table  to sort in Dessending order '
+not_run: WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Temporarly_deactivated/th_Last Name'), FailureHandling.OPTIONAL)
 
 'clicked Last Name in table  to sort in Assending order '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Temporarly_deactivated/th_Last Name'), FailureHandling.OPTIONAL)
+not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Temporarly_deactivated/th_Last Name'), FailureHandling.OPTIONAL)
 
 'clicked Last Name in table  to sort in Dessending order '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Temporarly_deactivated/th_Mobile'))
 
@@ -256,20 +256,20 @@ WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Temporarly_deacti
 'clicked Department in table  to sort in Assending order '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Temporarly_deactivated/th_Department'), FailureHandling.OPTIONAL)
+not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Temporarly_deactivated/th_Department'), FailureHandling.OPTIONAL)
 
 'clicked Department in table  to sort in Dessending order '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Temporarly_deactivated/th_Gender'), FailureHandling.OPTIONAL)
 
 'clicked Gender in table  to sort in Assending order '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Temporarly_deactivated/th_Gender'), FailureHandling.OPTIONAL)
+not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Temporarly_deactivated/th_Gender'), FailureHandling.OPTIONAL)
 
 'clicked Gender in table  to sort in Dessending order '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Temporarly_deactivated/th_Supervisor'))
 

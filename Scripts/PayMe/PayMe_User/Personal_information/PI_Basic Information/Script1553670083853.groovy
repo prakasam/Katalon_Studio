@@ -98,7 +98,7 @@ WebUI.takeScreenshot()
 WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Basic_Information_OR/input_Private Email_private_email'), 
     'prakasam.myeg@gmail.com')
 
-WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Basic_Information_OR/input_work_location_work_location'), 
+not_run: WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/Basic_Information_OR/input_work_location_work_location'), 
     'Johar edit 123', FailureHandling.OPTIONAL)
 
 'click save with Given all required changes '

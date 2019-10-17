@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;EmployeeLanguage&quot;)/div[@class=&quot;box-body table-responsive&quot;]/div[@id=&quot;grid_wrapper&quot;]/table[@id=&quot;grid&quot;]/tbody[1]/tr[@class=&quot;odd&quot;]/td[@class=&quot;center&quot;]/div[1]/img[@class=&quot;tableActionButton&quot;][count(. | //img[@src = 'https://payme-uat.myegdev.com/web/images/clone.png' and @data-original-title = 'Copy']) = count(//img[@src = 'https://payme-uat.myegdev.com/web/images/clone.png' and @data-original-title = 'Copy'])]</value>
+         <value>//img[@src = 'https://payme-uat.myegdev.com/web/images/clone.png' and @data-original-title = 'Copy']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -55,7 +55,7 @@
       <value>Copy</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
@@ -65,48 +65,56 @@
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
+      <type>Main</type>
       <value>//img[@onclick='modJs.copyRow(52);return false;']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
+      <type>Main</type>
       <value>//table[@id='grid']/tbody/tr/td[6]/div/img[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Native or Bilingual Proficiency'])[2]/following::img[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Full Professional Proficiency'])[2]/following::img[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Copy'])[1]/preceding::img[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing 1 to 1 of 1 entries (filtered from 2 total entries)'])[1]/preceding::img[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:img</name>
+      <type>Main</type>
       <value>(//img[contains(@src,'https://payme-uat.myegdev.com/web/images/clone.png')])[16]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
+      <type>Main</type>
       <value>//td[6]/div/img[3]</value>
    </webElementXpaths>
 </WebElementEntity>

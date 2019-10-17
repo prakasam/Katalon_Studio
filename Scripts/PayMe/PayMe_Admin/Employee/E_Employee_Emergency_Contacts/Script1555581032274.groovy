@@ -363,10 +363,10 @@ WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Emergency_Contact
 'clicked mobile phone in table  to sort in Dessending order '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Emergency_Contacts/a_2'), FailureHandling.OPTIONAL)
+not_run: WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Emergency_Contacts/a_2'), FailureHandling.OPTIONAL)
 
 'clicked second page unsing page navigation '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('PayMe_OR/PayMe_Admin_OR/E_skills/E_Emergency_Contacts/a_Emergency Contacts'))
 

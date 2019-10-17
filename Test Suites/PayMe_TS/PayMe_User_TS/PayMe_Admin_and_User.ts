@@ -85,7 +85,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/PayMe_TS/PayMe_Admin_TS/PayMe_Admin</testSuiteEntity>
+         <testSuiteEntity>Test Suites/PayMe_TS/PayMe_Admin_TS/PayMe_Admin_Role</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>

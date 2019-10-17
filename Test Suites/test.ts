@@ -11,9 +11,9 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>9f451e67-e981-4d3e-964d-b9f2ee6a66ed</testSuiteGuid>
    <testCaseLink>
-      <guid>13ed08c4-a748-4ce3-87b2-0eeb262a10b6</guid>
+      <guid>c1b1469a-c1f5-4fdd-9ac7-77f0414d4d6c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/PayMe/PayMe_Leave_Management/L_Leave_Management</testCaseId>
+      <testCaseId>Test Cases/AIG_Sales/Admin/Leads_Reports</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

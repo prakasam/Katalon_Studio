@@ -116,7 +116,7 @@ WebUI.waitForPageLoad(5)
 'search using Language info , it will display the matched records '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Language/img_Native or Bilingual Proficiency_tableActionButton_edit'))
+WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Language/sample/img_Native or Bilingual Proficiency_tableActionButton_edit'))
 
 WebUI.waitForPageLoad(5)
 
@@ -137,7 +137,7 @@ WebUI.waitForPageLoad(5)
 'search using Language info , it will display the matched records '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Language/img_Native or Bilingual Proficiency_tableActionButton_copy'))
+WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Language/sample/img_Native or Bilingual Proficiency_tableActionButton_copy'))
 
 WebUI.waitForPageLoad(5)
 
@@ -174,7 +174,7 @@ WebUI.waitForPageLoad(5)
 'search using Language info , it will display the matched records '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Language/img_Native or Bilingual Proficiency_tableActionButton'))
+WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Language/sample/img_Native or Bilingual Proficiency_tableActionButton_delete'))
 
 WebUI.waitForPageLoad(5)
 
@@ -233,7 +233,7 @@ WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Language/a_
 
 WebUI.waitForPageLoad(5)
 
-WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Language/a_Languages'))
+WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/PI_Qualifications/Language/a_Languages'), FailureHandling.OPTIONAL)
 
 WebUI.waitForPageLoad(5)
 

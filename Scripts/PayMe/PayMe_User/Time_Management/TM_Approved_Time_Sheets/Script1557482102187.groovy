@@ -100,12 +100,13 @@ WebUI.waitForPageLoad(5)
 'search  using date , it will dispaly the matched records '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/TM_Time_Sheets/img_Approved_tableActionButton'), FailureHandling.OPTIONAL)
+not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/TM_Time_Sheets/img_Approved_tableActionButton'), 
+    FailureHandling.OPTIONAL)
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'clicked edt timesheet entries , it will open page '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('PayMe_OR/PayMe_User_OR/TM_Time_Sheets/Approved_OR/a_Approved TimeSheets'))
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Admin Leads</description>
+   <name>AIG_Sales_Leads_TM</name>
+   <tag>Admin Leads</tag>
+   <comment></comment>
+   <testCaseGuid>f5a54f68-0519-4c2d-8de6-0da49e80ebb7</testCaseGuid>
+</TestCaseEntity>

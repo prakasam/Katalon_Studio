@@ -101,10 +101,6 @@ WebUI.takeScreenshot()
 
 WebUI.delay(2)
 
-not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/UR_Reports/a_alert(1)'))
-
-not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/UR_Reports/a_Sign out'))
-
 WebUI.navigateToUrl('https://payme-uat.myegdev.com/app/logout.php')
 
 'sign out from user '
@@ -166,9 +162,9 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/PayMe_OR/PayMe_User_
 'selected all projection from opctions '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/UR_Reports/input__date_start'), '2019-03-01')
+WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/UR_Reports/input__date_start'), '2019-01-01')
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/UR_Reports/input__date_end'), '2019-03-31')
+WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/UR_Reports/input__date_end'), '2019-09-24')
 
 'click download with given from and to date '
 WebUI.takeScreenshot()
@@ -203,9 +199,9 @@ WebUI.waitForPageLoad(5)
 'clicked attendance report image link '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/UR_Reports/input__date_start'), '2019-03-01')
+WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/UR_Reports/input__date_start'), '2019-01-01')
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/UR_Reports/input__date_end'), '2019-03-31')
+WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/UR_Reports/input__date_end'), '2019-09-26')
 
 'click download with given from and to date '
 WebUI.takeScreenshot()
@@ -223,7 +219,7 @@ WebUI.takeScreenshot()
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/UR_Reports/a_3'), FailureHandling.OPTIONAL)
+not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/UR_Reports/a_3'), FailureHandling.OPTIONAL)
 
 WebUI.takeScreenshot()
 
@@ -285,9 +281,9 @@ WebUI.waitForPageLoad(5)
 'clicked time sheet report image link '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/UR_Reports/input__date_start'), '2019-03-01')
+WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/UR_Reports/input__date_start'), '2019-01-01')
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/UR_Reports/input__date_end'), '2019-03-31')
+WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/UR_Reports/input__date_end'), '2019-09-26')
 
 ' with given from and to date '
 WebUI.takeScreenshot()
@@ -339,9 +335,9 @@ WebUI.selectOptionByValue(findTestObject('PayMe_OR/PayMe_User_OR/UR_Reports/sele
 'selected client as PDX ASE - Application Lifecycle from opctions '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/UR_Reports/input__date_start'), '2019-03-01')
+WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/UR_Reports/input__date_start'), '2019-01-01')
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/UR_Reports/input__date_end'), '2019-03-31')
+WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/UR_Reports/input__date_end'), '2019-09-26')
 
 'click download with given from and to date '
 WebUI.takeScreenshot()
@@ -367,9 +363,9 @@ WebUI.waitForPageLoad(5)
 'clicked travel request report image link '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/UR_Reports/input__date_start'), '2019-03-01')
+WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/UR_Reports/input__date_start'), '2019-01-01')
 
-WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/UR_Reports/input__date_end'), '2019-03-31')
+WebUI.setText(findTestObject('PayMe_OR/PayMe_User_OR/UR_Reports/input__date_end'), '2019-09-26')
 
 ' given from and to date '
 WebUI.takeScreenshot()

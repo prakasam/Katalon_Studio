@@ -59,10 +59,6 @@ WebUI.waitForPageLoad(5)
 'clicked save with out given required details'
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Page_PayMe by MyEG/input__code'), 'CFW', FailureHandling.OPTIONAL)
-
-WebUI.setText(findTestObject('Page_PayMe by MyEG/input__name'), 'Construction Field Work', FailureHandling.OPTIONAL)
-
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Job_Details_Setup_OR/input__code'), 'CFW')

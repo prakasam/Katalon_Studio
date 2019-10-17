@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;UserReport&quot;)/a[1][count(. | //a[@href = 'https://payme-uat.myegdev.com/app/service.php?file=Report_Time_Tracking_Report-2019-03-28_14-46-20.csv&amp;a=download' and (text() = 'Download Report  ' or . = 'Download Report  ')]) = count(//a[@href = 'https://payme-uat.myegdev.com/app/service.php?file=Report_Time_Tracking_Report-2019-03-28_14-46-20.csv&amp;a=download' and (text() = 'Download Report  ' or . = 'Download Report  ')])]</value>
+         <value>id(&quot;UserReport&quot;)/a[1][count(. | //a[(text() = 'Download Report  ' or . = 'Download Report  ')]) = count(//a[(text() = 'Download Report  ' or . = 'Download Report  ')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +20,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -51,36 +51,42 @@
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
+      <type>Main</type>
       <value>//div[@id='UserReport']/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
+      <type>Main</type>
       <value>//a[contains(text(),'Download Report')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reports'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Date'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
+      <type>Main</type>
       <value>//a[contains(@href, 'https://payme-uat.myegdev.com/app/service.php?file=Report_Time_Tracking_Report-2019-03-28_14-46-20.csv&amp;a=download')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
+      <type>Main</type>
       <value>//div/div/div/a</value>
    </webElementXpaths>
 </WebElementEntity>

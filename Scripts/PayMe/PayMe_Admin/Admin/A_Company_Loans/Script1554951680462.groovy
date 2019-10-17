@@ -286,18 +286,18 @@ WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/button_Save'))
 
-WebUI.waitForPageLoad(5)
+WebUI.waitForPageLoad(8)
 
 'it will save the record and auto redirected to employ loans page '
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/a_Employee Loans'))
 
-WebUI.waitForPageLoad(5)
+WebUI.waitForPageLoad(10)
 
-WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/a_Employee Loans'), FailureHandling.OPTIONAL)
+not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_Admin_OR/A_Company_Loan_OR/a_Employee Loans'), FailureHandling.OPTIONAL)
 
-WebUI.waitForPageLoad(5)
+WebUI.waitForPageLoad(10)
 
 'clicked employ loans link'
 WebUI.takeScreenshot()

@@ -29,10 +29,10 @@
       <testCaseId>Test Cases/PayMe/PayMe_User/Personal_information/PI_Dependents_Emergency_Contacts</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5351bbce-1d3b-4a9d-a0a2-64ae3424fca4</guid>
+      <guid>bc5b151d-fbbe-4472-8e77-bc55d62a4b4f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/PayMe/PayMe_User/Personal_information/PI_Qualification_Certifications</testCaseId>
+      <testCaseId>Test Cases/PayMe/PayMe_User/Personal_information/PI_Qualification_Skills</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>dc43c708-69f2-45a4-a214-2f6a583382a3</guid>
@@ -41,16 +41,16 @@
       <testCaseId>Test Cases/PayMe/PayMe_User/Personal_information/PI_Qualification_Education</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>5351bbce-1d3b-4a9d-a0a2-64ae3424fca4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/PayMe/PayMe_User/Personal_information/PI_Qualification_Certifications</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>2442a3c7-a99f-4e11-94be-7b36a908ce6d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/PayMe/PayMe_User/Personal_information/PI_Qualification_Language</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>bc5b151d-fbbe-4472-8e77-bc55d62a4b4f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/PayMe/PayMe_User/Personal_information/PI_Qualification_Skills</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>307be0c7-2d4a-4891-a166-5c1ff20d254f</guid>

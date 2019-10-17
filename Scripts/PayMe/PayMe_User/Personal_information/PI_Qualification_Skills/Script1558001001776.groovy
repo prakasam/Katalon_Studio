@@ -196,12 +196,12 @@ WebUI.waitForPageLoad(5)
 'clicked details in table , it will make records in Dessending order '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/PI_Qualifications/a_2'), FailureHandling.OPTIONAL)
+not_run: WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/PI_Qualifications/a_2'), FailureHandling.OPTIONAL)
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.waitForPageLoad(5)
 
 'clicked second page usingg page navigation '
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
 WebUI.refresh()
 

@@ -45,7 +45,7 @@ WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/TM_Attendan
 'click attendance sub menu '
 WebUI.takeScreenshot()
 
-WebUI.waitForPageLoad(0)
+WebUI.waitForPageLoad(5)
 
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/TM_Attendance/button_Punch-in'))
 
@@ -64,9 +64,51 @@ WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/TM_Attendan
 'it will save the punch in info '
 WebUI.takeScreenshot()
 
+WebUI.delay(62)
+
 WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/TM_Attendance/button_Punch-out'))
 
-WebUI.waitForAlert(0)
+WebUI.waitForAlert(5)
+
+'clicked punch out button '
+WebUI.takeScreenshot()
+
+WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/TM_Attendance/textarea_Note_note'), 'punch out')
+
+'click save with given notes '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/TM_Attendance/button_Save'))
+
+'it will save the record '
+WebUI.takeScreenshot()
+
+WebUI.waitForPageLoad(5)
+
+WebUI.delay(60)
+
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/TM_Attendance/button_Punch-in'))
+
+WebUI.waitForAlert(10)
+
+'clicked punch in button '
+WebUI.takeScreenshot()
+
+WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/TM_Attendance/textarea_Note_note'), 'punch in ')
+
+'click save with given notes '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/TM_Attendance/button_Save'))
+
+'it will save the punch in info '
+WebUI.takeScreenshot()
+
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/TM_Attendance/button_Punch-out'))
+
+WebUI.waitForAlert(5)
 
 'clicked punch out button '
 WebUI.takeScreenshot()
@@ -92,6 +134,27 @@ WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/TM_Attendan
 
 'clicked cancel '
 WebUI.takeScreenshot()
+
+WebUI.delay(60)
+
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/TM_Attendance/button_Punch-out'))
+
+WebUI.waitForAlert(5)
+
+'clicked punch out button '
+WebUI.takeScreenshot()
+
+WebUI.setText(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/TM_Attendance/textarea_Note_note'), 'punch out')
+
+'click save with given notes '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Object Repository/PayMe_OR/PayMe_User_OR/TM_Attendance/button_Save'))
+
+'it will save the record '
+WebUI.takeScreenshot()
+
+WebUI.waitForPageLoad(5)
 
 WebUI.refresh()
 
