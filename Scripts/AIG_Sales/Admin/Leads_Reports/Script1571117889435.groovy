@@ -13,6 +13,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.openBrowser('')
 
@@ -61,22 +63,46 @@ WebUI.waitForPageLoad(5)
 'clicked search , with out given from and to date '
 WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/img__ui-datepicker-trigger'))
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/img__ui-datepicker-trigger_from'))
 
-not_run: WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/a_1'))
+WebUI.waitForPageLoad(5)
 
-not_run: WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/img__ui-datepicker-trigger'))
+WebUI.delay(1)
 
-not_run: WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/a_17'))
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/select_JanFebMarAprMayJunJulAugSepOctNov'), 
+    '9', false, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/input__fromdate'), '2019-10-01')
+WebUI.waitForPageLoad(5)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/select_20092010201120122013201420152016201720182019'), 
+    '2019', true)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/a_1'))
 
 WebUI.waitForPageLoad(5)
 
 'given from date '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/input__todate'), '2019-10-17')
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/img__ui-datepicker-trigger'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.delay(1)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/select_JanFebMarAprMayJunJulAugSepOctNov'), 
+    '9', false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/select_20092010201120122013201420152016201720182019'), 
+    '2019', true)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/a_31'))
 
 WebUI.waitForPageLoad(5)
 
@@ -92,8 +118,6 @@ WebUI.takeScreenshot()
 
 WebUI.waitForElementVisible(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/a_Click Here for Excel report'), 10)
 
-not_run: WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/a_Click Here for Excel report'))
-
 WebUI.waitForPageLoad(5)
 
 'Clicked export report link , it will download the report in excell file '
@@ -102,6 +126,8 @@ WebUI.takeScreenshot()
 WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/a_Reports'))
 
 WebUI.waitForPageLoad(5)
+
+WebUI.delay(10)
 
 'clicked report link , it will open report main page '
 WebUI.takeScreenshot()
@@ -112,18 +138,62 @@ WebUI.waitForPageLoad(5)
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/img__ui-datepicker-trigger'))
+WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/input__width150px pointer'))
 
-WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/a_1'))
+WebUI.waitForPageLoad(5)
+
+'clicked search , with out given from and to date '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/img__ui-datepicker-trigger_from'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.delay(1)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/select_JanFebMarAprMayJunJulAugSepOctNov'), 
+    '9', false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/select_20092010201120122013201420152016201720182019'), 
+    '2019', true)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/a_1'))
 
 WebUI.waitForPageLoad(5)
 
 'given from date '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/img__ui-datepicker-trigger'))
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/img__ui-datepicker-trigger'))
 
-WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/a_17'))
+WebUI.waitForPageLoad(5)
+
+WebUI.delay(1)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/select_JanFebMarAprMayJunJulAugSepOctNov'), 
+    '9', false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/select_20092010201120122013201420152016201720182019'), 
+    '2019', true)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/a_31'))
+
+not_run: WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/input__todate'), '2019-10-17')
+
+not_run: WebUI.waitForPageLoad(5)
+
+'given from date '
+not_run: WebUI.takeScreenshot()
+
+not_run: WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/input__todate'), '2019-10-17')
 
 WebUI.waitForPageLoad(5)
 
@@ -134,12 +204,12 @@ WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/i
 
 WebUI.waitForPageLoad(5)
 
+WebUI.delay(10)
+
 'clicked search , it will featch record from and DB and display the report '
 WebUI.takeScreenshot()
 
 WebUI.waitForElementVisible(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/a_Click Here for Excel report_1'), 10)
-
-not_run: WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/a_Click Here for Excel report_1'))
 
 WebUI.waitForPageLoad(5)
 
@@ -159,22 +229,62 @@ WebUI.waitForPageLoad(5)
 
 WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/img__ui-datepicker-trigger'))
+WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/input__width150px pointer'))
 
-not_run: WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/a_1'))
+WebUI.waitForPageLoad(5)
 
-not_run: WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/img__ui-datepicker-trigger'))
+'clicked search , with out given from and to date '
+WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/a_17'))
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/img__ui-datepicker-trigger_from'))
 
-WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/input__fromdate'), '2019-10-01')
+WebUI.waitForPageLoad(5)
+
+WebUI.delay(1)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/select_JanFebMarAprMayJunJulAugSepOctNov'), 
+    '9', false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/select_20092010201120122013201420152016201720182019'), 
+    '2019', true)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/a_1'))
 
 WebUI.waitForPageLoad(5)
 
 'given from date '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/input__todate'), '2019-10-17')
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/img__ui-datepicker-trigger'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.delay(1)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/select_JanFebMarAprMayJunJulAugSepOctNov'), 
+    '9', false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/select_20092010201120122013201420152016201720182019'), 
+    '2019', true)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/a_31'))
+
+not_run: WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/input__fromdate'), '2019-10-01')
+
+not_run: WebUI.waitForPageLoad(5)
+
+'given from date '
+not_run: WebUI.takeScreenshot()
+
+not_run: WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/input__todate'), '2019-10-17')
 
 WebUI.waitForPageLoad(5)
 
@@ -184,6 +294,8 @@ WebUI.takeScreenshot()
 WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/input__width150px pointer'))
 
 WebUI.waitForPageLoad(5)
+
+WebUI.delay(10)
 
 'clicked search , it will featch record from and DB and display the report '
 WebUI.takeScreenshot()
@@ -208,22 +320,64 @@ WebUI.waitForPageLoad(5)
 
 WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/img__ui-datepicker-trigger'))
+WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/input__width150px pointer'))
 
-not_run: WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/a_1'))
+WebUI.waitForPageLoad(5)
 
-not_run: WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/img__ui-datepicker-trigger'))
+'clicked search , with out given from and to date '
+WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/a_17'))
+WebUI.waitForPageLoad(5)
 
-WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/input__fromdate'), '2019-10-01')
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/img__ui-datepicker-trigger_from'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.delay(1)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/select_JanFebMarAprMayJunJulAugSepOctNov'), 
+    '9', false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/select_20092010201120122013201420152016201720182019'), 
+    '2019', true)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/a_1'))
 
 WebUI.waitForPageLoad(5)
 
 'given from date '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/input__todate'), '2019-10-17')
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/img__ui-datepicker-trigger'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.delay(1)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/select_JanFebMarAprMayJunJulAugSepOctNov'), 
+    '9', false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/select_20092010201120122013201420152016201720182019'), 
+    '2019', true)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/a_31'))
+
+not_run: WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/input__fromdate'), '2019-10-01')
+
+not_run: WebUI.waitForPageLoad(5)
+
+'given from date '
+not_run: WebUI.takeScreenshot()
+
+not_run: WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/input__todate'), '2019-10-17')
 
 WebUI.waitForPageLoad(5)
 
@@ -233,6 +387,8 @@ WebUI.takeScreenshot()
 WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/input__width150px pointer'))
 
 WebUI.waitForPageLoad(5)
+
+WebUI.delay(10)
 
 'clicked search , it will featch record from and DB and display the report '
 WebUI.takeScreenshot()
@@ -257,22 +413,64 @@ WebUI.waitForPageLoad(5)
 
 WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/img__ui-datepicker-trigger'))
+WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/input__width150px pointer'))
 
-not_run: WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/a_1'))
+WebUI.waitForPageLoad(5)
 
-not_run: WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/img__ui-datepicker-trigger'))
+'clicked search , with out given from and to date '
+WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/a_17'))
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/img__ui-datepicker-trigger_from'))
 
-WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/input__fromdate'), '2019-10-01')
+WebUI.waitForPageLoad(5)
+
+WebUI.delay(1)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/select_JanFebMarAprMayJunJulAugSepOctNov'), 
+    '9', false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/select_20092010201120122013201420152016201720182019'), 
+    '2019', true)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/a_1'))
+
+not_run: WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/input__fromdate'), '2019-10-01')
 
 WebUI.waitForPageLoad(5)
 
 'given from date '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/input__todate'), '2019-10-17')
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/img__ui-datepicker-trigger'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.delay(1)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/select_JanFebMarAprMayJunJulAugSepOctNov'), 
+    '9', false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/select_20092010201120122013201420152016201720182019'), 
+    '2019', true)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/a_31'))
+
+not_run: WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/input__fromdate'), '2019-10-01')
+
+not_run: WebUI.waitForPageLoad(5)
+
+'given from date '
+not_run: WebUI.takeScreenshot()
+
+not_run: WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/input__todate'), '2019-10-17')
 
 WebUI.waitForPageLoad(5)
 
@@ -282,6 +480,8 @@ WebUI.takeScreenshot()
 WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Report/input__width150px pointer'))
 
 WebUI.waitForPageLoad(5)
+
+WebUI.delay(10)
 
 'clicked search , it will featch record from and DB and display the report '
 WebUI.takeScreenshot()

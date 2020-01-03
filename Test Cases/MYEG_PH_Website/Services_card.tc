@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Home page of MYEG_PH</description>
+   <name>Services_card</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3c913018-7406-4128-8ad0-fa68fe27119c</testCaseGuid>
+</TestCaseEntity>

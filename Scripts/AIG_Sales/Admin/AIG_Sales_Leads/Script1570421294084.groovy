@@ -43,31 +43,31 @@ WebUI.waitForPageLoad(5)
 'Clicked submit with given Username only'
 WebUI.takeScreenshot()
 
-not_run: WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__username'), 'wrong')
+WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__username'), 'wrong')
 
-not_run: WebUI.setEncryptedText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__password'), '2qS9tAbCXDDRMEFDdKhcMA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__password'), '2qS9tAbCXDDRMEFDdKhcMA==')
 
-not_run: WebUI.waitForPageLoad(5)
+WebUI.waitForPageLoad(5)
 
-not_run: WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/input__actionloginaction_new'))
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/input__actionloginaction_new'))
 
-not_run: WebUI.waitForPageLoad(5)
+WebUI.waitForPageLoad(5)
 
 'Clicked submit with given wrong Username and password '
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
-not_run: WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__username'), 'fakhrul')
+WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__username'), 'fakhrul')
 
-not_run: WebUI.setEncryptedText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__password'), 'o6CDTymj93o=')
+WebUI.setEncryptedText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__password'), 'o6CDTymj93o=')
 
-not_run: WebUI.waitForPageLoad(5)
+WebUI.waitForPageLoad(5)
 
-not_run: WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/input__actionloginaction_new'))
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/input__actionloginaction_new'))
 
-not_run: WebUI.waitForPageLoad(5)
+WebUI.waitForPageLoad(5)
 
 'Clicked submit with given Username and wrong password '
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__username'), 'fakhrul')
 
@@ -94,43 +94,37 @@ WebUI.waitForPageLoad(5)
 'clicked leads menu . it will open the leads page to filter '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/img__ui-datepicker-trigger'))
+WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__width150px pointer'))
 
 WebUI.waitForPageLoad(5)
 
-'clicked date picket to choose required date '
+'clicked search with out selection any opction '
 WebUI.takeScreenshot()
 
-not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/select_JanFebMarAprMayJunJulAugSepOctNovDec'), 
-    '8', true, FailureHandling.OPTIONAL)
-
-not_run: WebUI.waitForPageLoad(5)
-
-not_run: WebUI.takeScreenshot()
-
-not_run: WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/a_1'))
-
-WebUI.refresh()
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/Date/img__ui-datepicker-trigger_from_L'))
 
 WebUI.waitForPageLoad(5)
 
-WebUI.setText(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/input__fromdate'), '2019/10/01')
+WebUI.delay(1)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/Date/select_JanFebMarAprMayJunJulAugSepOctNovDec'), 
+    '9', false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/Date/select_200620072008200920102011201220132014201520162017201820192020202120222023'), 
+    '2019', true)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/a_1'))
+
+not_run: WebUI.setText(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/input__fromdate'), '2019/10/01')
 
 WebUI.waitForPageLoad(5)
 
 'given from date '
 WebUI.takeScreenshot()
-
-not_run: WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/img__ui-datepicker-trigger'))
-
-not_run: WebUI.waitForPageLoad(5)
-
-not_run: WebUI.takeScreenshot()
-
-not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/select_JanFebMarAprMayJunJulAugSepOctNovDec'), 
-    '8', true)
-
-not_run: WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/a_30'))
 
 WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__width150px pointer'))
 
@@ -139,7 +133,25 @@ WebUI.waitForPageLoad(5)
 'clicked search with given from date only '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/input__todate'), '2019/10/08')
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/Date/img__ui-datepicker-trigger_To_L'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.delay(1)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/Date/select_JanFebMarAprMayJunJulAugSepOctNovDec'), 
+    '9', false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/Date/select_200620072008200920102011201220132014201520162017201820192020202120222023'), 
+    '2019', true)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/a_30'))
+
+not_run: WebUI.setText(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/input__todate'), '2019/10/08')
 
 WebUI.waitForPageLoad(5)
 
@@ -151,6 +163,55 @@ WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/in
 WebUI.waitForPageLoad(5)
 
 'clicked search with given from and to date , it will display result '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/a_Leads (1)'))
+
+WebUI.waitForPageLoad(5)
+
+'selected leads menu '
+WebUI.takeScreenshot()
+
+WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__icno'), 'jdkvbdfjh')
+
+WebUI.waitForPageLoad(5)
+
+'given invalid IC Number '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__width150px pointer'))
+
+WebUI.waitForPageLoad(5)
+
+'it will display message " Please enter valid IC No." '
+WebUI.takeScreenshot()
+
+WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__icno'), '^$@&%*(')
+
+WebUI.waitForPageLoad(5)
+
+'given invalid IC Number '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__width150px pointer'))
+
+WebUI.waitForPageLoad(5)
+
+'it will display message " Please enter valid IC No." '
+WebUI.takeScreenshot()
+
+WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__icno'), '670607715083')
+
+WebUI.waitForPageLoad(5)
+
+'given valid IC Number, but not exist in DB  '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__width150px pointer'))
+
+WebUI.waitForPageLoad(5)
+
+'it will display message " No Records Found." '
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/a_Leads (1)'))
@@ -195,7 +256,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/AIG_Sales/Admin/AIG_
 
 WebUI.waitForPageLoad(5)
 
-'selected required status from list '
+'selected New status from list '
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__width150px pointer'))
@@ -213,14 +274,192 @@ WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_UP))
 
 WebUI.waitForPageLoad(5)
 
-not_run: WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/img__ui-datepicker-trigger'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/select_------ Status ------'), 
+    '1', true)
 
-not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/select_JanFebMarAprMayJunJulAugSepOctNovDec'), 
-    '8', true)
+WebUI.waitForPageLoad(5)
 
-not_run: WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/a_30'))
+'selected Effective Contact status from list '
+WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/input__updatedate'), '2019/10/02')
+WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__width150px pointer'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_DOWN))
+
+WebUI.waitForPageLoad(5)
+
+'clicked search with selected status from list , it will display matched result '
+WebUI.takeScreenshot()
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_UP))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/select_------ Status ------'), 
+    '2', true)
+
+WebUI.waitForPageLoad(5)
+
+'selected In-Effective status from list '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__width150px pointer'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_DOWN))
+
+WebUI.waitForPageLoad(5)
+
+'clicked search with selected status from list , it will display matched result '
+WebUI.takeScreenshot()
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_UP))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/select_------ Status ------'), 
+    '3', true)
+
+WebUI.waitForPageLoad(5)
+
+'selected In-Progress status from list '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__width150px pointer'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_DOWN))
+
+WebUI.waitForPageLoad(5)
+
+'clicked search with selected status from list , it will display matched result '
+WebUI.takeScreenshot()
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_UP))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/a_Leads (1)'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.takeScreenshot()
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/select_------ Status ------'), 
+    'A4', true)
+
+WebUI.waitForPageLoad(5)
+
+'selected Unpaid Pending QA status from list '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__width150px pointer'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_DOWN))
+
+WebUI.waitForPageLoad(5)
+
+'clicked search with selected status from list , it will display matched result '
+WebUI.takeScreenshot()
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_UP))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/select_------ Status ------'), 
+    'A5', true)
+
+WebUI.waitForPageLoad(5)
+
+'selected Unpaid Failed QA status from list '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__width150px pointer'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_DOWN))
+
+WebUI.waitForPageLoad(5)
+
+'clicked search with selected status from list , it will display matched result '
+WebUI.takeScreenshot()
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_UP))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/select_------ Status ------'), 
+    'A6', true)
+
+WebUI.waitForPageLoad(5)
+
+'selected Resubmit status from list '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__width150px pointer'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_DOWN))
+
+WebUI.waitForPageLoad(5)
+
+'clicked search with selected status from list , it will display matched result '
+WebUI.takeScreenshot()
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_UP))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/select_------ Status ------'), 
+    'A7', true)
+
+WebUI.waitForPageLoad(5)
+
+'selected Pay Policy Registration status from list '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__width150px pointer'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_DOWN))
+
+WebUI.waitForPageLoad(5)
+
+'clicked search with selected status from list , it will display matched result '
+WebUI.takeScreenshot()
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_UP))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/Date/img__ui-datepicker-trigger_UD_L'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.delay(1)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/Date/select_JanFebMarAprMayJunJulAugSepOctNovDec'), 
+    '9', false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/Date/select_200620072008200920102011201220132014201520162017201820192020202120222023'), 
+    '2019', true)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/a_2'))
+
+not_run: WebUI.setText(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/input__updatedate'), '2019/10/02')
 
 WebUI.waitForPageLoad(5)
 
@@ -265,6 +504,52 @@ WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_UP))
 
 WebUI.waitForPageLoad(5)
 
+WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__oname'), '@$&%&(%^*(')
+
+WebUI.waitForPageLoad(5)
+
+'Given invalid Name'
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__width150px pointer'))
+
+WebUI.waitForPageLoad(5)
+
+'it will display message " Please enter valid Name." '
+WebUI.takeScreenshot()
+
+WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__oname'), 'a')
+
+WebUI.waitForPageLoad(5)
+
+'Given single character Name'
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__width150px pointer'))
+
+WebUI.waitForPageLoad(5)
+
+'it will display message " Please enter valid Name." '
+WebUI.takeScreenshot()
+
+WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__oname'), 'not exist 123456')
+
+WebUI.waitForPageLoad(5)
+
+'Given Name does not exist in DB '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__width150px pointer'))
+
+WebUI.waitForPageLoad(5)
+
+'it will display message " No Records Found." '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/a_Leads (1)'))
+
+WebUI.waitForPageLoad(5)
+
 WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__oname'), 'test one')
 
 WebUI.waitForPageLoad(5)
@@ -287,7 +572,53 @@ WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_UP))
 
 WebUI.waitForPageLoad(5)
 
-WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__contactno'), '123456789')
+WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__contactno'), 'dfhbdgjhged')
+
+WebUI.waitForPageLoad(5)
+
+'Given invalid Contact Number '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__width150px pointer'))
+
+WebUI.waitForPageLoad(5)
+
+'it will display message "Please enter valid Contact No." '
+WebUI.takeScreenshot()
+
+WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__contactno'), '#%@^$&%^*')
+
+WebUI.waitForPageLoad(5)
+
+'Given invalid Contact Number '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__width150px pointer'))
+
+WebUI.waitForPageLoad(5)
+
+'it will display message "Please enter valid Contact No." '
+WebUI.takeScreenshot()
+
+WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__contactno'), '9999999917')
+
+WebUI.waitForPageLoad(5)
+
+'Given Contact Number not exists in DB '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__width150px pointer'))
+
+WebUI.waitForPageLoad(5)
+
+'it will display message " No Records Found." '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/a_Leads (1)'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__contactno'), '01126236286')
 
 WebUI.waitForPageLoad(5)
 
@@ -311,16 +642,75 @@ WebUI.waitForPageLoad(5)
 
 WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/a_Leads (1)'))
 
-WebUI.setText(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/input__fromdate'), '2019/10/01')
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/Date/img__ui-datepicker-trigger_from_L'))
 
-WebUI.setText(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/input__todate'), '2019/10/08')
+WebUI.waitForPageLoad(5)
+
+WebUI.delay(1)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/Date/select_JanFebMarAprMayJunJulAugSepOctNovDec'), 
+    '8', false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/Date/select_200620072008200920102011201220132014201520162017201820192020202120222023'), 
+    '2019', true)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/a_1'))
+
+WebUI.waitForPageLoad(5)
+
+'given from date '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/Date/img__ui-datepicker-trigger_To_L'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.delay(1)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/Date/select_JanFebMarAprMayJunJulAugSepOctNovDec'), 
+    '9', false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/Date/select_200620072008200920102011201220132014201520162017201820192020202120222023'), 
+    '2019', true)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/a_30'))
+
+not_run: WebUI.setText(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/input__fromdate'), '2019/10/01')
+
+not_run: WebUI.setText(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/input__todate'), '2019/10/08')
 
 WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__icno'), '770601045329')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/select_------ Status ------'), 
     '1', true)
 
-WebUI.setText(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/input__updatedate'), '2019/10/02')
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/Date/img__ui-datepicker-trigger_UD_L'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.delay(1)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/Date/select_JanFebMarAprMayJunJulAugSepOctNovDec'), 
+    '9', false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/Date/select_200620072008200920102011201220132014201520162017201820192020202120222023'), 
+    '2019', true)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/a_2'))
+
+not_run: WebUI.setText(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/input__updatedate'), '2019/10/02')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/select_- Select TM Name -'), 
     '16', true)
@@ -351,16 +741,75 @@ WebUI.waitForPageLoad(5)
 
 WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/a_Leads (1)'))
 
-WebUI.setText(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/input__fromdate'), '2019/10/01')
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/Date/img__ui-datepicker-trigger_from_L'))
 
-WebUI.setText(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/input__todate'), '2019/10/08')
+WebUI.waitForPageLoad(5)
+
+WebUI.delay(1)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/Date/select_JanFebMarAprMayJunJulAugSepOctNovDec'), 
+    '9', false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/Date/select_200620072008200920102011201220132014201520162017201820192020202120222023'), 
+    '2019', true)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/a_1'))
+
+WebUI.waitForPageLoad(5)
+
+'given from date '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/Date/img__ui-datepicker-trigger_To_L'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.delay(1)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/Date/select_JanFebMarAprMayJunJulAugSepOctNovDec'), 
+    '9', false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/Date/select_200620072008200920102011201220132014201520162017201820192020202120222023'), 
+    '2019', true)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/a_30'))
+
+not_run: WebUI.setText(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/input__fromdate'), '2019/10/01')
+
+not_run: WebUI.setText(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/input__todate'), '2019/10/08')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/select_------ Status ------'), 
     '3', true)
 
 WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__icno'), 'gefgsegesg')
 
-WebUI.setText(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/input__updatedate'), '2019/10/02')
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/Date/img__ui-datepicker-trigger_UD_L'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.delay(1)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/Date/select_JanFebMarAprMayJunJulAugSepOctNovDec'), 
+    '9', false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/Date/select_200620072008200920102011201220132014201520162017201820192020202120222023'), 
+    '2019', true)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/a_2'))
+
+not_run: WebUI.setText(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/input__updatedate'), '2019/10/02')
 
 WebUI.setText(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/input__oname'), 'dgvsdfgsdf')
 

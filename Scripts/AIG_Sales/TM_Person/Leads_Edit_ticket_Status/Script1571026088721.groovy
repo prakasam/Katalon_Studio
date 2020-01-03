@@ -24,7 +24,17 @@ WebUI.setText(findTestObject('Object Repository/AIG_Sales/TM/Leads_New/input__us
 
 WebUI.setEncryptedText(findTestObject('Object Repository/AIG_Sales/TM/Leads_New/input__password'), 'aeHFOx8jV/A=')
 
+WebUI.waitForPageLoad(5)
+
+'click submit with given username and Password '
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Object Repository/AIG_Sales/TM/Leads_New/input__actionloginaction'))
+
+WebUI.waitForPageLoad(5)
+
+'dash board page \r\n'
+WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/AIG_Sales/TM/Leads_New/a_Leads'))
 
@@ -65,7 +75,7 @@ WebUI.waitForPageLoad(5)
 WebUI.takeScreenshot()
 
 WebUI.selectOptionByValue(findTestObject('AIG_Sales/TM/Leads_New/select_------Please Select ------Accident Hospital Guard- (Self) - Copy'), 
-    '2', true)
+    '9', true)
 
 WebUI.selectOptionByValue(findTestObject('AIG_Sales/TM/Leads_New/select_------Please Select ------Plan 100 (RM 30) - Copy'), 
     '30', true)
@@ -83,9 +93,9 @@ WebUI.selectOptionByValue(findTestObject('AIG_Sales/TM/Leads_New/select_------ M
 
 WebUI.setText(findTestObject('Object Repository/AIG_Sales/TM/Leads_New/input__passport'), 'A12345678')
 
-WebUI.setText(findTestObject('Object Repository/AIG_Sales/TM/Leads_New/input__dob'), '1940/07/12')
+not_run: WebUI.setText(findTestObject('Object Repository/AIG_Sales/TM/Leads_New/input__dob'), '1940/07/12')
 
-WebUI.setText(findTestObject('Object Repository/AIG_Sales/TM/Leads_New/input__age'), '79')
+not_run: WebUI.setText(findTestObject('Object Repository/AIG_Sales/TM/Leads_New/input__age'), '79')
 
 WebUI.selectOptionByValue(findTestObject('AIG_Sales/TM/Leads_New/select_------ Gender ------MaleFemale - Copy'), 'M', true)
 
@@ -109,9 +119,9 @@ WebUI.setText(findTestObject('Object Repository/AIG_Sales/TM/Leads_New/input__as
 
 not_run: WebUI.setText(findTestObject('Object Repository/AIG_Sales/TM/Leads_New/input__aspassport'), 'A7654321')
 
-WebUI.setText(findTestObject('Object Repository/AIG_Sales/TM/Leads_New/input__asdob'), '1986/12/13')
+not_run: WebUI.setText(findTestObject('Object Repository/AIG_Sales/TM/Leads_New/input__asdob'), '1986/12/13')
 
-WebUI.setText(findTestObject('Object Repository/AIG_Sales/TM/Leads_New/input__asage'), '32')
+not_run: WebUI.setText(findTestObject('Object Repository/AIG_Sales/TM/Leads_New/input__asage'), '32')
 
 WebUI.selectOptionByValue(findTestObject('AIG_Sales/TM/Leads_New/select_------ Gender ------MaleFemale_2 - Copy'), 'F', 
     true)
@@ -171,7 +181,35 @@ WebUI.setText(findTestObject('Object Repository/AIG_Sales/TM/Leads_New/input__ch
 WebUI.selectOptionByValue(findTestObject('AIG_Sales/TM/Leads_New/select_------ Card Type ------MASTERVISA - Copy'), 'VISA', 
     true)
 
-WebUI.setText(findTestObject('Object Repository/AIG_Sales/TM/Leads_New/input__cexpdate'), '10/2021')
+not_run: WebUI.setText(findTestObject('Object Repository/AIG_Sales/TM/Leads_New/input__cexpdate'), '10/2021')
+
+WebUI.waitForPageLoad(5)
+
+'selected date picker '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('AIG_Sales/TM/Leads_New/img__ui-datepicker-trigger_card_expiry_date'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.delay(1)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/select_JanFebMarAprMayJunJulAugSepOctNov'), 
+    '11', false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.selectOptionByValue(findTestObject('AIG_Sales/Admin/AIG_Sales_Report/date/select_20092010201120122013201420152016201720182019'), 
+    '2028', true, FailureHandling.OPTIONAL)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/a_30'))
+
+WebUI.waitForPageLoad(5)
+
+'choosen date'
+WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/AIG_Sales/TM/Leads_New/textarea__addcalldisremark'), 'completed policy holder details ')
 
@@ -180,14 +218,32 @@ WebUI.waitForPageLoad(5)
 'given Payment Card details '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('AIG_Sales/TM/Leads_New/input__CDwidth150px pointer'))
+WebUI.click(findTestObject('AIG_Sales/TM/Leads_New/input__width150px pointer (1)'))
 
 WebUI.waitForPageLoad(2)
 
 'clicked submit with out given QA Section , it will display the validation info '
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('AIG_Sales/TM/Leads_New/input__expfirstdate_QA_UD'), '2019/10/14')
+not_run: WebUI.setText(findTestObject('AIG_Sales/TM/Leads_New/input__expfirstdate_QA_UD'), '2019/10/14')
+
+WebUI.waitForPageLoad(5)
+
+'selected date picker '
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('AIG_Sales/TM/Leads_New/img__ui-datepicker-trigger_QA_Section'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('AIG_Sales/Admin/AIG_Sales_Leads/a_13'))
+
+WebUI.waitForPageLoad(5)
+
+'choosen date'
+WebUI.takeScreenshot()
 
 WebUI.selectOptionByValue(findTestObject('AIG_Sales/TM/Leads_New/select_------ Please Select------Resubmit_QA_RS - Copy'), 
     'Resubmit', true)
@@ -199,7 +255,7 @@ WebUI.waitForPageLoad(5)
 'given QA Section details '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('AIG_Sales/TM/Leads_New/input__CDwidth150px pointer'))
+WebUI.click(findTestObject('AIG_Sales/TM/Leads_New/input__width150px pointer (1)'))
 
 not_run: WebUI.waitForPageLoad(1)
 
@@ -224,9 +280,12 @@ WebUI.waitForPageLoad(5)
 'clicked search with given IC Number,it will display matched result '
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/AIG_Sales/TM/Leads_New/img'))
+WebUI.click(findTestObject('AIG_Sales/TM/Leads_New/img - CD'))
 
 WebUI.waitForPageLoad(5)
+
+'clicked edit image link ( customer details ) . it will open in new tab for customer details '
+WebUI.takeScreenshot()
 
 WebUI.closeWindowIndex(0)
 
@@ -234,11 +293,11 @@ WebUI.delay(2)
 
 WebUI.switchToWindowIndex(0)
 
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_DOWN, Keys.PAGE_DOWN, Keys.PAGE_DOWN))
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_DOWN, Keys.PAGE_DOWN, Keys.PAGE_DOWN, Keys.PAGE_DOWN, Keys.PAGE_DOWN))
 
 WebUI.waitForPageLoad(5)
 
-'to check the latest remark .'
+'to check the latest QA remark .'
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/AIG_Sales/Admin/AIG_Sales_Leads/a_Log Out'))
