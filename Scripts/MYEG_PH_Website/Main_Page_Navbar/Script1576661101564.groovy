@@ -204,16 +204,6 @@ WebUI.waitForPageLoad(5)
 'clicked page down to view Corporate and Satellite Office Address information  '
 WebUI.takeScreenshot()
 
-not_run: WebUI.click(findTestObject('Object Repository/MyEG_PH/Main_Menu_Opctions/h2_Corporate Office'))
-
-not_run: WebUI.click(findTestObject('Object Repository/MyEG_PH/Main_Menu_Opctions/p_30th Floor Arthaland Century Pacific Towe_fdea66'))
-
-not_run: WebUI.click(findTestObject('Object Repository/MyEG_PH/Main_Menu_Opctions/a_63 (02) 250 6121'))
-
-not_run: WebUI.click(findTestObject('Object Repository/MyEG_PH/Main_Menu_Opctions/a_63 (02) 250 6122'))
-
-not_run: WebUI.click(findTestObject('Object Repository/MyEG_PH/Main_Menu_Opctions/a_63 (02) 250-6123'))
-
 WebUI.click(findTestObject('Object Repository/MyEG_PH/Main_Menu_Opctions/a_inquirymyegph'))
 
 not_run: WebUI.back()
@@ -222,10 +212,6 @@ not_run: WebUI.waitForPageLoad(5)
 
 'clicked back , returned to about us page '
 not_run: WebUI.takeScreenshot()
-
-not_run: WebUI.click(findTestObject('Object Repository/MyEG_PH/Main_Menu_Opctions/p_364 Apo Street Barangka Ilaya Mandaluyong_c69b0d'))
-
-not_run: WebUI.click(findTestObject('Object Repository/MyEG_PH/Main_Menu_Opctions/h2_Satellite Office'))
 
 WebUI.click(findTestObject('Object Repository/MyEG_PH/Main_Menu_Opctions/a_VIEW MAP'))
 
